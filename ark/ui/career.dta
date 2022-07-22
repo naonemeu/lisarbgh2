@@ -1672,7 +1672,7 @@
       {if
          {== $component part2.btn}
          {gamecfg set_track 0 2}
-         {set $roygb TRUE}}
+         {set $roygb FALSE}}
       {ui goto_screen loading_screen})}
 {new
    GHScreen
