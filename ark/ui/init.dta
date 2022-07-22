@@ -43,6 +43,7 @@
 {set $rbdrum FALSE}
 #ifdef _SHIP
 {set $game80s FALSE}
+{set $trackspd 1.5}
 #endif
 #ifdef _ENCO
 {set $game80s TRUE}
