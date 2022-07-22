@@ -1,97 +1,101 @@
+;Tradução GH2 Deluxe (PT-BR)
+;Usado como base para o "Lisarb GH2"
+;2022 - Naonemeu
+
 (splash_anybutton
-   "PRESS ANY BUTTON TO BEGIN")
+   "APERTE QUALQUER BOTÃO")
 (splash_legal
    {if_else
       $gamegh1
-      "Guitar Hero Redux. 2021. Port by jnack. Modifications @ MiloHax.\nBig thanks to mariteaux for charts and diy stems. Also shout out to Local H the OG.\nOriginal game code © 2005-2006 Harmonix Music Systems, Inc."
+      "Guitar Hero Redux. 2021. Port by jnack. Modifications @ MiloHax.\nBig thanks to mariteaux for charts and diy stems. Also shout out to Local H the OG.\nOriginal game code © 2005-2006 Harmonix Music Systems, Inc." ;(não traduzido)
       {if_else
          $game80s
-         "Guitar Hero Encore Deluxe © 2006 RedOctane, Inc.\nModifications © 2021 MiloHax. See credits for all contributors.\nOriginal game code © 2005-2006 Harmonix Music Systems, Inc. Developed by Harmonix Music Systems."
-         "Guitar Hero II Deluxe © 2006 RedOctane, Inc.\nModifications © 2021 MiloHax. See credits for all contributors.\nOriginal game code © 2005-2006 Harmonix Music Systems, Inc. Developed by Harmonix Music Systems."}})
+         "Guitar Hero Encore Deluxe © 2006 RedOctane, Inc.\nModifications © 2021 MiloHax. See credits for all contributors.\nOriginal game code © 2005-2006 Harmonix Music Systems, Inc. Developed by Harmonix Music Systems." ;(não traduzido)
+         "Guitar Hero II Deluxe © 2006 RedOctane, Inc.\nModificações © 2021 MiloHax. Veja 'credits' para todos contribuintes.\nCódigo original © 2005-2006 Harmonix Music Systems, Inc. Desenvolvido por Harmonix Music Systems."}})
 (guitar_help_using
-   "USING THE GUITAR CONTROLLER")
+   "USANDO O CONTROLE DE GUITARRA")
 (guitar_help_plugin
-   "Plug the Guitar into controller port 1 and attach the guitar strap.")
+   "Coloque o controle no port 1 e feche o cordão.")
 (guitar_help_continue1
    "Continue")
 (guitar_help_continue2
-   "(Green Button)")
+   "(Verse)")
 (guitar_help_step1
    "1")
 (guitar_help_step2
    "2")
 (guitar_help_step3
-   "3   Bang Head")
+   "3   Da o gas")
 (guitar_help_back1
-   "Back")
+   "Voltar")
 (guitar_help_back2
-   "(Red Button)")
+   "(Vermelho)")
 (guitar_help_start
-   "START Button")
+   "START")
 (guitar_help_strumbar1
-   "Up/Down")
+   "Cima/Baixo")
 (guitar_help_strumbar2
-   "(Strum Bar)")
+   "(Palheta)")
 (help_continue
-   "CONTINUE")
+   "CONTINUAR")
 (help_start
    "START")
 (help_back
-   "BACK")
+   "VOLTAR")
 (help_reset
-   "RESET")
+   "RESETAR")
 (help_keep
-   "KEEP")
+   "MANTER")
 (help_retry
-   "RETRY")
+   "TENTAR DE NOVO")
 (help_updown
-   "UP/DOWN")
+   "CIMA/BAIXO")
 (help_onoff
-   "ON/OFF")
+   "LIGA/DESLIGADO")
 (help_select
    "SELECT")
 (help_confirm
-   "CONFIRM")
+   "CONFIRMAR")
 (help_accept
-   "ACCEPT")
+   "ACEITAR")
 (help_cancel
-   "CANCEL")
+   "CANCELAR")
 (help_hitonchange
-   "STRUM")
+   "PALHETAR")
 (help_adjvol
-   "ADJUST VOLUME")
+   "AJUSTAR VOLUME")
 (help_adjsync
-   "ADJUST OFFSET")
+   "ADJUSTAR OFFSET")
 (help_nextletter
-   "NEXT")
+   "PRÓXIMO")
 (help_deleteletter
-   "DELETE")
+   "DELETAR")
 (help_buyitem
-   "BUY ITEM")
+   "COMPRAR")
 (help_skins
-   "TOGGLE SKINS")
+   "ATIVAR SKIN")
 (lag_title
    "HDTV Lag")
 (lag_button_calibrate
-   "Calibrate")
+   "Calibrar")
 (lag_button_recalibrate
-   "Recalibrate")
+   "Recalibrar")
 (lag_button_reset
-   "Reset to 0 ms")
+   "Resetar para 0 ms")
 (lag_setting
-   "Current Lag Offset is %d ms")
+   "Config. do lag atual: %d ms")
 (lag_measured
-   "Your new Lag Offset is %d ms")
+   "Config. do lag novo: %d ms")
 (lag_measuring
-   "Calibrating...")
+   "Calibrando...")
 (lag_info_why
-   "Some HDTV's have an audio/video delay that makes playing difficult.  If you're ready to blame your TV, try calibrating.")
+   "TVs que não sejam de tubo podem ter atraso que atrapalha a jogatina. Tente calibrar antes de começar a jogar")
 (lag_info_howto
-   "Calibrate by strumming your guitar to the beat of the notes crossing the target.")
+   "Faça a calibração palhetando a guitarra (D-Pad Down no DS) no ritmo da nota ao alvo.")
 (lag_info_failure
-   "We couldn't get a good reading for calibration.  Let's do another take.")
+   "Não tivemos uma boa leitura da calibração. Vamos tentar de novo")
 (lag_success
-   "Calibration Successful")
+   "Calibration concluida")
 (lag_3
    "3")
 (lag_2
@@ -101,31 +105,31 @@
 (lag_go
    "GO!")
 (name_band
-   "NAME YOUR BAND")
+   "DE UM NOME A SUA BANDA")
 (BAND_NAME_EXPLAIN
-   "This is also your SAVE GAME name")
+   "Esse também sera o nome do seu SAVE")
 (HOW_TO_END
-   "Press START button to accept name and continue")
+   "Aparte START para terminar e continuar")
 (HOW_TO_EDIT
-   "You can edit this name later from Manage Band in the Options menu")
+   "É possivel editar o nome na opção de gerenciar bandas no menu")
 (choose_band
-   "CHOOSE BAND")
+   "ESHOLHER BANDA")
 (no_profile
-   "NO BAND")
+   "SEM BANDA")
 (no_profile_msg
-   "Please enter a BAND NAME.")
+   "De um nome a banda")
 (duplicate_profile
-   "DUPLICATE BAND")
+   "DUPLICAR BANDA")
 (duplicate_profile_msg
-   "The BAND NAME you entered already exists. Please enter a different BAND NAME.")
+   "O nome da banda já existe. Tente colocar algum outro nome")
 (max_profile
-   "NO FREE BANDS")
+   "SEM ESPAÇO!")
 (max_profile_msg
-   "There are no free band slots.  You must delete one or more band slots to create a new profile.")
+   "Não há espaço para novas bandas. Delete uma banda para criar outra")
 (cant_delete_profile
-   "CAN'T DELETE BAND")
+   "NÃO FOI POSSIVEL DELETAR")
 (cant_delete_profile_msg
-   "The currently selected band cannot be deleted. To delete this band, first choose a different band using LOAD BAND or NEW BAND.")
+   "A banda selecionada não pode ser deletada. Para deletar, primeiro seleciona uma outra/nova banda.")
 (op_bonus_material
    "Bonus Videos")
 (op_credits
