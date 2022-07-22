@@ -42,8 +42,8 @@
 {set $interval_p2 50}
 {set $rbdrum FALSE}
 #ifdef _SHIP
-{set $roygb TRUE}
-{set $speedmod 1.5}
+{set $roygb TRUE} ;Sets GRYBO cheat on
+{set $trackspd 1.5} ;Hyperspeed on boot
 {set $game80s FALSE}
 #endif
 #ifdef _ENCO
