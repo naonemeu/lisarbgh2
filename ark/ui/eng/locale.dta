@@ -3,7 +3,7 @@
 ;2022 - Naonemeu
 
 (splash_anybutton
-   "APERTE QUALQUER BOTÃO")
+   "APERTE QUALQUER BOTAO")
 (splash_legal
    {if_else
       $gamegh1
@@ -15,17 +15,17 @@
 (guitar_help_using
    "USANDO O CONTROLE DE GUITARRA")
 (guitar_help_plugin
-   "Coloque o controle no port 1 e feche o cordão.")
+   "Coloque o controle no port 1 e coloque o cordão.")
 (guitar_help_continue1
    "Continue")
 (guitar_help_continue2
-   "(Verse)")
+   "(Verde)")
 (guitar_help_step1
    "1")
 (guitar_help_step2
    "2")
 (guitar_help_step3
-   "3   Da o gas")
+   "3   Da o gas!")
 (guitar_help_back1
    "Voltar")
 (guitar_help_back2
@@ -131,154 +131,154 @@
 (cant_delete_profile_msg
    "A banda selecionada não pode ser deletada. Para deletar, primeiro seleciona uma outra/nova banda.")
 (op_bonus_material
-   "Bonus Videos")
+   "Videos Bonus")
 (op_credits
-   "Credits")
+   "Créditos")
 (op_data_settings
-   "Manage Band ")
+   "Gerenciar banda ")
 (op_game_settings
-   "Audio Settings ")
+   "Opções de Áudio ")
 (op_video_settings
-   "Video Settings")
+   "Opções de Vídeo")
 (op_memcard
-   "Data Settings")
+   "Opções de Dados")
 (GAME_SETTINGS
-   "AUDIO SETTINGS")
+   "OPÇÕES DE ÁUDIO")
 (LEFT_PLAYER_1
-   "LEFTY FLIP - PLAYER 1")
+   "LEFTY FLIP - JOGADOR 1")
 (LEFT_PLAYER_2
-   "LEFTY FLIP - PLAYER 2")
+   "LEFTY FLIP - JOGADOR 2")
 (LEFT_PLAYER_3
-   "LEFTY FLIP - PLAYER 3")
+   "LEFTY FLIP - JOGADOR 3")
 (GS_STEREO_SOUND
-   "STEREO SOUND")
+   "SOM ESTÉREO")
 (gs_sound_fx
-   "SOUND FX")
+   "EFEITOS DE SOM")
 (gs_guitar
-   "GUITAR")
+   "GUITARRA")
 (gs_band
-   "BAND")
+   "BANDA")
 (gs_sync_help
    "(0-.250 sec, .10 step)")
 (gs_video
-   "VIDEO SETTINGS")
+   "OPÇÕES DE VÍDEO")
 (STEREO_SOUND
-   "STEREO SOUND")
+   "SOM ESTÉREO")
 (SOUND_FX
-   "SOUND FX")
+   "EFEITOS DE SOM")
 (BONUS_MATERIAL
-   "BONUS MATERIAL")
+   "CONTEUDO BONUS")
 (CREDITS
-   "CREDITS")
+   "CRÉDITOS")
 (DATA_SETTINGS1
-   "DATA")
+   "DADOS")
 (DATA_SETTINGS2
-   "SETTINGS")
+   "OPÇÕES")
 (rename_band
-   "rename band")
+   "renomear banda")
 (autosave_band
-   "autosave band")
+   "autosave banda") ;Mudar tradução
 (autosave_mem
-   "autosave")
+   "autosave") ;Mudar tradução
 (new_band
-   "new band")
+   "nova banda")
 (save_band
-   "save band")
+   "salvar banda")
 (load_band
-   "load band")
+   "carregar banda")
 (delete_band
-   "delete band")
+   "deletar banda")
 (save_bands
-   "save game")
+   "salvar jogo")
 (load_bands
-   "load game")
+   "carregar jogo")
 (manage_band
-   "MANAGE BAND")
+   "GERENCIAR BANDA")
 (manage_band_title
-   "MANAGE")
+   "GERENCIAR")
 (vs_title
-   "VIDEO SETTINGS")
+   "OPÇÕES DE VÍDEO")
 (vs_pscan
    "PROGRESSIVE SCAN")
 (vs_widescreen
-   "WIDESCREEN DISPLAY")
+   "MODO WIDESCREEN")
 (vs_80s
    "DRUM PADEMU")
 (vs_lag
-   "CALIBRATE LAG")
+   "CALIBRAR LAG")
 (warning
-   "WARNING")
+   "AVISO")
 (pscan_warning
-   "Progressive Mode may not work on all televisions. If it doesn't work on yours, please wait 15 seconds and we'll automatically switch back.")
+   "O Modo Progressivo não funciona em todas as TVs. Se a tela ficar preta, espere 15 segundos para voltar ao normal")
 (pscan_switching
-   "You are now in Progressive Mode. Do you want to keep this display mode?")
+   "Modo Progressivo ativo. Deseja continuar nesse modo?")
 (BUY_BONUS
-   "buy these at The Store")
+   "Compre isso na loja")
 (video1
    "Gibson USA: A Tour")
 (video2
-   "Guitar Hero II: Making of Songs")
+   "Guitar Hero II: Fazendo as músicas")
 (video3
-   "Guitar Hero II: Behind the Scenes")
+   "Guitar Hero II: Por tras Scenes")
 (video1_shop_desc
-   "Ever dreamed of taking an all-access tour of the Gibson USA factory? This is your chance.")
+   "Ever dreamed of taking an all-access tour of the Gibson USA factory? This is your chance.") ;Não traduzido
 (video2_shop_desc
-   "Check out an exclusive behind-the-scenes video of the recording of the Guitar Hero II songs.")
+   "Check out an exclusive behind-the-scenes video of the recording of the Guitar Hero II songs.") ;Não traduzido
 (video3_shop_desc
-   "The Guitar Hero II development team takes you backstage to see what life is REALLY like at Harmonix.")
+   "The Guitar Hero II development team takes you backstage to see what life is REALLY like at Harmonix.") ;Não traduzido
 (QUICK_PLAY
-   "FREE PLAY")
+   "JOGO RÁPIDO")
 (QP_SELSONG
-   "SELECT SONG")
+   "ESCOLHA A MÚSICA")
 (E3_SINGLE_PLAYER
-   "E3 SINGLE PLAYER")
+   "E3 SINGLE PLAYER") ;Não traduzido
 (E3_MULTI_COOP
-   "E3 MULTI CO-OP")
+   "E3 MULTI CO-OP") ;Não traduzido
 (Controller
-   "Controller")
+   "Controle")
 (Difficulty
-   "Difficulty")
+   "Dificuldade")
 (Play
-   "Play")
+   "Tocar")
 (Song
-   "Song")
+   "Música")
 (Venue
-   "VENUE")
+   "LOCAL")
 (cheat_enabled_fmt
-   "CHEAT ENABLED:\n%s")
+   "CHEAT HABILITADO:\n%s")
 (cheat_disabled_fmt
-   "CHEAT DISABLED:\n%s")
+   "CHEAT DESABILITADO:\n%s")
 (cheat_unlock_all
-   "Unlock All (saving disabled)")
+   "Destravar tudo (sem save!)")
 (CAREER
-   "CAREER")
+   "CARREIRA")
 (MULTIPLAYER
-   "MULTIPLAYER")
+   "2 JOGADORES")
 (OPTIONS
-   "OPTIONS")
+   "OPÇÕES")
 (EXTRAS
    "EXTRAS")
 (OFFSET
    "OFFSET")
 (multi_campaign
-   "CAREER")
+   "CARREIRA")
 (multi_coop
-   "COOPERATIVE")
+   "COOPERATIVO")
 (multi_versus
    "FACE-OFF")
 (multi_faceoff
    "PRO FACE-OFF")
 (multi_sel_diff_done
-   "Press START when both are ready")
+   "Aperte START quando ambos estiverem prontos")
 (SELECTYOURGUITAR
-   "Select Your Guitar")
+   "Escolha Sua Guitarra")
 (SELECTYOURSKIN
-   "Select Your Finish")
+   "Escolha Seu Acabamento ")
 (METALOADING
-   "LOADING")
+   "CARREGANDO")
 (LOADING
-   "LOADING....")
-(mtv_made_famous
+   "CARREGANDO....")
+(mtv_made_famous 
    {if_else
       $egg5
       "as not actually performed by"
@@ -292,55 +292,55 @@
    {if_else
       $egg5
       "PRESS ANY BUTTON TO JAM"
-      "PRESS ANY BUTTON TO ROCK"})
+      "PRESS ANY BUTTON TO ROCK"}) ;Não traduzido
 (pausetitle
-   "PAUSED")
+   "PAUSA")
 (pause_resume
-   "RESUME")
+   "RESUMIR")
 (pause_restart
-   "RESTART")
+   "VOLTA AI") ;lmao
 (pause_quit
-   "QUIT")
+   "SAIR")
 (quit
-   "quit")
+   "sair")
 (restart
-   "restart")
+   "volta ai") ;lmao
 (resume
-   "resume")
+   "resumir")
 (retry
-   "retry")
+   "tentar de novo")
 (exit
-   "exit")
+   "sair")
 (new_song
-   "new song")
+   "nova música")
 (video_settings
-   "video settings")
+   "opções de vídeo")
 (audio_settings
-   "audio settings")
+   "opções de áudio")
 (SONG_COMPLETE
-   "SONG COMPLETE!")
+   "MúSICA COMPLETA!")
 (PLAYER_1_WINS
-   "PLAYER 1 WINS!")
+   "JOGADOR 1 GANHOU!")
 (PLAYER_2_WINS
-   "PLAYER 2 WINS!")
+   "JOGADOR 2 GANHOU!")
 (DRAW
    {if_else
       $egg5
-      "TIED!"
-      "DRAW!"})
+      "TIED!" 
+      "EMPATE!"}) ;tied -> Não traduzido
 (CONTINUE
-   "CONTINUE")
+   "CONTINUAR")
 (MORE_STATS
-   "MORE STATS")
+   "MAIS STATS")
 (lefty_flip_changed
-   "To change the lefty flip setting, this song must be restarted. OK to restart?")
+   "Para ativar o lefty flip, é necessário recomeçar a música. Deseja recomeçar?")
 (RESET
-   "RESET")
+   "RESETAR")
 (CONTROLLER_LOSS
    {if_else
       $egg5
       "YOU PULLED IT OUT"
-      "YOU ARE ROCKING OUT A BIT TOO HARD"})
+      "PEDIU PARA PARAR, PAROU!"}) ;lmao YOU PULLED IT OUT - não traduzido
 (controller_loss_msg
    "Please ensure a Guitar Controller is connected to controller port 1")
 (controller_loss_msg_multi
