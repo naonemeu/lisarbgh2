@@ -5,6 +5,7 @@ Repositório para guardar o progresso do Lisarb GH2 (somente scripts)
 ## Anotações de scripts modificados 
 
 **Nota: foi o usado o GH2 DELUXE 2.0, não a versão original, como base**
+
 Caso queira fazer o seu próprio GH2 se baseando nessas anotações, procura no google que acha.
 
 + [config/modes.dta](https://github.com/naonemeu/lisarbgh2/commit/b1098375311a9ef794f03e6b47a4341e4c6cfda0) configurações de modo do jogo. Usado para habilitar o bot (obvio que vou usar isso somente para testes, daar...)
