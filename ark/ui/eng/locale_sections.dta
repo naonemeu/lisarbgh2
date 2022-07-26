@@ -534,3 +534,10 @@
    "Wanna rock?")
 (shoo_be
    "Shoo-Be-Doo-Wah")
+   
+ ;Sections adicionadas
+ 
+(gtr_mel_4
+   "Melody 4")
+(gtr_mel_5
+   "Melody 5")

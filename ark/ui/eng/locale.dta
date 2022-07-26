@@ -51,7 +51,7 @@
 (help_updown
    "CIMA/BAIXO")
 (help_onoff
-   "LIGA/DESLIGADO")
+   "ON/OFF") ;Mudar tradução
 (help_select
    "SELECT")
 (help_confirm
