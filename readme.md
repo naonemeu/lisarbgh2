@@ -21,14 +21,14 @@ Caso queira fazer o seu próprio GH2 se baseando nessas anotações, procura no 
 
 ## Programas Usados
 
-+ [Mackiloha](https://github.com/PikminGuts92/Mackiloha)
++ [Mackiloha](https://github.com/PikminGuts92/Mackiloha):
 Usado para extrair e recompilar o arquivo do GH2 "MAIN_0.ARK", que é o que contem praticamente tudo do jogo
 
-+ [Moonscraper Chart Editor](https://github.com/FireFox2000000/Moonscraper-Chart-Editor)
++ [Moonscraper Chart Editor](https://github.com/FireFox2000000/Moonscraper-Chart-Editor):
 Usado para criar as charts (que são as notas que você toca no jogo). No **MEU CASO**, uso mais como um programa auxiliar para fazer a sincronia (BPM!) e finalização.
 
-+ [Feedback](https://github.com/TurkeyMan/feedback-editor/tree/master/Builds)
++ [Feedback](https://github.com/TurkeyMan/feedback-editor/tree/master/Builds):
 Usado para colocar as notas da chart. Na minha opinião, é mais rápido para colocar as notas do que o Moonscraper, porem é menos intuitivo.
 
-+ Reaper
++ Reaper:
 Ajuste fino de charts em MID (formato usado pelo GH2)
