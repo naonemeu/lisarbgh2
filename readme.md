@@ -3,5 +3,6 @@
 Repositório para anotar o progresso do Lisarb GH2 (somente scripts)
 
 anotações
- init.dta (5f04cd2) - configura parametros iniciais do GH2. Usado para colocar hyperspeed e cores GRYBO
- modes.dta (a19e350) - bot
+
+ init.dta (ca6768b296a6ed3de7ab4e5bbf107ec7555d8faa) - configura parametros iniciais do GH2. Usado para colocar hyperspeed e cores GRYBO
+ modes.dta (b1098375311a9ef794f03e6b47a4341e4c6cfda0) - bot
