@@ -153,7 +153,7 @@
 (GS_STEREO_SOUND
    "SOM ESTÉREO")
 (gs_sound_fx
-   "EFEITOS DE SOM")
+   "EFEITOS")
 (gs_guitar
    "GUITARRA")
 (gs_band
@@ -177,9 +177,9 @@
 (rename_band
    "renomear banda")
 (autosave_band
-   "autosave banda") ;Mudar tradução
+   "Automático") ;Mudar tradução
 (autosave_mem
-   "autosave") ;Mudar tradução
+   "Automático") ;Mudar tradução
 (new_band
    "nova banda")
 (save_band
@@ -189,9 +189,9 @@
 (delete_band
    "deletar banda")
 (save_bands
-   "salvar jogo")
+   "Salvar")
 (load_bands
-   "carregar jogo")
+   "Carregar")
 (manage_band
    "GERENCIAR BANDA")
 (manage_band_title

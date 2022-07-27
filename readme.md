@@ -7,6 +7,7 @@ Repositório para guardar o progresso do Lisarb GH2 - somente scripts "dta". Nã
 **Nota: foi o usado o GH2 DELUXE 2.0, não a versão original, como jogo de base para a custom**
 
 + [config/campaign.dta](https://github.com/naonemeu/lisarbgh2/blob/main/ark/config/campaign.dta): Define a ordem das músicas principais **a partir do nome interno**. Como eu vou mudar todos os nomes internos, então preciso mudar aqui também (pra ter aquele extra que faz parecer oficial) 
++ [config/mc.dta](https://github.com/naonemeu/lisarbgh2/blob/main/ark/config/mc.dta): Muda o ID do jogo salvo (aquele que começa com SLUS...), para separar do GH2 oficial.
 + [config/modes.dta](https://github.com/naonemeu/lisarbgh2/commit/b1098375311a9ef794f03e6b47a4341e4c6cfda0) configurações de modo do jogo. Usado para habilitar o bot (obvio que vou usar isso somente para testes, daar...)
 + [config/songs.dta](https://github.com/naonemeu/lisarbgh2/blob/main/ark/config/songs.dta): definições das músicas, nome (interno e externo), metadados, balanço de audio..
 + [ui/eng/locale.dta](https://github.com/naonemeu/lisarbgh2/blob/main/ark/ui/eng/locale.dta): textos principais do jogo, traduzido. falta revisar
