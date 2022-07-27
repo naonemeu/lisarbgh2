@@ -1,6 +1,6 @@
 #ifdef _SHIP
 (base_dir
-   "BALSRB-00001")
+   "BALSRB-00001") ;Alteado
 #endif
 #ifdef _MEGA
 (base_dir
@@ -44,7 +44,7 @@
 #endif
 #ifdef _SHIP
 (elf_name
-   "GH2DX.ELF")
+   "LISARB.ELF") ;Alterado
 #endif
 #ifndef _SHIP
 #ifndef _DRUM
