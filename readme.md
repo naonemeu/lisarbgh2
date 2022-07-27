@@ -13,6 +13,7 @@ Repositório para guardar o progresso do Lisarb GH2 - somente scripts "dta". Nã
 + [config/synth.dta](https://github.com/naonemeu/lisarbgh2/blob/main/ark/config/synth.dta): Usado para customizar os nomes dos metaloops (que são as músicas que tocam no menu). Esses "metaloops" devem ter um SR de 22050 Hz, 2 canais e (preferencialmente) duração de até 2 min / 3 MB, para não pesar muito no carregamento. Os arquivos de audio estão localizados em ark/sfx/streams (que não estão upados no github)
 + [ui/eng/locale.dta](https://github.com/naonemeu/lisarbgh2/blob/main/ark/ui/eng/locale.dta): textos principais do jogo, traduzido. falta revisar
 + [ui/init.dta](https://github.com/naonemeu/lisarbgh2/commit/ca6768b296a6ed3de7ab4e5bbf107ec7555d8faa) configura parâmetros iniciais do GH2. Usado para colocar hyperspeed e cores GRYBO
++ [ui/quickplay.dta](https://github.com/naonemeu/lisarbgh2/blob/main/ark/ui/quickplay.dta): Estrutura de seleção de instrumento, dificuldade... Modificado para desabilitar o baixo.
 
 ## Programas Usados
 
