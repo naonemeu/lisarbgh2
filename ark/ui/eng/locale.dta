@@ -191,7 +191,7 @@
 (save_bands
    "Salvar")
 (load_bands
-   "Carregar")
+   "Abrir") ;Carregar -> muito grande
 (manage_band
    "GERENCIAR BANDA")
 (manage_band_title
