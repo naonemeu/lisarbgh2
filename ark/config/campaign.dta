@@ -34,6 +34,10 @@
 #endif
 #endif
 #endif
+
+;A partir dessa linha: NÃO SERA USADO NO LISARB GH2, SÓ FOI MANTIDO PARA PRESERVAR O ARQUIVO ORIGINAL
+
+
 #ifndef _SHIP
 #ifndef _MEGA
 #ifndef _ONYX
