@@ -3,9 +3,9 @@
    (spu_buffers 60)
    (max_slip 300))
 (metamusic
-   (volume -4.0)
+   (volume -3.0)
    (fade_rate 1.0)
-   (music metaloop_razoes metaloop_lua metaloop_rebirth metaloop_astronauta metaloop_tempo)
+   (music metaloop_razoes metaloop_lua metaloop_rebirth metaloop_astronauta metaloop_tempo metaloop_irreversivel)
    (background_sfx
       (sequence meta_people)
       (min_delay_sec 10)
