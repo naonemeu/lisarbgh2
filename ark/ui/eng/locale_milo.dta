@@ -152,27 +152,27 @@
 (milo_extras
    "EXTRAS")
 (extras_songtitle
-   "SONG TITLE ALWAYS")
+   "SONG TITLE ALWAYS") 
 (extras_horse
-   "HORSE HEAD")
+   "CAVALO")
 (extras_roxbury
-   "ROXBURY MODE")
+   "MODO GORFO")
 (extras_performance
-   "PERFORMANCE MODE")
+   "SE VIRA NOS 30")
 (extras_nofail
-   "NO FAIL MODE")
+   "SEM FALHA")
 (extras_eyeball
-   "EYEBALL CROWD")
+   "ZOIUDO")
 (extras_monkey
-   "MONKEY CROWD")
+   "OLHA O MACACO")
 (extras_grybo
-   "GRYBO GEMS")
+   "CORES ORIGINAIS")
 (extras_highway
-   "SET BLACK HIGHWAY")
+   "ATIVAR ESTEIRA PRETA")
 (extras_flaming
-   "FLAMING HEAD")
+   "MULA SEM CABECA")
 (extras_neckless
-   "NECKLESS MODE")
+   "SEM PESCOCO")
 (gh2_title
    "Guitar Hero 2")
 (gh80s_title
