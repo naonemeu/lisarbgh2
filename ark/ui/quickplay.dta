@@ -73,6 +73,8 @@
                set_text
                "sg_drum"}
             {part2.btn set_showing FALSE}}
+		
+		 {part1.btn set_state kDisabled} ;Achei porra - desabilitar baixo
          #endif
          #endif
          #ifndef _SHIP
