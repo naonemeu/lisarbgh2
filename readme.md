@@ -20,5 +20,5 @@ Repositório para guardar o progresso do Lisarb GH2 - somente scripts "dta". Nã
 + [Feedback](https://github.com/TurkeyMan/feedback-editor/tree/master/Builds): Usado para colocar as notas da chart. Na minha opinião, é mais rápido para colocar as notas do que o Moonscraper, porem é menos intuitivo. (eu usava o feedback muito tempo antes do Moonscraper existir, então era a minha única opção)
 + [Mackiloha](https://github.com/PikminGuts92/Mackiloha): Usado para extrair e recompilar o arquivo do GH2 "MAIN_0.ARK", que é o que contem praticamente tudo do jogo
 + [Moonscraper Chart Editor](https://github.com/FireFox2000000/Moonscraper-Chart-Editor): Usado para criar as charts (que são as notas que você toca no jogo). No **MEU CASO**, uso mais como um programa auxiliar para fazer a sincronia (BPM! porque toda chart precisa disso) e finalização.
-+ [Reaper](https://reaper.fm/): Ajuste fino de charts em MIDI (formato usado pelo GH2)
 + [Notepad++](https://notepad-plus-plus.org/): Porque não é uma boa ideia usar somente o bloco de notas do Windows.
++ [Reaper](https://reaper.fm/): Ajuste fino de charts em MIDI (formato usado pelo GH2)
