@@ -6,7 +6,7 @@
    (focus faceoff.btn)
    (enter
    {$this enable faceoff.btn} ;Foda-se. Pra que não ter PFO sem terminar a carreira?
-   {faceoff.btn set_showing TRUE})
+   {faceoff.btn set_showing TRUE}
    {$this disable coop.btn} ;Desativar coop
       ;{if_else
          ;{campaign is_unlocked multi_fo}
@@ -15,7 +15,9 @@
             ;{faceoff.btn set_showing TRUE}}
         ;{do
             ;{$this enable faceoff.btn} 
-            ;{faceoff.btn set_showing TRUE}}}) 
+            ;{faceoff.btn set_showing TRUE}}}
+			) 
+			
    (SELECT_START_MSG
       {switch
          $component
