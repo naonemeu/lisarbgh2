@@ -3,16 +3,19 @@
    multi_panel
    (file
       {if_else $game80s multi_80s.milo multi.milo})
-   (focus coop.btn)
+   (focus faceoff.btn)
    (enter
-      {if_else
-         {campaign is_unlocked multi_fo}
-         {do
-            {$this enable faceoff.btn}
-            {faceoff.btn set_showing TRUE}}
-         {do
-            {$this enable faceoff.btn} ;Foda-se. Pra que não ter PFO sem terminar a carreira?
-            {faceoff.btn set_showing TRUE}}}) ;Foda-se. Pra que não ter PFO sem terminar a carreira?
+   {$this enable faceoff.btn} ;Foda-se. Pra que não ter PFO sem terminar a carreira?
+   {faceoff.btn set_showing TRUE})
+   {$this disable coop.btn} ;Desativar coop
+      ;{if_else
+         ;{campaign is_unlocked multi_fo}
+         ;{do
+            ;{$this enable faceoff.btn}
+            ;{faceoff.btn set_showing TRUE}}
+        ;{do
+            ;{$this enable faceoff.btn} 
+            ;{faceoff.btn set_showing TRUE}}}) 
    (SELECT_START_MSG
       {switch
          $component
