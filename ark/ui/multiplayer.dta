@@ -11,8 +11,8 @@
             {$this enable faceoff.btn}
             {faceoff.btn set_showing TRUE}}
          {do
-            {$this disable faceoff.btn}
-            {faceoff.btn set_showing FALSE}}})
+            {$this enable faceoff.btn} ;Foda-se. Pra que não ter PFO sem terminar a carreira?
+            {faceoff.btn set_showing TRUE}}}) ;Foda-se. Pra que não ter PFO sem terminar a carreira?
    (SELECT_START_MSG
       {switch
          $component
