@@ -1,73 +1,73 @@
 (select_career
-   "SELECT CAREER")
+   "ESCOLH A CARREIRA")
 (easy
-   "EASY")
+   "FÁCIL")
 (medium
-   "MEDIUM")
+   "MÉDIO")
 (hard
-   "HARD")
+   "DIFCIL")
 (expert
    "EXPERT")
 (EASY_STATUS
-   "(X OF X SONGS)")
+   "(X OF X MÚSICAS)")
 (MED_STATUS
-   "(X OF X SONGS)")
+   "(X OF X MÚSICAS)")
 (HARD_STATUS
-   "(X OF X SONGS)")
+   "(X OF X MÚSICAS)")
 (EXPERT_STATUS
-   "(X OF X SONGS)")
+   "(X OF X MÚSICAS)")
 (status_0
-   "NEW KID")
+   "NEW KID") ;Não traduzido
 (status_1
-   "ROCKER")
+   "ROCKER") ;Não traduzido
 (status_2
-   "YOUNG GUN")
+   "YOUNG GUN") ;Não traduzido
 (status_3
-   "HOT SHOT")
+   "HOT SHOT") ;Não traduzido
 (status_4
-   "SHREDDER")
+   "SHREDDER") ;Não traduzido
 (status_5
-   "PRO")
+   "PRO") ;Não traduzido
 (status_6
-   "GURU")
+   "GURU") ;Não traduzido
 (status_7
-   "GUITAR LEGEND")
+   "GUITAR LEGEND") ;Não traduzido
 (status_8
-   "GUITAR HERO")
+   "GUITAR HERO") ;Não traduzido
 (status_9
-   "GUITAR GOD")
+   "GUITAR GOD") ;Não traduzido
 (status_progress
-   "(%i OF %i SONGS)")
+   "(%i OF %i MÚSICAS)")
 (no_progress
    " ")
 (CM_PLAY_LIVE_SHOW
-   "PLAY LIVE SHOW")
+   "HORA DO SHOW")
 (CM_SELECT_CHARACTER
-   "CHANGE CHARACTER")
+   "MUDAR PERSONAGEM")
 (CM_SEL_GUITAR
-   "INSTRUMENT")
+   "INSTRUMENTO")
 (CM_UNLOCK_SHOP
-   "THE STORE")
+   "A LOJA")
 (CM_BAND_TITLE
-   "BAND:")
+   "BANDA:")
 (CM_CAREER_TITLE
-   "CAREER:")
+   "CARREIRA:")
 (CM_STATUS_TITLE
    "STATUS:")
 (CM_SCORE_TITLE
-   "CAREER SCORE:")
+   "PONTUAÇÃO:")
 (CM_CASH_TITLE
-   "CASH:")
+   "DINHEIRO:")
 (cm_char_title
-   "GUITARIST:")
+   "GUITARRISTA:")
 (cm_guitar_title
-   "INSTRUMENT:")
+   "INSTRUMENTO:")
 (career_cash_format
    "$%d")
 (career_score_format
    "%d")
 (SELECT_VENUE
-   "SELECT VENUE")
+   "ESCOLHA O LOCAL")
 (3_star
    "***__")
 (4_star
@@ -75,13 +75,13 @@
 (5_star
    "*****")
 (song_old_venue
-   "Play in the latest venue to continue your career")
+   "Jogue no local mais recente para continuar")
 #ifndef 8DBUG
 #ifndef _ENCO
 #ifndef _MEGA
 #ifndef _ONYX
 (song_current_venue
-   "Beat %i/5 songs to continue")
+   "Complete %i/5 músicas para conitnuar")
 #endif
 #endif
 #endif
@@ -92,7 +92,7 @@
 #ifndef _ONYX
 #ifndef GH1RX
 (song_current_venue
-   "Beat %i/4 songs to continue")
+   "Complete %i/4 músicas para conitnuar")
 #endif
 #endif
 #endif
@@ -100,28 +100,28 @@
 #endif
 #ifdef _MEGA
 (song_current_venue
-   "Beat %i songs to continue")
+   "Complete %i músicas para conitnuar")
 #endif
 #ifdef _ONYX
 (song_current_venue
    " ")
 #endif
 (song_current_venue_encore
-   "Beat the encore to continue")
+   "Complete o bis para continuar")
 (song_win_easy
-   "Beat %i/%i songs to win")
+   "Complete %i/%i músicas para vencer")
 (song_win_other
-   "Beat the final song to win")
+   "Complete a ultima música para vencer")
 (ca_reason
-   "Congratulations on the killer show, amazing write-up, and perfect review score! Here's your cut.")
+   "Parabens pelo show matador, com uma review perfeita! Aqui está seu pagamento.") ;Congratulations on the killer show, amazing write-up, and perfect review score! Here's your cut."
 (ca_blurb1
-   "Pay")
+   "Pagamento")
 (ca_deductions
-   "minus deductions:")
+   "Deduções:")
 (ca_blurb2
-   "Milos, extracted")
+   "Milos, extracted") ;Não traduzido - i
 (ca_blurb3
-   "Note streak, dropped")
+   "Note streak, dropped") 
 (ca_blurb4
    "Danny, did it first")
 (ca_blurb5
@@ -169,13 +169,13 @@
 (ca_blurb26
    "G FUEL, discounted")
 (ca_blurb27
-   "tittyfaff, requested")
+   "tittyfaff, requested") ;Não traduzido - i
 (ca_yourcut
    "YOU GET:")
 (ca_spend
-   "Spend your hard-earned cash at The Store.")
+   "Gaste sua grana na loja.")
 (CASH_AWARD
-   "GIG MONEY")
+   "GRANA DO SHOW")
 (LETTERHEAD1
    {if_else
       $egg5
