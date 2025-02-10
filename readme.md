@@ -8,12 +8,12 @@ Repositório para guardar o progresso do Lisarb GH2 - somente scripts "dta". Nã
 
 + [config/campaign.dta](https://github.com/naonemeu/lisarbgh2/blob/main/ark/config/campaign.dta): Define a ordem das músicas principais **a partir do nome interno**. Como eu vou mudar todos os nomes internos, então preciso mudar aqui também (pra ter aquele extra que faz parecer oficial) 
 + [config/mc.dta](https://github.com/naonemeu/lisarbgh2/blob/main/ark/config/mc.dta): Muda o ID do jogo salvo (aquele que começa com SLUS...), para separar do GH2 oficial.
-+ [config/modes.dta](https://github.com/naonemeu/lisarbgh2/commit/b1098375311a9ef794f03e6b47a4341e4c6cfda0) configurações de modo do jogo. Usado para habilitar o bot (obvio que vou usar isso somente para testes, daar...)
-+ [config/songs.dta](https://github.com/naonemeu/lisarbgh2/blob/main/ark/config/songs.dta): definições das músicas, nome (interno e externo), metadados, balanço de audio..
++ [config/modes.dta](https://github.com/naonemeu/lisarbgh2/commit/0c68a2c042de417992411e4fec0df6371ab9d930#diff-d7ab5f74cef1d463d4d6f434bd7bf6e9235f9e6be1456c553f304f65169c6cd8) configurações de modo do jogo. Bot somente no debug, usando "#ifdef".
++ [config/songs.dta](https://github.com/naonemeu/lisarbgh2/blob/main/ark/config/songs.dta): definições das músicas, nome (interno e externo), metadados, balanço de audio.
 + [config/synth.dta](https://github.com/naonemeu/lisarbgh2/blob/main/ark/config/synth.dta): Usado para customizar os nomes dos metaloops (que são as músicas que tocam no menu). Esses "metaloops" devem ter um SR de 22050 Hz, 2 canais e (preferencialmente) duração de até 2 min / 3 MB, para não pesar muito no carregamento. Os arquivos de audio estão localizados em ark/sfx/streams (que não estão upados no github)
 + [ui/eng/locale.dta](https://github.com/naonemeu/lisarbgh2/blob/main/ark/ui/eng/locale.dta): textos principais do jogo, traduzido. falta revisar
-+ [ui/init.dta](https://github.com/naonemeu/lisarbgh2/commit/ca6768b296a6ed3de7ab4e5bbf107ec7555d8faa) configura parâmetros iniciais do GH2. Usado para colocar hyperspeed e cores GRYBO
-+ [ui/quickplay.dta](https://github.com/naonemeu/lisarbgh2/blob/main/ark/ui/quickplay.dta): Estrutura de seleção de instrumento, dificuldade... Modificado para desabilitar o baixo.
++ [ui/init.dta](https://github.com/naonemeu/lisarbgh2/commit/ca6768b296a6ed3de7ab4e5bbf107ec7555d8faa) configura parâmetros iniciais do GH2. Usado para colocar cores GRYBO
++ [ui/quickplay.dta](https://github.com/naonemeu/lisarbgh2/blob/main/ark/ui/quickplay.dta): Estrutura de seleção de instrumento, dificuldade... Modificado para pular a tela do baixo. (A parte modificada está comentada)
 
 ## Programas Usados
 
