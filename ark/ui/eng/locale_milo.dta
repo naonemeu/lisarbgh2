@@ -140,35 +140,35 @@
 (finaleggtxt3
    "Thank you so much for playing our special version of\nGuitar Hero II.")
 (gig_play
-   "PLAY SHOW")
+   "TOCAR")
 (gig_character
-   "CHARACTER")
+   "PERSONAGEM")
 (gig_guitar
-   "GUITAR")
+   "GUITARRA")
 (gig_venue
-   "VENUE")
+   "LOCAL")
 (gig_extras
    "EXTRAS")
 (milo_extras
    "EXTRAS")
 (extras_songtitle
-   "SONG TITLE ALWAYS") 
+   "MANTER TITULO DA MSC")
 (extras_horse
-   "CAVALO")
+   "MODO CAVALO")
 (extras_roxbury
    "MODO GORFO")
 (extras_performance
-   "SE VIRA NOS 30")
+   "PERFOMANCE")
 (extras_nofail
    "SEM FALHA")
 (extras_eyeball
-   "ZOIUDO")
+   "MODO ZOIUDO")
 (extras_monkey
    "OLHA O MACACO")
 (extras_grybo
    "CORES ORIGINAIS")
 (extras_highway
-   "ATIVAR ESTEIRA PRETA")
+   "ESTEIRA PRETA")
 (extras_flaming
    "MULA SEM CABECA")
 (extras_neckless

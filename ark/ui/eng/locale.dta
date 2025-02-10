@@ -3,15 +3,19 @@
 ;2022 - Naonemeu
 
 (splash_anybutton
-   "APERTE QUALQUER BOTAO")
+   ;"APERTE QUALQUER BOTAO")
+   "LISARB GH2 - VERSAO DE TESTE")
 (splash_legal
-   {if_else
-      $gamegh1
-      "Guitar Hero Redux. 2021. Port by jnack. Modifications @ MiloHax.\nBig thanks to mariteaux for charts and diy stems. Also shout out to Local H the OG.\nOriginal game code © 2005-2006 Harmonix Music Systems, Inc." ;(não traduzido)
-      {if_else
-         $game80s
-         "Guitar Hero Encore Deluxe © 2006 RedOctane, Inc.\nModifications © 2021 MiloHax. See credits for all contributors.\nOriginal game code © 2005-2006 Harmonix Music Systems, Inc. Developed by Harmonix Music Systems." ;(não traduzido)
-         "Guitar Hero II Deluxe © 2006 RedOctane, Inc.\nModificações © 2021 MiloHax. Veja 'credits' para todos contribuintes.\nCódigo original © 2005-2006 Harmonix Music Systems, Inc. Desenvolvido por Harmonix Music Systems."}})
+   ; {if_else
+      ; $gamegh1
+      ; "Guitar Hero Redux. 2021. Port by jnack. Modifications @ MiloHax.\nBig thanks to mariteaux for charts and diy stems. Also shout out to Local H the OG.\nOriginal game code © 2005-2006 Harmonix Music Systems, Inc." ;(não traduzido)
+      ; {if_else
+         ; $game80s
+         ; "Guitar Hero Encore Deluxe © 2006 RedOctane, Inc.\nModifications © 2021 MiloHax. See credits for all contributors.\nOriginal game code © 2005-2006 Harmonix Music Systems, Inc. Developed by Harmonix Music Systems." ;(não traduzido)
+         ; "Guitar Hero II Deluxe © 2006 RedOctane, Inc.\nModificações © 2021 MiloHax. Veja 'credits' para todos contribuintes.\nCódigo original © 2005-2006 Harmonix Music Systems, Inc. Desenvolvido por Harmonix Music Systems."}}
+"Lisarb Remastered versao GH2 - Por Naonemeu - 2025\nVersao de teste 01a"
+)
+
 (guitar_help_using
    "USANDO O CONTROLE DE GUITARRA")
 (guitar_help_plugin
@@ -131,17 +135,17 @@
 (cant_delete_profile_msg
    "A banda selecionada não pode ser deletada. Para deletar, primeiro seleciona uma outra/nova banda.")
 (op_bonus_material
-   "Videos Bonus")
+   "completa?") ;"Videos Bonus") ;3
 (op_credits
-   "Créditos")
+   "Nem eu sei!") ;"Créditos") ;4
 (op_data_settings
-   "Gerenciar banda ")
+   "Quando que") ;"Gerenciar banda") ;1
 (op_game_settings
    "Opções de Áudio ")
 (op_video_settings
    "Opções de Vídeo")
 (op_memcard
-   "Opções de Dados")
+   "vai sar a  versao") ;"Opções de Dados") ;2
 (GAME_SETTINGS
    "OPÇÕES DE ÁUDIO")
 (LEFT_PLAYER_1
@@ -163,9 +167,9 @@
 (gs_video
    "OPÇÕES DE VÍDEO")
 (STEREO_SOUND
-   "SOM ESTÉREO")
+   "ESTÉREO")
 (SOUND_FX
-   "EFEITOS DE SOM")
+   "EFEITOS")
 (BONUS_MATERIAL
    "VIDEOS BONUS")
 (CREDITS
@@ -227,7 +231,7 @@
 (video3_shop_desc
    "The Guitar Hero II development team takes you backstage to see what life is REALLY like at Harmonix.") ;Não traduzido
 (QUICK_PLAY
-   "JOGO RÁPIDO")
+   "QUICKPLAY")
 (QP_SELSONG
    "ESCOLHA A MÚSICA")
 (E3_SINGLE_PLAYER
@@ -287,7 +291,7 @@
    {if_else
       $egg5
       "as actually performed by"
-      "as performed by"})
+      "da banda"})
 (press_any_button
    {if_else
       $egg5
@@ -372,7 +376,7 @@
 (lose_practice
    "PRATICAR")
 (lose_selsong
-   "NOVA MÚSICA")
+   "NOVA MUSICA")
 (eg_percent_format
    "%d%%")
 (eg_score
@@ -428,7 +432,7 @@
 (highscore_start
    "Aperte START para confirmar o nome")
 (comp_selsong
-   "Nova Música")
+   "Nova MUsica")
 (comp_restart
    "Jogar de novo")
 (comp_quit
@@ -440,18 +444,19 @@
    " ")
 #else
 (song_quickplay
-   "Jogue no Modo carreira para mais músicas!")
+   ;"Jogue no Modo carreira para mais músicas!")
+   "O que achou da demo? Comente no YT / Discord!")
 #endif
 (encore_song_listing
    "Encore: Jogue no Modo carreira para destravar")
 (encore_song_career_listing
    "Encore: Obtenha 4 estrelas para jogar")
 (sd_title
-   "Escolha a dificuldade do tour")
+   "Dificuldade do tour")
 (sd_help
-   "ESCOLHA SUA DIFICULDADE")
+   "DIFICULDADE")
 (sd_help_practice
-   "Escolha sua dificuldade")
+   "Dificuldade")
 (MULTIPLAYER_MODE_SELECT
    "Escolha o modo multi.")
 (MULTI_COMPETE
@@ -489,7 +494,7 @@
 (multiplier_format
    "%dX")
 (star_ready
-   "SOLTA O FINO!") ;lmao
+   "STAR POWER PRONTO!") ;lmao
 (song_failed
    "IH, DEU RUIM!") ;lmao
 (deploy_star

@@ -1,4 +1,320 @@
+
 ;lisarbgh2
+
+(annajulia
+   (name
+      "Anna Julia")
+   (artist
+      "Los Hermanos")
+   (caption performed_by)
+   (song
+      (name songs/annajulia/annajulia)
+      (tracks
+         ((guitar 2)
+            (bass 2)
+            (fake 2)))
+      (pans
+         (-1.0 1.0 -1.0))
+      (vols
+         (0.0 0.0 0.0))
+      (cores
+         (-1 -1 -1))
+      (midi_file songs/annajulia/annajulia.mid))
+   (song_vs
+      (name songs/annajulia/annajulia)
+      (tracks
+         ((guitar
+               (2))
+            (bass 2)))
+      (pans
+         (-1.0 1.0 -1.0))
+      (vols
+         (0.0 0.0 0.0))
+      (cores
+         (-1 -1 -1))
+      (midi_file songs/annajulia/annajulia.mid))
+   (anim_tempo kTempoFast)
+   (preview 98000 128000)
+   (quickplay
+      (character_outfit classic)
+      (guitar lespaul)
+      (venue arena)))
+
+(irreversivel
+   (name
+      "Irreversível")
+   (artist
+      "CPM 22")
+   (caption performed_by)
+   (song
+      (name songs/irreversivel/irreversivel)
+      (tracks
+         ((guitar 2)
+            (bass 2)
+            (fake 2)))
+      (pans
+         (-1.0 1.0 -1.0))
+      (vols
+         (0.0 0.0 0.0))
+      (cores
+         (-1 -1 -1))
+      (midi_file songs/irreversivel/irreversivel.mid))
+   (song_vs
+      (name songs/irreversivel/irreversivel)
+      (tracks
+         ((guitar
+               (2))
+            (bass 2)))
+      (pans
+         (-1.0 1.0 -1.0))
+      (vols
+         (0.0 0.0 0.0))
+      (cores
+         (-1 -1 -1))
+      (midi_file songs/irreversivel/irreversivel.mid))
+   (anim_tempo kTempoFast)
+   (preview 39670 69670)
+   (quickplay
+      (character_outfit classic)
+      (guitar lespaul)
+      (venue arena)))
+
+(razoeseemocoes
+   (name
+      "Razões e Emoções")
+   (artist
+      "NX Zero")
+   (caption performed_by)
+   (song
+      (name songs/razoeseemocoes/razoeseemocoes)
+      (tracks
+         ((guitar 2)
+            (bass 2)
+            (fake 2)))
+      (pans
+         (-1.0 1.0 -1.0))
+      (vols
+         (0.0 0.0 0.0))
+      (cores
+         (-1 -1 -1))
+      (midi_file songs/razoeseemocoes/razoeseemocoes.mid))
+   (song_vs
+      (name songs/razoeseemocoes/razoeseemocoes)
+      (tracks
+         ((guitar
+               (2))
+            (bass 2)))
+      (pans
+         (-1.0 1.0 -1.0))
+      (vols
+         (0.0 0.0 0.0))
+      (cores
+         (-1 -1 -1))
+      (midi_file songs/razoeseemocoes/razoeseemocoes.mid))
+   (anim_tempo kTempoMedium)
+   (preview 108000 138000)
+   (quickplay
+      (character_outfit classic)
+      (guitar lespaul)
+      (venue arena)))
+
+(demusicaligeira
+   (name
+      "De Música Ligeira")
+   (artist
+      "Paralamas do Sucesso")
+   (caption performed_by)
+   (song
+      (name songs/demusicaligeira/demusicaligeira)
+      (tracks
+         ((guitar 2)
+            (bass 2)
+            (fake 2)))
+      (pans
+         (-1.0 1.0 -1.0))
+      (vols
+         (0.0 0.0 0.0))
+      (cores
+         (-1 -1 -1))
+      (midi_file songs/demusicaligeira/demusicaligeira.mid))
+   (song_vs
+      (name songs/demusicaligeira/demusicaligeira)
+      (tracks
+         ((guitar
+               (2))
+            (bass 2)))
+      (pans
+         (-1.0 1.0 -1.0))
+      (vols
+         (0.0 0.0 0.0))
+      (cores
+         (-1 -1 -1))
+      (midi_file songs/demusicaligeira/demusicaligeira.mid))
+   (anim_tempo kTempoMedium)
+   (preview 54410 84410)
+   (quickplay
+      (character_outfit classic)
+      (guitar lespaul)
+      (venue arena)))
+
+(soporumanoite
+   (name
+      "Só Por Uma Noite")
+   (artist
+      "Charlie Brown Jr")
+   (caption performed_by)
+   (song
+      (name songs/soporumanoite/soporumanoite)
+      (tracks
+         ((guitar 2)
+            (bass 2)
+            (fake 2)))
+      (pans
+         (-1.0 1.0 -1.0))
+      (vols
+         (0.0 0.0 0.0))
+      (cores
+         (-1 -1 -1))
+      (midi_file songs/soporumanoite/soporumanoite.mid))
+   (song_vs
+      (name songs/soporumanoite/soporumanoite)
+      (tracks
+         ((guitar
+               (2))
+            (bass 2)))
+      (pans
+         (-1.0 1.0 -1.0))
+      (vols
+         (0.0 0.0 0.0))
+      (cores
+         (-1 -1 -1))
+      (midi_file songs/soporumanoite/soporumanoite.mid))
+   (anim_tempo kTempoMedium)
+   (preview 71000 101000)
+   (quickplay
+      (character_outfit classic)
+      (guitar lespaul)
+      (venue arena)))
+
+(rebirth
+   (name
+      "Rebirth")
+   (artist
+      "Angra")
+   (caption performed_by)
+   (song
+      (name songs/rebirth/rebirth)
+      (tracks
+         ((guitar 2)
+            (bass 2)
+            (fake 2)))
+      (pans
+         (-1.0 1.0 -1.0))
+      (vols
+         (0.0 0.0 0.0))
+      (cores
+         (-1 -1 -1))
+      (midi_file songs/rebirth/rebirth.mid))
+   (song_vs
+      (name songs/rebirth/rebirth)
+      (tracks
+         ((guitar
+               (2))
+            (bass 2)))
+      (pans
+         (-1.0 1.0 -1.0))
+      (vols
+         (0.0 0.0 0.0))
+      (cores
+         (-1 -1 -1))
+      (midi_file songs/rebirth/rebirth.mid))
+   (anim_tempo kTempoFast)
+   (preview 175000 205000)
+   (quickplay
+      (character_outfit classic)
+      (guitar lespaul)
+      (venue arena)))
+
+(money
+   (name
+      "1406")
+   (artist
+      "Mamonas Assassinas")
+   (caption performed_by)
+   (song
+      (name songs/money/money)
+      (tracks
+         ((guitar 2)
+            (bass 2)
+            (fake 2)))
+      (pans
+         (-1.0 1.0 -1.0))
+      (vols
+         (0.0 0.0 0.0))
+      (cores
+         (-1 -1 -1))
+      (midi_file songs/money/money.mid))
+   (song_vs
+      (name songs/money/money)
+      (tracks
+         ((guitar
+               (2))
+            (bass 2)))
+      (pans
+         (-1.0 1.0 -1.0))
+      (vols
+         (0.0 0.0 0.0))
+      (cores
+         (-1 -1 -1))
+      (midi_file songs/money/money.mid))
+   (anim_tempo kTempoMedium)
+   (preview 72860 102860)
+   (quickplay
+      (character_outfit classic)
+      (guitar lespaul)
+      (venue arena)))
+
+(espelhosmagicos
+   (name
+      "Espelhos Mágicos")
+   (artist
+      "Oficina G3")
+   (caption performed_by)
+   (song
+      (name songs/espelhosmagicos/espelhosmagicos)
+      (tracks
+         ((guitar 2)
+            (bass 2)
+            (fake 2)))
+      (pans
+         (-1.0 1.0 -1.0))
+      (vols
+         (0.0 0.0 0.0))
+      (cores
+         (-1 -1 -1))
+      (midi_file songs/espelhosmagicos/espelhosmagicos.mid))
+   (song_vs
+      (name songs/espelhosmagicos/espelhosmagicos)
+      (tracks
+         ((guitar
+               (2))
+            (bass 2)))
+      (pans
+         (-1.0 1.0 -1.0))
+      (vols
+         (0.0 0.0 0.0))
+      (cores
+         (-1 -1 -1))
+      (midi_file songs/espelhosmagicos/money.espelhosmagicos))
+   (anim_tempo kTempoMedium)
+   (preview 56660 86660)
+   (quickplay
+      (character_outfit classic)
+      (guitar lespaul)
+      (venue arena)))
+
+;; stock
+
 (badreputation
    (name
       "Bad Reputation")

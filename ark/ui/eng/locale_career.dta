@@ -1,9 +1,9 @@
 (select_career
    "ESCOLH A CARREIRA")
 (easy
-   "FÁCIL")
+   "FACIL")
 (medium
-   "MÉDIO")
+   "MEDIO")
 (hard
    "DIFCIL")
 (expert
@@ -92,7 +92,7 @@
 #ifndef _ONYX
 #ifndef GH1RX
 (song_current_venue
-   "Complete %i/4 músicas para conitnuar")
+   "Complete %i/4 musicas para conitnuar")
 #endif
 #endif
 #endif
@@ -100,7 +100,7 @@
 #endif
 #ifdef _MEGA
 (song_current_venue
-   "Complete %i músicas para conitnuar")
+   "Complete %i musicas para conitnuar")
 #endif
 #ifdef _ONYX
 (song_current_venue

@@ -1646,6 +1646,7 @@
          #ifndef _ONYX
          #ifndef _MEGA
          #ifndef GH1RX
+		 {part1.btn set_state kDisabled} ;Achei porra - desabilitar baixo
          {part2.btn set_state kDisabled}
          {part2.btn set_showing FALSE}
          #endif

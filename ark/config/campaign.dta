@@ -4,14 +4,23 @@
 #ifndef 8DBUG
 #ifndef GH1RX
 (order
-   (battle surrender possum heartshapedbox salvation strutter shoutatthedevil)
-   (small1 mother lifewasted cherrypie woman youreallygotme tonightimgonna)
-   (small2 carryonwayward searchanddestroy messageinabottle billiondollar thembones warpigs)
-   (big monkeywrench hush girlfriend whowasinmyroom cantyouhearme sweetchild)
-   (theatre rockandroll tattooedloveboys johnthefisherman jessica badreputation lastchild)
-   (fest crazyonyou trippinonahole dead killinginthenameof freya stop)
-   (arena madhouse trooper rockthistown laidtorest psychobilly yyz)
-   (stone beastandtheharlot carrymehome institutionalized misirlou hangar18 freebird))
+   (battle money razoeseemocoes soporumanoite demusicaligeira espelhosmagicos rebirth)
+   (small1 irreversivel annajulia cherrypie woman youreallygotme tonightimgonna)
+   (small2)
+   (big)
+   (theatre)
+   (fest)
+   (arena)
+   (stone)
+   
+   ;(small1 mother lifewasted cherrypie woman youreallygotme tonightimgonna)
+   ;(small2 carryonwayward searchanddestroy messageinabottle billiondollar thembones warpigs)
+   ;(big monkeywrench hush girlfriend whowasinmyroom cantyouhearme sweetchild)
+   ;(theatre rockandroll tattooedloveboys johnthefisherman jessica badreputation lastchild)
+   ;(fest crazyonyou trippinonahole dead killinginthenameof freya stop)
+   ;(arena madhouse trooper rockthistown laidtorest psychobilly yyz)
+   ;(stone beastandtheharlot carrymehome institutionalized misirlou hangar18 freebird)
+ )
 (required_songs
    (kDifficultyEasy 4 5)
    (kDifficultyMedium 5 6)

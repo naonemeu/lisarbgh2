@@ -11,7 +11,9 @@
       {if
          $disable_save
          {op_data.btn set_state kDisabled}
-         {memory_card.btn set_state kDisabled}})
+         {memory_card.btn set_state kDisabled}}
+		 {op_bonus.btn set_state kDisabled}
+		 {op_credit.btn set_state kDisabled})
    (SELECT_START_MSG
       {switch
          $component
@@ -712,7 +714,12 @@
       {track_panel set_showing FALSE}
       {world_panel set_showing FALSE})}
 #define VIDEO_SETTINGS_PANEL_HANDLERS
-((focus gs_left_p1.btn)
+
+
+;((focus gs_left_p1.btn) 
+(
+(focus widescreen.btn)
+;(poll {game80s.btn set_state kDisabled})
    (focus_component
       "")
    (orig_sync 0)
@@ -800,12 +807,18 @@
                set_lefty
                1
                {lefty2.chk get_check}})
-         (game80s.btn
-            {if_else
-               $rbdrum
-               {set $rbdrum FALSE}
-               {set $rbdrum TRUE}}
-            {meta_loading_nosave_goto splash_screen})
+		
+		;PADEMU
+        ;(game80s.btn
+		;{game80s.btn set_state kDisabled}
+		;{$this disable game80s.btn}
+         ;   {if_else
+         ;      $rbdrum
+         ;      {set $rbdrum FALSE}
+         ;      {set $rbdrum TRUE}}
+         ;   {meta_loading_nosave_goto splash_screen}
+		 ;)
+
          (calibrate_lag.btn
             {lag_panel set from_panel $this}
             {if_else
@@ -813,7 +826,10 @@
                {ui goto_screen lag_screen}
                {ui goto_screen pause_lag_screen}})
          kDataUnhandled}
-      {$this update_help_display}))
+      {$this update_help_display})
+)
+
+
 {new
    SliderPanel
    video_settings_panel

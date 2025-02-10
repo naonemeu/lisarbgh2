@@ -4,7 +4,8 @@
 #ifndef 8DBUG
 #ifndef GH1RX
 (song_header_battle
-   "1. Opening Licks")
+   ;"1. Opening Licks")
+   "LISARB GH2 - VERSAO DE TESTES")
 (song_header_small1
    "2. Amp-Warmers")
 (song_header_small2

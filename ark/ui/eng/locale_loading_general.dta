@@ -1,54 +1,81 @@
+(wip_warn "CONTINUAR TRADUCAO DOS LOADINGS, TIRAR OS COMENTARIOS EM CONFIG/TIPS.DTA")
+
 (milo_tip1
-   "Use the new Modifiers menu to pick exactly how fast you prefer the notes to scroll - or how fast you want the song to play!")
+   "Aperte select na lista de musicas para modificar a velocidade das notas e das musicas! (Faz parte do GH2 Deluxe)")
 (milo_tip2
-   "More a bassist? Wanna groove as the rhythm guitarist instead? Try Free Play - you're now able to play either instrument in singleplayer, whenever you want!")
+   "Sim, o menu de baixo do GH2 Deluxe foi retirado. Sem paciência pra fazer baixo")
 (milo_tip3
-   "Note streak popups appear at 50, 100, 200, and every 100 notes after that.")
+   "Assim como no GH3, as mensagens de \qNote Streak\q aparecem no jogo. (Faz parte do GH2 Deluxe)")
 (milo_tip4
-   "In the new Free Play mode, you can hop into any song with the guitar, guitarist, and venue of your choice.")
+   "No modo rápido (Quick Play) você pode escolher local e guitarrista qualquer, não e mais fixo por musica (Faz parte do GH2 Deluxe)")
 (milo_tip5
-   {if_else
-      $game80s
-      "No worries - \qBecause, It's Midnite\q isn't a campaign song anymore. Pays to use cut songs."
-      "We've reordered the setlist to match the 360 version of Guitar Hero II. It should be a bit easier to progress now."})
+   ;{if_else
+    ;  $game80s
+    ;  "No worries - \qBecause, It's Midnite\q isn't a campaign song anymore. Pays to use cut songs."
+    ;  "We've reordered the setlist to match the 360 version of Guitar Hero II. It should be a bit easier to progress now."})
+	"Pro pessoal que queria todas as dificuldades: deixe o seu comentário/feedback! Faz anos que nao mexo com chart fora do Expert")
 (milo_tip6
-   "The Extras menu in Free Play can be used to set certain cheats or game behavior without memorizing lengthy button codes.")
+   "De uma olhada no menu de \qExtras\q do modo rápido (Quick Play). Ha vários cheats do GH2 original la. (Faz parte do GH2 Deluxe)")
 (milo_tip7
-   {if_else
-      $game80s
-      "In our testing, the Rock for Safety Tour is the venue that runs the best on both console and emulator."
-      "In our testing, the Vans Warped Tour is the venue that runs the best on both console and emulator."})
+   ;{if_else
+   ;   $game80s
+   ;   "In our testing, the Rock for Safety Tour is the venue that runs the best on both console and emulator."
+   ;   "In our testing, the Vans Warped Tour is the venue that runs the best on both console and emulator."})
+   "Pro pessoal que queria todas as dificuldades: deixe o seu comentário/feedback! Faz anos que nao mexo com chart fora do Expert")
 (milo_tip8
-   "The new note counter will glow orange when you've yet to miss a note and turn white when your full combo is ruined.")
+   "Acabou a musica e o contador de notas esta laranja? Parabens, conseguiu um FC! (Faz parte do GH2 Deluxe)")
 (milo_tip9
-   "This is a sample tip.")
+   "Pro pessoal que queria todas as dificuldades: deixe o seu comentário/feedback! Faz anos que nao mexo com chart fora do Expert")
 (milo_tip10
-   "Did you forget to turn on Progressive Scan again?")
+   "Essa ISO NÃO FOI testada no AetherSX2!")
 (milo_tip11
-   {if_else
-      $game80s
-      "We fixed the strum limit so you don't have to. Go check out Trogdor on the OTHER setlist and see how it feels."
-      "We fixed the strum limit so you don't have to. Go check out Trogdor and see how it feels."})
+   ;{if_else
+   ;   $game80s
+   ;   "We fixed the strum limit so you don't have to. Go check out Trogdor on the OTHER setlist and see how it feels."
+   ;   "We fixed the strum limit so you don't have to. Go check out Trogdor and see how it feels."})
+   "Não é o Brazucas! ...mas eu posso chamar a ISO de \qGuitar Hero Brazucas 5\q")
 (milo_tip12
-   "We also fixed the HOPO bug. You can quick-restart again!")
+   "Pela enésima vez: Essa ISO NÃO e o Brazucas!")
 (milo_tip13
-   "Press the Select button twice at any setlist to access the new Modifiers menu.")
+   "Configure certo o seu OPL, principalmente se tiver pelo USB. O jogo foi testado e texturas das notas/gems foram modificadas de forma a reduzir os lags no USB")
 (milo_tip14
-   "Some songs have a way better bass part than guitar part. Check the Free Play mode - you can now take those basslines to the stage yourself.")
+   "As musicas não tem as faixas separadas. Ate pensei em usar faixas por IA, mas botar isso no GH2 requer um trabalho de mixagem (haja paciência...)")
 (milo_tip15
-   "As someone somewhere once requested, you can now quit directly to Practice Mode in the middle of a song, right from the Pause menu. Don't try that during a real show.")
+   "E possível acessar o modo pratica direto pelo menu de pausa. (Faz parte do GH2 Deluxe)")
 (milo_tip16
-   "Some songs are also available to play on drums, if you've got a way to map a drumkit to a DualShock controller. Check in the Part Select menus in Free Play!")
+   "Para os antigos na comunidade: Essa ISO foi feito com programas modernos! Nada de GHEX (eca) ou DTB Editor. (Procure por \qArkhelper GH2\q e \qMilohax\q se tiver curiosidade)")
 (milo_tip17
-   "When playing on a DualShock instead of a guitar, you don't need to strum, and you use the shoulder buttons and X for the frets.")
+   "As musicas planejadas dessa setlist foram pensadas principalmente para o modo dualshock. Não vai ter tantas musicas de palhetadas.")
 (milo_tip18
-   "To that guy in the back complaining about the \qrandom\q fret colors: check the Extras menu in Free Play. You can change it back now.")
+   "Gravou um DVD pra essa demo? Sinto-lhe dizer, mas desperdiçou um disco.")
+   
+   
 (easy_tip1
-   "You don't get any cash in EASY, but you do in MEDIUM, HARD and EXPERT.")
+   "Eu posso continuar fazendo chart no Easy ...ou bloquear o botão do Easy.")
 (easy_tip2
-   "If you're getting five stars on every song without breaking a sweat, it's time to move up to MEDIUM.")
+   "Se tiver uma nota azul no Easy, ops... foi acidental.")
 (easy_tip3
-   "Try MEDIUM or harder if you want to be able to buy new guitars, songs, videos, and more.")
+   "Tenta jogar no Easy em 200% de velocidade, e divertido.")
+(easy_tip4
+   "Pro pessoal que queria todas as dificuldades: deixe o seu comentário/feedback! Faz anos que nao mexo com chart fora do Expert.\n(Você está jogando no Easy, acertei?)")
+   
+   
+(medium_tip1
+   "Eu posso continuar fazendo chart no Medium ...ou bloquear o botão do Medium.")
+(medium_tip2
+   "Se tiver uma nota laranja no medium, ops... foi acidental.")
+(medium_tip3
+   "Pro pessoal que queria todas as dificuldades: deixe o seu comentário/feedback! Faz anos que nao mexo com chart fora do Expert.\n(Você está jogando no Medium, acertei?)")
+   
+   
+(hard_tip1
+   "Eu posso continuar fazendo chart no Hard ...ou bloquear o botão do Hard.")
+(hard_tip2
+   "Se o Hard estiver igual ao Expert, ops... foi acidental.")
+(hard_tip3
+   "Pro pessoal que queria todas as dificuldades: deixe o seu comentário/feedback! Faz anos que nao mexo com chart fora do Expert.\n(Você está jogando no Hard, acertei?)")
+   
+   
 (advanced_tip1
    "Stuck on a song? Try getting five stars on an easier one.")
 (advanced_tip2
@@ -94,3 +121,12 @@
    "If you've got what it takes, FC this song (with Focus Mode off!) and send a video in MiloHax. Conquer the strum limit. Don't let this port be in vain :marfpeek:")
 (loading_tip_speedtest
    "\qwhy speed test\q\n - ExileLord, 2021")
+	
+	
+;(loading_tip_money
+;   "áéíóúâêîôûç\nÁÉÍÓÚÂÊÎÔÛÇ\n")
+(loading_tip_mepirou
+   "Você deve estar se perguntando: \qSe era pra ter uma banda por música, porque tem duas do Charlie Brown Jr?\q")
+   
+(charter_tip1
+   "I've said before that charting is a mostly thankless job. That still rings true. Once every few months, someone would thank me. Truth is that I slightly resent that fact -Maupy2")

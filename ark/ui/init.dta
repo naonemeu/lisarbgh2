@@ -22,12 +22,15 @@
    (pause_panel pause_controller_panel tut_pause_panel pract_pause_panel tut_pause_controller_panel lose_panel helpbar)
    {$p load}}
 {meta set_defaults}
-#ifndef _ONYX
-{set $first_screen bootup_load}
-#endif
-#ifdef _ONYX
-{set $first_screen main_screen}
-#endif
+		
+;#ifndef _ONYX
+;{set $first_screen bootup_load}
+;#endif
+;#ifdef _ONYX
+;{set $first_screen main_screen}
+{set $first_screen splash_screen}
+;#endif
+		
 {ui my_init}
 {do
    ($cfg)
@@ -41,11 +44,19 @@
 {set $interval_p1 50}
 {set $interval_p2 50}
 {set $rbdrum FALSE}
+
 #ifdef _SHIP
 {set $roygb TRUE} ;Sets GRYBO cheat on
-{set $trackspd 1.5} ;Hyperspeed on boot
+;{set $trackspd 1.5} ;Hyperspeed on boot
 {set $game80s FALSE}
 #endif
+
+#ifdef 2DBUG
+{set $roygb TRUE} ;Sets GRYBO cheat on
+;{set $trackspd 1.5} ;Hyperspeed on boot
+{set $game80s FALSE}
+#endif
+
 #ifdef _ENCO
 {set $game80s TRUE}
 #endif

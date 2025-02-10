@@ -17,8 +17,16 @@
          {ui goto_screen main_screen}}
       kDataUnhandled)
    (SELECT_START_MSG
-      {ui goto_screen qp_selpart_screen}
-      kDataUnhandled)}
+		
+		{ui goto_screen qp_diff_screen}
+		
+		;{ui goto_screen qp_selpart_screen}
+		kDataUnhandled
+	)
+}
+		
+		
+		
 {new
    UIPanel
    qp_selpart_bg_panel
@@ -55,6 +63,9 @@
             {part0.btn
                set_text
                "sg_lead"}}
+		
+		{$this disable part1.btn} ;Achei porra - desabilitar baixo
+		
          #ifndef 2DBUG
          #ifndef 8DBUG
          {if_else
@@ -73,8 +84,6 @@
                set_text
                "sg_drum"}
             {part2.btn set_showing FALSE}}
-		
-		 {part1.btn set_state kDisabled} ;Achei porra - desabilitar baixo
          #endif
          #endif
          #ifndef _SHIP
@@ -82,6 +91,7 @@
          #ifndef _ONYX
          #ifndef _MEGA
          #ifndef GH1RX
+		 {$this disable part1.btn}
          {part2.btn set_state kDisabled}
          {part2.btn set_showing FALSE}
          #endif
@@ -112,6 +122,9 @@
          {gamecfg set_track 0 2}
          {set $roygb TRUE}}
       {ui goto_screen qp_diff_screen})}
+		
+		
+		
 {new
    GHScreen
    qp_selpart_screen
@@ -136,6 +149,13 @@
 {new
    GHScreen
    qp_diff_screen
+		
+		
+		($song {gamecfg get_song})
+		{song_provider get_instrument $song 0}
+		{gamecfg set_track 0 0}
+		
+		
    (panels meta sel_diff_qp_panel helpbar)
    (focus sel_diff_qp_panel)
    (helpbar
@@ -149,7 +169,9 @@
          {do
             {$this backwards_anim}
             {synth play_sequence button_back.cue}
-            {ui goto_screen qp_selpart_screen}}}
+            ;{ui goto_screen qp_selpart_screen}
+			{ui goto_screen qp_selsong_screen}
+		}}
       kDataUnhandled)
    (SELECT_START_MSG
       {do

@@ -158,95 +158,98 @@
       (price 550))
    (redoctane_jnack
       (price 550)))
+
 (song
-   #ifndef _ENCO
-   #ifndef _ONYX
-   #ifndef 8DBUG
-   #ifndef GH1RX
-   (speedtest
-      (price 500000))
-   (rawdog
-      (price 550))
-   (arterialblack
-      (price 550))
-   (collide
-      (price 550))
-   (drinkup
-      (price 550))
-   (elephantbones
-      (price 550))
-   (fallofpangea
-      (price 550))
-   (ftk
-      (price 550))
-   (gemini
-      (price 550))
-   (kicked
-      (price 550))
-   (ladylightning
-      (price 550))
-   (laughtrack
-      (price 550))
-   (lesstalkmorerokk
-      (price 550))
-   (jordan
-      (price 550))
-   (mrfixit
-      (price 550))
-   (newblack
-      (price 550))
-   (onefortheroad
-      (price 550))
-   (parasite
-      (price 550))
-   (radiumeyes
-      (price 550))
-   (redlottery
-      (price 550))
-   (six
-      (price 550))
-   (soybomb
-      (price 550))
-   (thelightthatblinds
-      (price 550))
-   (thunderhorse
-      (price 550))
-   (trogdor
-      (price 550))
-   (xstream
-      (price 550))
-   (yeswecan
-      (price 550))
-   #endif
-   #endif
-   #endif
-   #endif
-   #ifndef _SHIP
-   #ifndef _MEGA
-   #ifndef _ONYX
-   #ifndef 2DBUG
-   #ifndef GH1RX
-   (becauseitsmidnite
-      (price 550))
-   (speedtest
-      (price 500000))
-   #endif
-   #endif
-   #endif
-   #endif
-   #endif
-   #ifdef _MEGA
-   (becauseitsmidnite
-      (price 550))
-   #endif
-   #ifdef GH1RX
-   (trippolette
-      (price 500000))
-   #endif
-   #ifdef _DRUM
-   (alloveryou
-      (price 550))
-   #endif)
+   ; #ifndef _ENCO
+   ; #ifndef _ONYX
+   ; #ifndef 8DBUG
+   ; #ifndef GH1RX
+   ; (speedtest
+      ; (price 500000))
+   ; (rawdog
+      ; (price 550))
+   ; (arterialblack
+      ; (price 550))
+   ; (collide
+      ; (price 550))
+   ; (drinkup
+      ; (price 550))
+   ; (elephantbones
+      ; (price 550))
+   ; (fallofpangea
+      ; (price 550))
+   ; (ftk
+      ; (price 550))
+   ; (gemini
+      ; (price 550))
+   ; (kicked
+      ; (price 550))
+   ; (ladylightning
+      ; (price 550))
+   ; (laughtrack
+      ; (price 550))
+   ; (lesstalkmorerokk
+      ; (price 550))
+   ; (jordan
+      ; (price 550))
+   ; (mrfixit
+      ; (price 550))
+   ; (newblack
+      ; (price 550))
+   ; (onefortheroad
+      ; (price 550))
+   ; (parasite
+      ; (price 550))
+   ; (radiumeyes
+      ; (price 550))
+   ; (redlottery
+      ; (price 550))
+   ; (six
+      ; (price 550))
+   ; (soybomb
+      ; (price 550))
+   ; (thelightthatblinds
+      ; (price 550))
+   ; (thunderhorse
+      ; (price 550))
+   ; (trogdor
+      ; (price 550))
+   ; (xstream
+      ; (price 550))
+   ; (yeswecan
+      ; (price 550))
+   ; #endif
+   ; #endif
+   ; #endif
+   ; #endif
+   ; #ifndef _SHIP
+   ; #ifndef _MEGA
+   ; #ifndef _ONYX
+   ; #ifndef 2DBUG
+   ; #ifndef GH1RX
+   ; (becauseitsmidnite
+      ; (price 550))
+   ; (speedtest
+      ; (price 500000))
+   ; #endif
+   ; #endif
+   ; #endif
+   ; #endif
+   ; #endif
+   ; #ifdef _MEGA
+   ; (becauseitsmidnite
+      ; (price 550))
+   ; #endif
+   ; #ifdef GH1RX
+   ; (trippolette
+      ; (price 500000))
+   ; #endif
+   ; #ifdef _DRUM
+   ; (alloveryou
+      ; (price 550))
+   ; #endif)
+)
+
 (character
    (classic
       (price 5000))
@@ -263,7 +266,9 @@
    #endif
    #endif
    #endif
-   #endif)
+   #endif
+)
+
 (outfit
    (punk2
       (price 2000))
