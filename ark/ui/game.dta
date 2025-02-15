@@ -308,75 +308,37 @@
       kDataUnhandled)
    (game_won_msg
       ($encore)
-      {if
-         {&&
-            $focusmode
-            {'||'
-               {==
-                  {gamecfg get mode}
-                  career}
-               {==
-                  {gamecfg get mode}
-                  quickplay}
-               {==
-                  {gamecfg get mode}
-                  multi_coop}}}
-         {if
-            {exists world}
-            {world toggle_pick_shot}}}
+      {if {&& $focusmode {'||' {== {gamecfg get mode} career} {== {gamecfg get mode} quickplay} {== {gamecfg get mode} multi_coop}}}
+         {if {exists world} {world toggle_pick_shot}}}
       {world_panel set_showing TRUE}
-      {if_else
-         {gamecfg get game_over_sequence}
-         {do
-            {if
-               {==
-                  {gamecfg get_song}
-                  tonightimgonna}
-               {do
-                  {script_task
-                     (delay DRUMMER_EXPLODE_DELAY)
-                     (units kTaskSeconds)
-                     (script
-                        {handle
-                           ($this drummer_explode)}
+      {if_else {gamecfg get game_over_sequence}
+         {do {if {== {gamecfg get_song} tonightimgonna}
+               {do {script_task (delay DRUMMER_EXPLODE_DELAY) (units kTaskSeconds)
+                     (script {handle ($this drummer_explode)}
                         {play_sfx drummer_exp}
-                        {handle
-                           ({{world_panel loaded_dir}
-                                 find
-                                 guitarist0}
-                              game_won_msg
-                              $encore)})}}}
+                        {handle ({{world_panel loaded_dir} find guitarist0} game_won_msg $encore)}
+						)
+					}
+				}
+			}
             {track_panel explode}
             {play_game_sfx TRACK_EXPLODE_SFX}
             {game set_realtime TRUE}
             {beatmatch set_paused TRUE}
-            {if
-               $encore
-               {encore_stream play}}
-            kDataUnhandled}
-         0})
+            {if $encore {encore_stream play}} kDataUnhandled} 0}
+	)
+
    (game_lost
-      {if
-         {&&
-            $focusmode
-            {'||'
-               {==
-                  {gamecfg get mode}
-                  career}
-               {==
-                  {gamecfg get mode}
-                  quickplay}
-               {==
-                  {gamecfg get mode}
-                  multi_coop}}}
-         {if
-            {exists world}
-            {world toggle_pick_shot}}}
+      {if {&& $focusmode {'||' {== {gamecfg get mode}  career}
+	      {== {gamecfg get mode} quickplay} {== {gamecfg get mode} multi_coop}}} 
+		  {if {exists world} {world toggle_pick_shot}}
+      }
       {world_panel set_showing TRUE}
       {track_panel set_showing FALSE}
       {game set_realtime TRUE}
       {$this slow_music}
-      kDataUnhandled)
+      kDataUnhandled
+	)
    (game_outro_complete
       {synth stop_all_sfx}
       {game set_paused TRUE}
