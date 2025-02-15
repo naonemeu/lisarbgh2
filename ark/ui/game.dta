@@ -310,7 +310,8 @@
       ($encore)
       {if {&& $focusmode {'||' {== {gamecfg get mode} career} {== {gamecfg get mode} quickplay} {== {gamecfg get mode} multi_coop}}}
          {if {exists world} {world toggle_pick_shot}}}
-      {world_panel set_showing TRUE}
+      ;{world_panel set_showing TRUE}
+	  {if_else $focusmode {world_panel set_showing FALSE} {world_panel set_showing TRUE}} ;forces venue to stay off in focus mode
       {if_else {gamecfg get game_over_sequence}
          {do {if {== {gamecfg get_song} tonightimgonna}
                {do {script_task (delay DRUMMER_EXPLODE_DELAY) (units kTaskSeconds)
@@ -333,7 +334,8 @@
 	      {== {gamecfg get mode} quickplay} {== {gamecfg get mode} multi_coop}}} 
 		  {if {exists world} {world toggle_pick_shot}}
       }
-      {world_panel set_showing TRUE}
+      ;{world_panel set_showing TRUE}
+	  {if_else $focusmode {world_panel set_showing FALSE} {world_panel set_showing TRUE}} ;forces venue to stay off in focus mode
       {track_panel set_showing FALSE}
       {game set_realtime TRUE}
       {$this slow_music}

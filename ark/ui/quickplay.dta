@@ -18,7 +18,7 @@
       kDataUnhandled)
    (SELECT_START_MSG
 		
-		{ui goto_screen qp_diff_screen}
+		{ui goto_screen qp_diff_screen} ;skip qp_selpart_screen 
 		
 		;{ui goto_screen qp_selpart_screen}
 		kDataUnhandled
@@ -150,7 +150,7 @@
    GHScreen
    qp_diff_screen
 		
-		
+        ;get song info without practice_selpart_screen
 		($song {gamecfg get_song})
 		{song_provider get_instrument $song 0}
 		{gamecfg set_track 0 0}

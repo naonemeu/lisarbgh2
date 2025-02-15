@@ -6,7 +6,7 @@
    (competitive FALSE)
    
    #ifdef 2DBUG
-   (force_autoplay TRUE)
+   (force_autoplay FALSE)
    #else
    (force_autoplay FALSE)
    #endif

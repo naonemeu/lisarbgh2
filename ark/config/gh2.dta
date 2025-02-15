@@ -297,6 +297,8 @@
    (sp_deploy_repeat_delay 7))
 (guitars
    #include guitars.dta)
+   
+; DX/Encore characters
 #ifndef 2DBUG
 #ifndef 8DBUG
 #ifndef GH1RX
@@ -330,10 +332,27 @@
    (funk1
       (funk1))
    ({if_else $game80s grimencore grimencore}
-      ({if_else $game80s grimencore grim})))
+      ({if_else $game80s grimencore grim}))
+	  
+;80s in GH2 Mod
+	(punkencore
+      (punkencore))
+   (alternaencore
+      (alternaencore))
+   (glamencore
+      (glamencore))
+   (gothencore
+      (gothencore))
+   (metalencore
+      (metalencore))
+   (grimencore
+      (grimencore))
+)
 #endif
 #endif
 #endif
+
+; Debug characters
 #ifndef _SHIP
 #ifndef _ENCO
 #ifndef _ONYX
@@ -375,6 +394,8 @@
 #endif
 #endif
 #endif
+
+; GH1 Redux characters
 #ifdef GH1RX
 (characters
    (punkgh1

@@ -154,8 +154,7 @@
    GHScreen
    practice_diff_screen
    
-		
-		
+        ;get song info without practice_selpart_screen
 		($song {gamecfg get_song})
 		{song_provider get_instrument $song 0}
 		{gamecfg set_track 0 0}
