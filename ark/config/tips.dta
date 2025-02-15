@@ -56,8 +56,6 @@
    ; (comedy_tip_gh2_13)
    ; (comedy_tip_gh2_14)
    ; (comedy_tip_gh2_15)
-   
-   
    (easy_tip1
       (diff kDifficultyEasy))
    (easy_tip2
@@ -78,28 +76,29 @@
       (diff kDifficultyHard))
    (hard_tip3
       (diff kDifficultyHard))
-	  
-	  
-   ; (advanced_tip1
-      ; (diff kDifficultyMedium kDifficultyHard kDifficultyExpert))
-   ; (advanced_tip2
-      ; (diff kDifficultyMedium kDifficultyHard kDifficultyExpert))
-   ; (advanced_tip3
-      ; (diff kDifficultyMedium kDifficultyHard kDifficultyExpert))
-   ; (advanced_tip4
-      ; (diff kDifficultyMedium kDifficultyHard kDifficultyExpert))
-   ; (advanced_tip5
-      ; (diff kDifficultyMedium kDifficultyHard kDifficultyExpert))
-   ; (advanced_tip6
-      ; (diff kDifficultyMedium kDifficultyHard kDifficultyExpert))
-   ; (advanced_tip7
-      ; (diff kDifficultyMedium kDifficultyHard kDifficultyExpert))
-   ; (advanced_tip8
-      ; (diff kDifficultyMedium kDifficultyHard kDifficultyExpert))
-   ; (advanced_tip9
-      ; (diff kDifficultyMedium kDifficultyHard kDifficultyExpert))
-   ; (advanced_tip10
-      ; (diff kDifficultyMedium kDifficultyHard kDifficultyExpert))
+   (advanced_tip1
+      (diff kDifficultyMedium kDifficultyHard kDifficultyExpert))
+   (advanced_tip2
+      (diff kDifficultyMedium kDifficultyHard kDifficultyExpert))
+   (advanced_tip3
+      (diff kDifficultyMedium kDifficultyHard kDifficultyExpert))
+   (advanced_tip4
+      (diff kDifficultyMedium kDifficultyHard kDifficultyExpert))
+   (advanced_tip5
+      (diff kDifficultyMedium kDifficultyHard kDifficultyExpert))
+   (advanced_tip6
+      (diff kDifficultyMedium kDifficultyHard kDifficultyExpert))
+   (advanced_tip7
+      (diff kDifficultyMedium kDifficultyHard kDifficultyExpert))
+   (advanced_tip8
+      (diff kDifficultyMedium kDifficultyHard kDifficultyExpert))
+   (advanced_tip9
+      (diff kDifficultyMedium kDifficultyHard kDifficultyExpert))
+   (advanced_tip10
+      (diff kDifficultyMedium kDifficultyHard kDifficultyExpert))
+   
+   (lisarbtest_tip_1) (lisarbtest_tip_2) (lisarbtest_tip_3) (lisarbtest_tip_4) (lisarbtest_tip_5)
+   (lisarbtest_tip_1) (lisarbtest_tip_2) (lisarbtest_tip_3) (lisarbtest_tip_4) (lisarbtest_tip_5)
 )
 
 (tips_multi_coop

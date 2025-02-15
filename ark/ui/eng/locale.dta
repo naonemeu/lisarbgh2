@@ -13,7 +13,7 @@
          ; $game80s
          ; "Guitar Hero Encore Deluxe © 2006 RedOctane, Inc.\nModifications © 2021 MiloHax. See credits for all contributors.\nOriginal game code © 2005-2006 Harmonix Music Systems, Inc. Developed by Harmonix Music Systems." ;(não traduzido)
          ; "Guitar Hero II Deluxe © 2006 RedOctane, Inc.\nModificações © 2021 MiloHax. Veja 'credits' para todos contribuintes.\nCódigo original © 2005-2006 Harmonix Music Systems, Inc. Desenvolvido por Harmonix Music Systems."}}
-"Lisarb Remastered versao GH2 - Por Naonemeu - 2025\nVersao de teste 01a"
+"LISARB REMASTERED VERSÃO GH2DX - POR NAONEMEU\n2025 - VERSÃO DE TESTE 02A"
 )
 
 (guitar_help_using
@@ -141,11 +141,11 @@
 (op_data_settings
    "Quando que") ;"Gerenciar banda") ;1
 (op_game_settings
-   "Opções de Áudio ")
+   "Áudio ")
 (op_video_settings
-   "Opções de Vídeo")
+   "Vídeo")
 (op_memcard
-   "vai sar a  versao") ;"Opções de Dados") ;2
+   "vai sar a versao") ;"Opções de Dados") ;2
 (GAME_SETTINGS
    "OPÇÕES DE ÁUDIO")
 (LEFT_PLAYER_1

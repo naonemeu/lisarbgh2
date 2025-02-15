@@ -5,7 +5,7 @@
 #ifndef GH1RX
 (order
    (battle money razoeseemocoes soporumanoite demusicaligeira espelhosmagicos rebirth)
-   (small1 irreversivel annajulia cherrypie woman youreallygotme tonightimgonna)
+   (small1 diasdeluta annajulia irreversivel pegasusfantasy lukeeusouseupai thebull)
    (small2)
    (big)
    (theatre)
@@ -133,7 +133,8 @@
 #ifndef 8DBUG
 #ifndef GH1RX
 (order
-   (battle speedtest)
+   ;(battle speedtest)
+   (battle piao)
    (battle2)
    (small1)
    (small3)

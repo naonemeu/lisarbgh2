@@ -10,15 +10,24 @@
             (strum help_updown))))
    (sel_song_career FALSE)
    (enter
-      {gamecfg set practice_speed 0})
+      {gamecfg set practice_speed 0}
+	  {gamecfg set mode practice}) ;fix could not find world
    (SELECT_START_MSG
-      {ui goto_screen practice_selpart_screen}
-      kDataUnhandled)}
+      ;{ui goto_screen practice_selpart_screen}
+	  {ui goto_screen practice_diff_screen}
+      kDataUnhandled)
+}
+
+
+
+
 {new
    UIPanel
    selpart_bg_panel
    (file
-      {if_else $game80s selpart_bg_80s.milo selpart_bg.milo})}
+      {if_else $game80s selpart_bg_80s.milo selpart_bg.milo})
+}
+
 {new
    GHPanel
    practice_selpart_panel
@@ -28,8 +37,7 @@
    (sel_buttons part0.btn part1.btn part2.btn)
    (set_button_text
       {do
-         ($song
-            {gamecfg get_song})
+         ($song {gamecfg get_song})
          {part0.btn
             set_text
             {sprint
@@ -85,17 +93,16 @@
          #endif
          #endif
          #endif})
+
    (enter
       {do
-         ($song
-            {gamecfg get_song})
-         {switch
-            {song_provider get_instrument $song 1}
-            (bass
-               {gamecfg set_track_type bass})
-            (rhythm
-               {gamecfg set_track_type rhythm})}
-         {$this set_button_text}})
+         ($song {gamecfg get_song})
+         {switch {song_provider get_instrument $song 1}
+            (bass {gamecfg set_track_type bass})
+            (rhythm {gamecfg set_track_type rhythm})}
+         {$this set_button_text}}
+   )
+
    (SELECT_START_MSG
       {if
          {== $component part0.btn}
@@ -108,6 +115,10 @@
          {gamecfg set_track 0 2}
          {set $roygb TRUE}}
       {ui goto_screen practice_diff_screen})}
+
+
+
+
 {new
    GHScreen
    practice_selpart_screen
@@ -120,6 +131,10 @@
          ((fret1 help_continue)
             (fret2 help_back)
             (strum help_updown))))}
+
+
+
+
 {new
    GHPanel
    sel_diff_practice_panel
@@ -131,12 +146,31 @@
    (last_difficulty
       {game get_difficulty 0})
    (update_difficulty)}
+
+
+
+
 {new
    GHScreen
    practice_diff_screen
+   
+		
+		
+		($song {gamecfg get_song})
+		{song_provider get_instrument $song 0}
+		{gamecfg set_track 0 0}
+		
+         ($song {gamecfg get_song})
+         {switch {song_provider get_instrument $song 1}
+            (bass {gamecfg set_track_type bass})
+            (rhythm {gamecfg set_track_type rhythm})}
+         {$this set_button_text}
+		
+   
    (panels meta sel_diff_practice_panel helpbar)
    (focus sel_diff_practice_panel)
-   (back_screen practice_selpart_screen)
+   ;(back_screen practice_selpart_screen)
+   (back_screen practice_selsong_screen)
    (helpbar
       (default
          ((fret1 help_continue)

@@ -1,6 +1,115 @@
 
 ;lisarbgh2
 
+(diasdeluta
+   (name "Dias De Luta")
+   (artist "Ira!")
+   (caption performed_by)
+   (song 
+   (name songs/diasdeluta/diasdeluta) 
+   (tracks ((guitar 2) (bass 2) (fake 2)))
+      (pans (-1.0 1.0 -1.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/diasdeluta/diasdeluta.mid))
+
+   (song_vs (name songs/diasdeluta/diasdeluta)
+      (tracks ((guitar (2)) (bass 2)))
+      (pans (-1.0 1.0 -1.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/diasdeluta/diasdeluta.mid))
+
+   (anim_tempo kTempoFast)
+   (preview 82150 112150)
+   (quickplay
+      (character_outfit classic)
+      (guitar lespaul)
+      (venue arena))
+)
+
+(lukeeusouseupai
+   (name "Luke, eu sou seu pai")
+   (artist "Os Seminovos")
+   (caption performed_by)
+   (song 
+   (name songs/lukeeusouseupai/lukeeusouseupai) 
+   (tracks ((guitar 2) (bass 2) (fake 2)))
+      (pans (-1.0 1.0 -1.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/lukeeusouseupai/lukeeusouseupai.mid)
+      (hopo_threshold 250))
+
+   (song_vs (name songs/lukeeusouseupai/lukeeusouseupai)
+      (tracks ((guitar (2)) (bass 2)))
+      (pans (-1.0 1.0 -1.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/lukeeusouseupai/lukeeusouseupai.mid))
+
+   (anim_tempo kTempoFast)
+   (preview 80000 110000)
+   (quickplay
+      (character_outfit classic)
+      (guitar lespaul)
+      (venue arena))
+)
+
+(pegasusfantasy
+   (name "Pegasus Fantasy Ultimate")
+   (artist "Edu Falaschi")
+   (caption performed_by)
+   (song 
+   (name songs/pegasusfantasy/pegasusfantasy) 
+   (tracks ((guitar 2) (bass 2) (fake 2)))
+      (pans (-1.0 1.0 -1.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/pegasusfantasy/pegasusfantasy.mid))
+
+   (song_vs (name songs/pegasusfantasy/pegasusfantasy)
+      (tracks ((guitar (2)) (bass 2)))
+      (pans (-1.0 1.0 -1.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/pegasusfantasy/pegasusfantasy.mid))
+
+   (anim_tempo kTempoFast)
+   (preview 49500 79500)
+   (quickplay
+      (character_outfit classic)
+      (guitar lespaul)
+      (venue arena))
+)
+
+(thebull
+   (name "The Bull")
+   (artist "Masscration")
+   (caption performed_by)
+   (song 
+   (name songs/thebull/thebull) 
+   (tracks ((guitar 2) (bass 2) (fake 2)))
+      (pans (-1.0 1.0 -1.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/thebull/thebull.mid))
+
+   (song_vs (name songs/thebull/thebull)
+      (tracks ((guitar (2)) (bass 2)))
+      (pans (-1.0 1.0 -1.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/thebull/thebull.mid))
+
+   (anim_tempo kTempoFast)
+   (preview 174890 204890)
+   (quickplay
+      (character_outfit classic)
+      (guitar lespaul)
+      (venue arena))
+)
+
 (annajulia
    (name
       "Anna Julia")

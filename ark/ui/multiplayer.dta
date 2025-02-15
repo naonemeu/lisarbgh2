@@ -8,6 +8,7 @@
    {$this enable faceoff.btn} ;Foda-se. Pra que não ter PFO sem terminar a carreira?
    {faceoff.btn set_showing TRUE}
    {$this disable coop.btn} ;Desativar coop
+   ;{coop.btn set_showing FALSE}
       ;{if_else
          ;{campaign is_unlocked multi_fo}
          ;{do
@@ -16,20 +17,21 @@
         ;{do
             ;{$this enable faceoff.btn} 
             ;{faceoff.btn set_showing TRUE}}}
-			) 
-			
+			)
+
    (SELECT_START_MSG
       {switch
          $component
-         (coop.btn
-            {gamecfg set mode multi_coop}
-            {ui goto_screen multi_coop_venue_screen})
          (versus.btn
             {gamecfg set mode multi_vs}
             {ui goto_screen multi_sel_character_screen})
          (faceoff.btn
             {gamecfg set mode multi_fo}
-            {ui goto_screen multi_sel_character_screen})})}
+            {ui goto_screen multi_sel_character_screen})
+         (coop.btn
+            {gamecfg set mode multi_coop}
+            {ui goto_screen multi_coop_venue_screen})})}
+
 {new
    GHScreen
    multi_screen

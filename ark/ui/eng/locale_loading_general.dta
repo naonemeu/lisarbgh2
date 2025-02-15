@@ -13,7 +13,7 @@
     ;  $game80s
     ;  "No worries - \qBecause, It's Midnite\q isn't a campaign song anymore. Pays to use cut songs."
     ;  "We've reordered the setlist to match the 360 version of Guitar Hero II. It should be a bit easier to progress now."})
-	"Pro pessoal que queria todas as dificuldades: deixe o seu comentário/feedback! Faz anos que nao mexo com chart fora do Expert")
+    "Calma lá que a setlist final ira sair algum dia! Mas não adianta ficar enchendo o saco.")
 (milo_tip6
    "De uma olhada no menu de \qExtras\q do modo rápido (Quick Play). Ha vários cheats do GH2 original la. (Faz parte do GH2 Deluxe)")
 (milo_tip7
@@ -33,7 +33,7 @@
    ;   $game80s
    ;   "We fixed the strum limit so you don't have to. Go check out Trogdor on the OTHER setlist and see how it feels."
    ;   "We fixed the strum limit so you don't have to. Go check out Trogdor and see how it feels."})
-   "Não é o Brazucas! ...mas eu posso chamar a ISO de \qGuitar Hero Brazucas 5\q")
+   "Não é o Brazucas! ...mas eu posso chamar a ISO de\n\qGuitar Hero Brazucas 5\q")
 (milo_tip12
    "Pela enésima vez: Essa ISO NÃO e o Brazucas!")
 (milo_tip13
@@ -55,9 +55,9 @@
 (easy_tip2
    "Se tiver uma nota azul no Easy, ops... foi acidental.")
 (easy_tip3
-   "Tenta jogar no Easy em 200% de velocidade, e divertido.")
-(easy_tip4
    "Pro pessoal que queria todas as dificuldades: deixe o seu comentário/feedback! Faz anos que nao mexo com chart fora do Expert.\n(Você está jogando no Easy, acertei?)")
+(easy_tip4
+   "Tenta jogar no Easy em 200% de velocidade, e divertido.")
    
    
 (medium_tip1
@@ -79,24 +79,25 @@
 (advanced_tip1
    "Stuck on a song? Try getting five stars on an easier one.")
 (advanced_tip2
-   "Save your Star Power for sections with many notes. You'll get more points and bigger Rock Meter boosts.")
+   "Salve o \qStar Power\q para seções com mais notas. Isso vai garantir mais pontos no total.")
 (advanced_tip3
-   "Chords are worth more points than regular notes!")
+   "Ao contrário do GH3 e Clone Hero, os pontos ganhos na nota longa dupla ou tripla valem mais do que uma individual.")
 (advanced_tip4
-   "Strum up and down to keep your arm from wearing out during fast passages.")
+   "Pegue o ritmo de palhetar pra cima e pra baixo para se cansar menos. (Se tiver jogando na guitarra)")
 (advanced_tip5
-   {if_else
-      $game80s
-      "Pick up characters, guitars, bonus songs, and more at The Store."
-      "Pick up characters, outfits, guitars, bonus songs, and more at The Store."})
+   ;{if_else
+   ;   $game80s
+   ;   "Pick up characters, guitars, bonus songs, and more at The Store."
+   ;   "Pick up characters, outfits, guitars, bonus songs, and more at The Store."})
+   "Compre novos personagens, roupas, guitarras e músicas bonus na loja.")
 (advanced_tip6
-   "Try the debug executable if you're so inclined - it adds a ton of fun and useful diagnostic tools and cheats for testing your mods and getting around the game quickly.")
+   "Caso queira modificar o GH2 Deluxe, o jogo inclui um executável de debug, que facilita a criação de modificações!")
 (advanced_tip7
-   "If you hit a note at the last possible moment after activating Star Power, you'll \qsqueeze\q it into your Star Power combo and gain extra points for it.")
+   "Se acertar uma nota no ultimo momento possível apos ativar o Star Power, você fez um \qsqueeze\q, conseguindo mais pontos na duração do Star Power.")
 (advanced_tip8
-   "Focus Mode, available in the Modifiers menu, replaces the stage with a black void, which can speed up the game and improve performance if you need a boost.")
+   "\qFocus Mode\q, disponível do menus de extras ou da lista, permite desativar o fundo do jogo, conseguindo mais perfomance no emulador.")
 (advanced_tip9
-   "Each song has a \qpath\q of Star Power activations - when's most ideal to activate and when you should save up. Learning and using one is the key to top-tier scores.")
+   "Cada música tem seu \qpath\q, que é o melhor momento de ativar todos os Star Power durante a música.\n(É \qPATH\q, não \qPATCH\q")
 (advanced_tip10
    "If you're clutch enough, during fast solos, strum with your elbow and use both hands for the frets.")
 (multi_coop_tip1
@@ -129,4 +130,17 @@
    "Você deve estar se perguntando: \qSe era pra ter uma banda por música, porque tem duas do Charlie Brown Jr?\q")
    
 (charter_tip1
-   "I've said before that charting is a mostly thankless job. That still rings true. Once every few months, someone would thank me. Truth is that I slightly resent that fact -Maupy2")
+   ;"I've said before that charting is a mostly thankless job. That still rings true. Once every few months, someone would thank me. Truth is that I slightly resent that fact -Maupy2"
+   "\qEu já disse antes que charting é na maior parte um trabalho \qingrato\q (thankless). Isso ainda é verdade. Uma vez a cada uns meses, alguém me agradecia. A verdade é que eu ainda estou ressentido desse fato\q  -Maupy2")
+   
+;AVISOS - OPL e EMU
+(lisarbtest_tip_1
+   "Essa ISO NÃO FOI testada no AetherSX2!")
+(lisarbtest_tip_2
+   "Configure certo o seu OPL, principalmente se tiver pelo USB. O jogo foi testado e texturas das notas/gems foram modificadas de forma a reduzir os lags no USB")
+(lisarbtest_tip_3
+   "Pela enésima vez: Essa ISO NÃO e o Brazucas!")
+(lisarbtest_tip_4
+   "Essa ISO foi testada no PCSX2!\nUse a versão mais recente.")
+(lisarbtest_tip_5
+   "Para os antigos na comunidade: Essa ISO foi feito com programas modernos! Nada de GHEX (eca) ou DTB Editor. (Procure por \qArkhelper GH2\q e \qMilohax\q se tiver curiosidade)")

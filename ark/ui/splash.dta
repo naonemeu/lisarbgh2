@@ -4,7 +4,7 @@
       intro1.pss
       {if_else $game80s intro2.pss intro.pss}})
 #define DELAY_BEFORE_ATTRACT_SEC
-(20)
+(20) ;default - 20
 {new
    HelpBarPanel
    helpbar

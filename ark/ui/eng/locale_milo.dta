@@ -1,30 +1,30 @@
 (note_streak_popup_p0
-   {if_else
-      $egg5
-      {sprint
-         $player0_streak
-         " NOTES IN A ROW!"}
-      {sprint
-         $player0_streak
-         " NOTE STREAK!"}})
+   ;{if_else
+   ;   $egg5
+   ;   {sprint $player0_streak " NOTES IN A ROW!"}
+      ;{sprint $player0_streak " NOTE STREAK!"}
+	  {sprint "COMBO DE " $player0_streak " NOTAS!"}
+	;}
+)
+	
 (note_streak_popup_p1
-   {if_else
-      $egg5
-      {sprint
-         $player1_streak
-         " NOTES IN A ROW!"}
-      {sprint
-         $player1_streak
-         " NOTE STREAK!"}})
+   ;{if_else
+   ;   $egg5
+   ;   {sprint $player0_streak " NOTES IN A ROW!"}
+      ;{sprint $player0_streak " NOTE STREAK!"}
+	  {sprint "COMBO DE " $player0_streak " NOTAS!"}
+	;}
+)
+
 (note_streak_popup_p2
-   {if_else
-      $egg5
-      {sprint
-         $player2_streak
-         " NOTES IN A ROW!"}
-      {sprint
-         $player2_streak
-         " NOTE STREAK!"}})
+   ;{if_else
+   ;   $egg5
+   ;   {sprint $player0_streak " NOTES IN A ROW!"}
+      ;{sprint $player0_streak " NOTE STREAK!"}
+	  {sprint "COMBO DE " $player0_streak " NOTAS!"}
+	;}
+)
+
 (eg_streak_format
    {if_else
       {==
@@ -319,3 +319,84 @@
    "\qTHIS JUST ISN'T MY BAND ANYMORE\q SAYS FORMER SINGER")
 (toogle_label
    "AUTOPLAY")
+
+;lisarb gh2 - debug Naonemeu
+;startfromhere
+
+;LISARB GH2 - locale_authors
+
+(diasdeluta_author
+   "Naonemeu, FilipinDuMods")
+
+;DUMMY
+
+(money_author
+   "Naonemeu")
+
+(razoeseemocoes_author
+   "Naonemeu")
+
+(soporumanoite_author
+   "Naonemeu")
+
+(demusicaligeira_author
+   "Naonemeu")
+
+(espelhosmagicos_author
+   "Naonemeu")
+
+(rebirth_author
+   "Naonemeu")
+
+(irreversivel_author
+   "Naonemeu")
+
+(annajulia_author
+   "Naonemeu")
+
+(thebull_author
+   "Naonemeu")
+
+(pegasusfantasy_author
+   "Naonemeu")
+
+(lukeeusouseupai_author
+   "Naonemeu")
+;LISARB GH2 - locale_year
+
+(money_year
+   "1995")
+
+(razoeseemocoes_year
+   "2006")
+
+(soporumanoite_year
+   "2002")
+
+(demusicaligeira_year
+   "1996")
+
+(espelhosmagicos_year
+   "1996")
+
+(rebirth_year
+   "2001")
+
+(irreversivel_year
+   "2005")
+
+(annajulia_year
+   "1999")
+
+(thebull_year
+   "2009")
+
+(pegasusfantasy_year
+   "2024")
+
+(lukeeusouseupai_year
+   "2010")
+
+(diasdeluta_year
+   "1986")
+
