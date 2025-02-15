@@ -1581,7 +1581,16 @@
       kDataUnhandled)
    (SELECT_START_MSG
       {sel_song_panel set metamusic_on_exit TRUE}
-      {ui goto_screen career_selpart_screen}
+      
+       ;get song info without career_selpart_screen
+	   ;do is needed so "($song {gamecfg get_song})" runs within a function(?) - it doesn't work alone
+       {do ($song {gamecfg get_song})
+       {song_provider get_instrument $song 0}
+       {gamecfg set_track 0 0}
+	   }
+	   
+       ;{ui goto_screen career_selpart_screen}
+       {ui goto_screen loading_screen} ;Skip selpart_screen
       kDataUnhandled)}
 {new
    UIPanel
