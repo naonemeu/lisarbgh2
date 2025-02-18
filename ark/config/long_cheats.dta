@@ -16,248 +16,48 @@
 (kPad_X)
 #define G_ORANGE
 (kPad_Square)
-((G_ORANGE G_BLUE G_ORANGE G_YELLOW G_ORANGE G_BLUE G_ORANGE G_YELLOW)
+
+((G_ORANGE G_ORANGE G_ORANGE)
+   {if CHEATS_ALLOWED
+      {if_else {!= $trackspd 1.5}
+         {do
+            {set $trackspd 1.5}
+            {main_screen display_cheat_msg cheat_hyper_speed_mode TRUE}
+            {play_sfx cheat}
+}
+         {do
+            {set $trackspd 1.0}
+            {main_screen display_cheat_msg cheat_hyper_speed_mode FALSE}
+            {play_sfx cheat_off}}
+        }
+    }
+)
+
+((G_RED G_RED G_RED)
+   {do {play_sfx cheat}}
    {if
-      {exists ui}
-      {do
-         {if
-            {!
-               {'||'
-                  {==
-                     {ui current_screen}
-                     easter_egg_screen1}
-                  {==
-                     {ui current_screen}
-                     easter_egg_screen2}
-                  {==
-                     {ui current_screen}
-                     easter_egg_screen3}
-                  {==
-                     {ui current_screen}
-                     easter_egg_screen4}
-                  {==
-                     {ui current_screen}
-                     final_egg_screen}}}
-            {set
-               $egg_back
-               {ui current_screen}}}
-         {switch
-            $egg_back
-            (main_screen
-               {do
-                  {set $egg1 TRUE}
-                  {set $game80s FALSE}
-                  {set $gamegh1 FALSE}
-                  {ui goto_screen easter_egg_screen1}})
-            (video_settings_screen
-               {do
-                  {set $egg2 TRUE}
-                  {set $game80s FALSE}
-                  {set $gamegh1 TRUE}
-                  {ui goto_screen easter_egg_screen2}})
-            (qp_diff_screen
-               {do
-                  {set $egg3 TRUE}
-                  {set $game80s TRUE}
-                  {set $gamegh1 FALSE}
-                  {ui goto_screen easter_egg_screen3}})
-            (options_chooseprof_screen
-               {do
-                  {set $egg4 TRUE}
-                  {set $game80s FALSE}
-                  {set $gamegh1 FALSE}
-                  {ui goto_screen easter_egg_screen4}})
-            (credits_screen
-               {if
-                  {&& $egg1 $egg2 $egg3 $egg4}
-                  {do
-                     {set $egg5 TRUE}
-                     {set $game80s FALSE}
-                     {set $gamegh1 FALSE}
-                     {ui goto_screen final_egg_screen}}})}}})
-((G_YELLOW G_ORANGE G_BLUE G_ORANGE G_YELLOW G_ORANGE G_BLUE G_ORANGE)
-   {if
-      {exists ui}
-      {do
-         {if
-            {!
-               {'||'
-                  {==
-                     {ui current_screen}
-                     easter_egg_screen1}
-                  {==
-                     {ui current_screen}
-                     easter_egg_screen2}
-                  {==
-                     {ui current_screen}
-                     easter_egg_screen3}
-                  {==
-                     {ui current_screen}
-                     easter_egg_screen4}
-                  {==
-                     {ui current_screen}
-                     final_egg_screen}}}
-            {set
-               $egg_back
-               {ui current_screen}}}
-         {switch
-            $egg_back
-            (main_screen
-               {do
-                  {set $egg1 TRUE}
-                  {set $game80s FALSE}
-                  {set $gamegh1 FALSE}
-                  {ui goto_screen easter_egg_screen1}})
-            (video_settings_screen
-               {do
-                  {set $egg2 TRUE}
-                  {set $game80s FALSE}
-                  {set $gamegh1 TRUE}
-                  {ui goto_screen easter_egg_screen2}})
-            (qp_diff_screen
-               {do
-                  {set $egg3 TRUE}
-                  {set $game80s TRUE}
-                  {set $gamegh1 FALSE}
-                  {ui goto_screen easter_egg_screen3}})
-            (options_chooseprof_screen
-               {do
-                  {set $egg4 TRUE}
-                  {set $game80s FALSE}
-                  {set $gamegh1 FALSE}
-                  {ui goto_screen easter_egg_screen4}})
-            (credits_screen
-               {if
-                  {&& $egg1 $egg2 $egg3 $egg4}
-                  {do
-                     {set $egg5 TRUE}
-                     {set $game80s FALSE}
-                     {set $gamegh1 FALSE}
-                     {ui goto_screen final_egg_screen}}})}}})
-((G_BLUE G_ORANGE G_YELLOW G_ORANGE G_BLUE G_ORANGE G_YELLOW G_YELLOW)
-   {if
-      {exists ui}
-      {do
-         {if
-            {!
-               {'||'
-                  {==
-                     {ui current_screen}
-                     easter_egg_screen1}
-                  {==
-                     {ui current_screen}
-                     easter_egg_screen2}
-                  {==
-                     {ui current_screen}
-                     easter_egg_screen3}
-                  {==
-                     {ui current_screen}
-                     easter_egg_screen4}
-                  {==
-                     {ui current_screen}
-                     final_egg_screen}}}
-            {set
-               $egg_back
-               {ui current_screen}}}
-         {switch
-            $egg_back
-            (main_screen
-               {do
-                  {set $egg1 TRUE}
-                  {set $game80s FALSE}
-                  {set $gamegh1 FALSE}
-                  {ui goto_screen easter_egg_screen1}})
-            (video_settings_screen
-               {do
-                  {set $egg2 TRUE}
-                  {set $game80s FALSE}
-                  {set $gamegh1 TRUE}
-                  {ui goto_screen easter_egg_screen2}})
-            (qp_diff_screen
-               {do
-                  {set $egg3 TRUE}
-                  {set $game80s TRUE}
-                  {set $gamegh1 FALSE}
-                  {ui goto_screen easter_egg_screen3}})
-            (options_chooseprof_screen
-               {do
-                  {set $egg4 TRUE}
-                  {set $game80s FALSE}
-                  {set $gamegh1 FALSE}
-                  {ui goto_screen easter_egg_screen4}})
-            (credits_screen
-               {if
-                  {&& $egg1 $egg2 $egg3 $egg4}
-                  {do
-                     {set $egg5 TRUE}
-                     {set $game80s FALSE}
-                     {set $gamegh1 FALSE}
-                     {ui goto_screen final_egg_screen}}})}}})
-((G_YELLOW G_BLUE G_ORANGE G_ORANGE G_BLUE G_YELLOW G_YELLOW G_ORANGE)
-   {if
-      {exists ui}
-      {do
-         {if
-            {!
-               {'||'
-                  {==
-                     {ui current_screen}
-                     easter_egg_screen1}
-                  {==
-                     {ui current_screen}
-                     easter_egg_screen2}
-                  {==
-                     {ui current_screen}
-                     easter_egg_screen3}
-                  {==
-                     {ui current_screen}
-                     easter_egg_screen4}
-                  {==
-                     {ui current_screen}
-                     final_egg_screen}}}
-            {set
-               $egg_back
-               {ui current_screen}}}
-         {switch
-            $egg_back
-            (main_screen
-               {do
-                  {set $egg1 TRUE}
-                  {set $game80s FALSE}
-                  {set $gamegh1 FALSE}
-                  {ui goto_screen easter_egg_screen1}})
-            (video_settings_screen
-               {do
-                  {set $egg2 TRUE}
-                  {set $game80s FALSE}
-                  {set $gamegh1 TRUE}
-                  {ui goto_screen easter_egg_screen2}})
-            (qp_diff_screen
-               {do
-                  {set $egg3 TRUE}
-                  {set $game80s TRUE}
-                  {set $gamegh1 FALSE}
-                  {ui goto_screen easter_egg_screen3}})
-            (options_chooseprof_screen
-               {do
-                  {set $egg4 TRUE}
-                  {set $game80s FALSE}
-                  {set $gamegh1 FALSE}
-                  {ui goto_screen easter_egg_screen4}})
-            (credits_screen
-               {if
-                  {&& $egg1 $egg2 $egg3 $egg4}
-                  {do
-                     {set $egg5 TRUE}
-                     {set $game80s FALSE}
-                     {set $gamegh1 FALSE}
-                     {ui goto_screen final_egg_screen}}})}}})
+      {&& CHEATS_ALLOWED {! $cheat_enabled_unlock_all}}
+	  {$this disable main_career.btn}
+      {set $cheat_enabled_unlock_all 1}
+      {campaign set_all_access 1}
+      {set $disable_save 1}
+      {set $disable_career 1}
+      {main_screen display_cheat_msg cheat_unlock_all TRUE}
+      {{game get_player_config 0} set autoplay TRUE}
+      {play_sfx cheat}
+    }
+)
+
+#ifdef 2DBUG
+((G_YELLOW G_YELLOW G_YELLOW)
+   {{game get_player_config 0} set autoplay TRUE}
+   {{game get_player_config 1} set autoplay TRUE}
+   {play_sfx cheat}
+)
+#endif
+
 ((kPad_Select kPad_Select)
-   {if
-      {&&
-         {exists ui}
-         {!
-            {ui in_transition}}
+   {if {&& {exists ui} {! {ui in_transition}}
          {'||'
             {==
                {ui current_screen}
@@ -273,226 +73,466 @@
                multi_coop_selsong_screen}
             {==
                {ui current_screen}
-               multi_fo_selsong_screen}}}
-      {set
-         $modifier_exit
-         {ui current_screen}}
+               multi_fo_selsong_screen}
+            }
+        }
+      {set $modifier_exit {ui current_screen}}
       {synth play_sequence button_select}
-      {ui goto_screen modifiers_screen}})
-((G_YELLOW G_ORANGE G_RED G_YELLOW G_ORANGE G_RED)
-   {if
-      CHEATS_ALLOWED
-      {if_else
-         $awesomeness
-         {do
-            {set $awesomeness FALSE}
-            {main_screen display_cheat_msg cheat_awesomeness FALSE}
-            {play_sfx cheat_off}}
-         {do
-            {set $awesomeness FALSE}
-            {main_screen display_cheat_msg cheat_awesomeness FALSE}
-            {play_sfx cheat_off}}}})
-((G_BLUE G_YELLOW G_ORANGE G_RED G_ORANGE G_YELLOW G_RED G_YELLOW G_RED G_YELLOW G_RED G_YELLOW G_RED G_YELLOW G_RED G_YELLOW)
-   {if
-      {&&
-         CHEATS_ALLOWED
-         {! $cheat_enabled_unlock_all}}
-      {set $cheat_enabled_unlock_all 1}
-      {campaign set_all_access 1}
-      {set $disable_save 1}
-      {set $disable_career 1}
-      {main_screen display_cheat_msg cheat_unlock_all TRUE}
-      {play_sfx cheat}})
-((G_BLUE G_ORANGE G_YELLOW G_RED G_ORANGE G_YELLOW G_BLUE G_YELLOW G_RED G_YELLOW G_BLUE G_YELLOW G_RED G_YELLOW G_BLUE G_YELLOW)
-   {if
-      {&&
-         CHEATS_ALLOWED
-         {! $cheat_enabled_unlock_all}}
-      {set $cheat_enabled_unlock_all 1}
-      {campaign set_all_access 1}
-      {set $disable_save 1}
-      {set $disable_career 1}
-      {main_screen display_cheat_msg cheat_unlock_all TRUE}
-      {play_sfx cheat}})
-((G_YELLOW G_BLUE G_ORANGE G_YELLOW G_BLUE G_ORANGE G_YELLOW G_BLUE G_ORANGE)
-   {if
-      CHEATS_ALLOWED
-      {if_else
-         $awesomeness
-         {do
-            {set $awesomeness FALSE}
-            {main_screen display_cheat_msg cheat_awesomeness FALSE}
-            {play_sfx cheat_off}}
-         {do
-            {set $awesomeness FALSE}
-            {main_screen display_cheat_msg cheat_awesomeness FALSE}
-            {play_sfx cheat_off}}}})
-((G_YELLOW G_YELLOW G_BLUE G_ORANGE G_YELLOW G_BLUE)
-   {if
-      CHEATS_ALLOWED
-      {if_else
-         $awesomeness
-         {do
-            {set $awesomeness FALSE}
-            {main_screen display_cheat_msg cheat_awesomeness FALSE}
-            {play_sfx cheat_off}}
-         {do
-            {set $awesomeness FALSE}
-            {main_screen display_cheat_msg cheat_awesomeness FALSE}
-            {play_sfx cheat_off}}}})
-((G_YELLOW G_YELLOW G_BLUE G_YELLOW G_YELLOW G_ORANGE G_YELLOW G_YELLOW)
-   {if
-      CHEATS_ALLOWED
-      {if_else
-         $awesomeness
-         {do
-            {set $awesomeness FALSE}
-            {main_screen display_cheat_msg cheat_awesomeness FALSE}
-            {play_sfx cheat_off}}
-         {do
-            {set $awesomeness FALSE}
-            {main_screen display_cheat_msg cheat_awesomeness FALSE}
-            {play_sfx cheat_off}}}})
-((G_BLUE G_ORANGE G_ORANGE G_BLUE G_ORANGE G_ORANGE G_BLUE G_ORANGE G_ORANGE G_BLUE)
-   {if
-      CHEATS_ALLOWED
-      {if_else
-         $awesomeness
-         {do
-            {set $awesomeness FALSE}
-            {main_screen display_cheat_msg cheat_awesomeness FALSE}
-            {play_sfx cheat_off}}
-         {do
-            {set $awesomeness FALSE}
-            {main_screen display_cheat_msg cheat_awesomeness FALSE}
-            {play_sfx cheat_off}}}})
-((G_ORANGE G_YELLOW G_ORANGE G_ORANGE G_YELLOW G_ORANGE G_YELLOW G_YELLOW)
-   {if
-      CHEATS_ALLOWED
-      {if_else
-         $awesomeness
-         {do
-            {set $awesomeness FALSE}
-            {main_screen display_cheat_msg cheat_awesomeness FALSE}
-            {play_sfx cheat_off}}
-         {do
-            {set $awesomeness FALSE}
-            {main_screen display_cheat_msg cheat_awesomeness FALSE}
-            {play_sfx cheat_off}}}})
-((G_BLUE G_ORANGE G_YELLOW G_ORANGE G_YELLOW G_ORANGE G_BLUE)
-   {if
-      CHEATS_ALLOWED
-      {if_else
-         $awesomeness
-         {do
-            {set $awesomeness FALSE}
-            {main_screen display_cheat_msg cheat_awesomeness FALSE}
-            {play_sfx cheat_off}}
-         {do
-            {set $awesomeness FALSE}
-            {main_screen display_cheat_msg cheat_awesomeness FALSE}
-            {play_sfx cheat_off}}}})
-((G_ORANGE G_BLUE G_YELLOW G_YELLOW G_ORANGE G_BLUE G_YELLOW G_YELLOW)
-   {if
-      CHEATS_ALLOWED
-      {if_else
-         $awesomeness
-         {do
-            {set $awesomeness FALSE}
-            {main_screen display_cheat_msg cheat_awesomeness FALSE}
-            {play_sfx cheat_off}}
-         {do
-            {set $awesomeness FALSE}
-            {main_screen display_cheat_msg cheat_awesomeness FALSE}
-            {play_sfx cheat_off}}}})
-((G_ORANGE G_RED G_ORANGE G_RED G_ORANGE G_BLUE)
-   {if
-      CHEATS_ALLOWED
-      {if_else
-         $awesomeness
-         {do
-            {set $awesomeness FALSE}
-            {main_screen display_cheat_msg cheat_awesomeness FALSE}
-            {play_sfx cheat_off}}
-         {do
-            {set $awesomeness FALSE}
-            {main_screen display_cheat_msg cheat_awesomeness FALSE}
-            {play_sfx cheat_off}}}})
-((G_YELLOW G_BLUE G_YELLOW G_ORANGE G_BLUE G_BLUE)
-   {if
-      CHEATS_ALLOWED
-      {if_else
-         $awesomeness
-         {do
-            {set $awesomeness FALSE}
-            {main_screen display_cheat_msg cheat_awesomeness FALSE}
-            {play_sfx cheat_off}}
-         {do
-            {set $awesomeness FALSE}
-            {main_screen display_cheat_msg cheat_awesomeness FALSE}
-            {play_sfx cheat_off}}}})
-((G_BLUE G_BLUE G_ORANGE G_YELLOW G_YELLOW G_BLUE G_ORANGE G_BLUE)
-   {if
-      CHEATS_ALLOWED
-      {if_else
-         $awesomeness
-         {do
-            {set $awesomeness FALSE}
-            {main_screen display_cheat_msg cheat_awesomeness FALSE}
-            {play_sfx cheat_off}}
-         {do
-            {set $awesomeness FALSE}
-            {main_screen display_cheat_msg cheat_awesomeness FALSE}
-            {play_sfx cheat_off}}}})
-((G_BLUE G_ORANGE G_ORANGE G_BLUE G_YELLOW G_BLUE G_ORANGE G_ORANGE G_BLUE G_YELLOW)
-   {if
-      CHEATS_ALLOWED
-      {if_else
-         $awesomeness
-         {do
-            {set $awesomeness FALSE}
-            {main_screen display_cheat_msg cheat_awesomeness FALSE}
-            {play_sfx cheat_off}}
-         {do
-            {set $awesomeness FALSE}
-            {main_screen display_cheat_msg cheat_awesomeness FALSE}
-            {play_sfx cheat_off}}}})
-((G_YELLOW G_ORANGE G_YELLOW G_ORANGE G_YELLOW G_ORANGE G_BLUE G_ORANGE)
-   {if
-      CHEATS_ALLOWED
-      {if_else
-         $awesomeness
-         {do
-            {set $awesomeness FALSE}
-            {main_screen display_cheat_msg cheat_awesomeness FALSE}
-            {play_sfx cheat_off}}
-         {do
-            {set $awesomeness FALSE}
-            {main_screen display_cheat_msg cheat_awesomeness FALSE}
-            {play_sfx cheat_off}}}})
-((G_YELLOW G_BLUE G_ORANGE G_ORANGE G_ORANGE G_BLUE G_YELLOW)
-   {if
-      CHEATS_ALLOWED
-      {if_else
-         $awesomeness
-         {do
-            {set $awesomeness FALSE}
-            {main_screen display_cheat_msg cheat_awesomeness FALSE}
-            {play_sfx cheat_off}}
-         {do
-            {set $awesomeness FALSE}
-            {main_screen display_cheat_msg cheat_awesomeness FALSE}
-            {play_sfx cheat_off}}}})
-((G_BLUE G_BLUE G_ORANGE G_YELLOW G_BLUE G_BLUE G_ORANGE G_YELLOW)
-   {if
-      CHEATS_ALLOWED
-      {if_else
-         $awesomeness
-         {do
-            {set $awesomeness FALSE}
-            {main_screen display_cheat_msg cheat_awesomeness FALSE}
-            {play_sfx cheat_off}}
-         {do
-            {set $awesomeness FALSE}
-            {main_screen display_cheat_msg cheat_awesomeness FALSE}
-            {play_sfx cheat_off}}}})
+      {ui goto_screen modifiers_screen}
+    }
+)
+
+; ((G_ORANGE G_BLUE G_ORANGE G_YELLOW G_ORANGE G_BLUE G_ORANGE G_YELLOW)
+   ; {if
+      ; {exists ui}
+      ; {do
+         ; {if
+            ; {!
+               ; {'||'
+                  ; {==
+                     ; {ui current_screen}
+                     ; easter_egg_screen1}
+                  ; {==
+                     ; {ui current_screen}
+                     ; easter_egg_screen2}
+                  ; {==
+                     ; {ui current_screen}
+                     ; easter_egg_screen3}
+                  ; {==
+                     ; {ui current_screen}
+                     ; easter_egg_screen4}
+                  ; {==
+                     ; {ui current_screen}
+                     ; final_egg_screen}}}
+            ; {set
+               ; $egg_back
+               ; {ui current_screen}}}
+         ; {switch
+            ; $egg_back
+            ; (main_screen
+               ; {do
+                  ; {set $egg1 TRUE}
+                  ; {set $game80s FALSE}
+                  ; {set $gamegh1 FALSE}
+                  ; {ui goto_screen easter_egg_screen1}})
+            ; (video_settings_screen
+               ; {do
+                  ; {set $egg2 TRUE}
+                  ; {set $game80s FALSE}
+                  ; {set $gamegh1 TRUE}
+                  ; {ui goto_screen easter_egg_screen2}})
+            ; (qp_diff_screen
+               ; {do
+                  ; {set $egg3 TRUE}
+                  ; {set $game80s TRUE}
+                  ; {set $gamegh1 FALSE}
+                  ; {ui goto_screen easter_egg_screen3}})
+            ; (options_chooseprof_screen
+               ; {do
+                  ; {set $egg4 TRUE}
+                  ; {set $game80s FALSE}
+                  ; {set $gamegh1 FALSE}
+                  ; {ui goto_screen easter_egg_screen4}})
+            ; (credits_screen
+               ; {if
+                  ; {&& $egg1 $egg2 $egg3 $egg4}
+                  ; {do
+                     ; {set $egg5 TRUE}
+                     ; {set $game80s FALSE}
+                     ; {set $gamegh1 FALSE}
+                     ; {ui goto_screen final_egg_screen}}})}}})
+; ((G_YELLOW G_ORANGE G_BLUE G_ORANGE G_YELLOW G_ORANGE G_BLUE G_ORANGE)
+   ; {if
+      ; {exists ui}
+      ; {do
+         ; {if
+            ; {!
+               ; {'||'
+                  ; {==
+                     ; {ui current_screen}
+                     ; easter_egg_screen1}
+                  ; {==
+                     ; {ui current_screen}
+                     ; easter_egg_screen2}
+                  ; {==
+                     ; {ui current_screen}
+                     ; easter_egg_screen3}
+                  ; {==
+                     ; {ui current_screen}
+                     ; easter_egg_screen4}
+                  ; {==
+                     ; {ui current_screen}
+                     ; final_egg_screen}}}
+            ; {set
+               ; $egg_back
+               ; {ui current_screen}}}
+         ; {switch
+            ; $egg_back
+            ; (main_screen
+               ; {do
+                  ; {set $egg1 TRUE}
+                  ; {set $game80s FALSE}
+                  ; {set $gamegh1 FALSE}
+                  ; {ui goto_screen easter_egg_screen1}})
+            ; (video_settings_screen
+               ; {do
+                  ; {set $egg2 TRUE}
+                  ; {set $game80s FALSE}
+                  ; {set $gamegh1 TRUE}
+                  ; {ui goto_screen easter_egg_screen2}})
+            ; (qp_diff_screen
+               ; {do
+                  ; {set $egg3 TRUE}
+                  ; {set $game80s TRUE}
+                  ; {set $gamegh1 FALSE}
+                  ; {ui goto_screen easter_egg_screen3}})
+            ; (options_chooseprof_screen
+               ; {do
+                  ; {set $egg4 TRUE}
+                  ; {set $game80s FALSE}
+                  ; {set $gamegh1 FALSE}
+                  ; {ui goto_screen easter_egg_screen4}})
+            ; (credits_screen
+               ; {if
+                  ; {&& $egg1 $egg2 $egg3 $egg4}
+                  ; {do
+                     ; {set $egg5 TRUE}
+                     ; {set $game80s FALSE}
+                     ; {set $gamegh1 FALSE}
+                     ; {ui goto_screen final_egg_screen}}})}}})
+; ((G_BLUE G_ORANGE G_YELLOW G_ORANGE G_BLUE G_ORANGE G_YELLOW G_YELLOW)
+   ; {if
+      ; {exists ui}
+      ; {do
+         ; {if
+            ; {!
+               ; {'||'
+                  ; {==
+                     ; {ui current_screen}
+                     ; easter_egg_screen1}
+                  ; {==
+                     ; {ui current_screen}
+                     ; easter_egg_screen2}
+                  ; {==
+                     ; {ui current_screen}
+                     ; easter_egg_screen3}
+                  ; {==
+                     ; {ui current_screen}
+                     ; easter_egg_screen4}
+                  ; {==
+                     ; {ui current_screen}
+                     ; final_egg_screen}}}
+            ; {set
+               ; $egg_back
+               ; {ui current_screen}}}
+         ; {switch
+            ; $egg_back
+            ; (main_screen
+               ; {do
+                  ; {set $egg1 TRUE}
+                  ; {set $game80s FALSE}
+                  ; {set $gamegh1 FALSE}
+                  ; {ui goto_screen easter_egg_screen1}})
+            ; (video_settings_screen
+               ; {do
+                  ; {set $egg2 TRUE}
+                  ; {set $game80s FALSE}
+                  ; {set $gamegh1 TRUE}
+                  ; {ui goto_screen easter_egg_screen2}})
+            ; (qp_diff_screen
+               ; {do
+                  ; {set $egg3 TRUE}
+                  ; {set $game80s TRUE}
+                  ; {set $gamegh1 FALSE}
+                  ; {ui goto_screen easter_egg_screen3}})
+            ; (options_chooseprof_screen
+               ; {do
+                  ; {set $egg4 TRUE}
+                  ; {set $game80s FALSE}
+                  ; {set $gamegh1 FALSE}
+                  ; {ui goto_screen easter_egg_screen4}})
+            ; (credits_screen
+               ; {if
+                  ; {&& $egg1 $egg2 $egg3 $egg4}
+                  ; {do
+                     ; {set $egg5 TRUE}
+                     ; {set $game80s FALSE}
+                     ; {set $gamegh1 FALSE}
+                     ; {ui goto_screen final_egg_screen}}})}}})
+; ((G_YELLOW G_BLUE G_ORANGE G_ORANGE G_BLUE G_YELLOW G_YELLOW G_ORANGE)
+   ; {if
+      ; {exists ui}
+      ; {do
+         ; {if
+            ; {!
+               ; {'||'
+                  ; {==
+                     ; {ui current_screen}
+                     ; easter_egg_screen1}
+                  ; {==
+                     ; {ui current_screen}
+                     ; easter_egg_screen2}
+                  ; {==
+                     ; {ui current_screen}
+                     ; easter_egg_screen3}
+                  ; {==
+                     ; {ui current_screen}
+                     ; easter_egg_screen4}
+                  ; {==
+                     ; {ui current_screen}
+                     ; final_egg_screen}}}
+            ; {set
+               ; $egg_back
+               ; {ui current_screen}}}
+         ; {switch
+            ; $egg_back
+            ; (main_screen
+               ; {do
+                  ; {set $egg1 TRUE}
+                  ; {set $game80s FALSE}
+                  ; {set $gamegh1 FALSE}
+                  ; {ui goto_screen easter_egg_screen1}})
+            ; (video_settings_screen
+               ; {do
+                  ; {set $egg2 TRUE}
+                  ; {set $game80s FALSE}
+                  ; {set $gamegh1 TRUE}
+                  ; {ui goto_screen easter_egg_screen2}})
+            ; (qp_diff_screen
+               ; {do
+                  ; {set $egg3 TRUE}
+                  ; {set $game80s TRUE}
+                  ; {set $gamegh1 FALSE}
+                  ; {ui goto_screen easter_egg_screen3}})
+            ; (options_chooseprof_screen
+               ; {do
+                  ; {set $egg4 TRUE}
+                  ; {set $game80s FALSE}
+                  ; {set $gamegh1 FALSE}
+                  ; {ui goto_screen easter_egg_screen4}})
+            ; (credits_screen
+               ; {if
+                  ; {&& $egg1 $egg2 $egg3 $egg4}
+                  ; {do
+                     ; {set $egg5 TRUE}
+                     ; {set $game80s FALSE}
+                     ; {set $gamegh1 FALSE}
+                     ; {ui goto_screen final_egg_screen}}})}}})
+
+; ((G_YELLOW G_ORANGE G_RED G_YELLOW G_ORANGE G_RED)
+   ; {if
+      ; CHEATS_ALLOWED
+      ; {if_else
+         ; $awesomeness
+         ; {do
+            ; {set $awesomeness FALSE}
+            ; {main_screen display_cheat_msg cheat_awesomeness FALSE}
+            ; {play_sfx cheat_off}}
+         ; {do
+            ; {set $awesomeness FALSE}
+            ; {main_screen display_cheat_msg cheat_awesomeness FALSE}
+            ; {play_sfx cheat_off}}}})
+; ((G_BLUE G_YELLOW G_ORANGE G_RED G_ORANGE G_YELLOW G_RED G_YELLOW G_RED G_YELLOW G_RED G_YELLOW G_RED G_YELLOW G_RED G_YELLOW)
+   ; {if
+      ; {&&
+         ; CHEATS_ALLOWED
+         ; {! $cheat_enabled_unlock_all}}
+      ; {set $cheat_enabled_unlock_all 1}
+      ; {campaign set_all_access 1}
+      ; {set $disable_save 1}
+      ; {set $disable_career 1}
+      ; {main_screen display_cheat_msg cheat_unlock_all TRUE}
+      ; {play_sfx cheat}})
+; ((G_BLUE G_ORANGE G_YELLOW G_RED G_ORANGE G_YELLOW G_BLUE G_YELLOW G_RED G_YELLOW G_BLUE G_YELLOW G_RED G_YELLOW G_BLUE G_YELLOW)
+   ; {if
+      ; {&&
+         ; CHEATS_ALLOWED
+         ; {! $cheat_enabled_unlock_all}}
+      ; {set $cheat_enabled_unlock_all 1}
+      ; {campaign set_all_access 1}
+      ; {set $disable_save 1}
+      ; {set $disable_career 1}
+      ; {main_screen display_cheat_msg cheat_unlock_all TRUE}
+      ; {play_sfx cheat}})
+; ((G_YELLOW G_BLUE G_ORANGE G_YELLOW G_BLUE G_ORANGE G_YELLOW G_BLUE G_ORANGE)
+   ; {if
+      ; CHEATS_ALLOWED
+      ; {if_else
+         ; $awesomeness
+         ; {do
+            ; {set $awesomeness FALSE}
+            ; {main_screen display_cheat_msg cheat_awesomeness FALSE}
+            ; {play_sfx cheat_off}}
+         ; {do
+            ; {set $awesomeness FALSE}
+            ; {main_screen display_cheat_msg cheat_awesomeness FALSE}
+            ; {play_sfx cheat_off}}}})
+; ((G_YELLOW G_YELLOW G_BLUE G_ORANGE G_YELLOW G_BLUE)
+   ; {if
+      ; CHEATS_ALLOWED
+      ; {if_else
+         ; $awesomeness
+         ; {do
+            ; {set $awesomeness FALSE}
+            ; {main_screen display_cheat_msg cheat_awesomeness FALSE}
+            ; {play_sfx cheat_off}}
+         ; {do
+            ; {set $awesomeness FALSE}
+            ; {main_screen display_cheat_msg cheat_awesomeness FALSE}
+            ; {play_sfx cheat_off}}}})
+; ((G_YELLOW G_YELLOW G_BLUE G_YELLOW G_YELLOW G_ORANGE G_YELLOW G_YELLOW)
+   ; {if
+      ; CHEATS_ALLOWED
+      ; {if_else
+         ; $awesomeness
+         ; {do
+            ; {set $awesomeness FALSE}
+            ; {main_screen display_cheat_msg cheat_awesomeness FALSE}
+            ; {play_sfx cheat_off}}
+         ; {do
+            ; {set $awesomeness FALSE}
+            ; {main_screen display_cheat_msg cheat_awesomeness FALSE}
+            ; {play_sfx cheat_off}}}})
+; ((G_BLUE G_ORANGE G_ORANGE G_BLUE G_ORANGE G_ORANGE G_BLUE G_ORANGE G_ORANGE G_BLUE)
+   ; {if
+      ; CHEATS_ALLOWED
+      ; {if_else
+         ; $awesomeness
+         ; {do
+            ; {set $awesomeness FALSE}
+            ; {main_screen display_cheat_msg cheat_awesomeness FALSE}
+            ; {play_sfx cheat_off}}
+         ; {do
+            ; {set $awesomeness FALSE}
+            ; {main_screen display_cheat_msg cheat_awesomeness FALSE}
+            ; {play_sfx cheat_off}}}})
+; ((G_ORANGE G_YELLOW G_ORANGE G_ORANGE G_YELLOW G_ORANGE G_YELLOW G_YELLOW)
+   ; {if
+      ; CHEATS_ALLOWED
+      ; {if_else
+         ; $awesomeness
+         ; {do
+            ; {set $awesomeness FALSE}
+            ; {main_screen display_cheat_msg cheat_awesomeness FALSE}
+            ; {play_sfx cheat_off}}
+         ; {do
+            ; {set $awesomeness FALSE}
+            ; {main_screen display_cheat_msg cheat_awesomeness FALSE}
+            ; {play_sfx cheat_off}}}})
+; ((G_BLUE G_ORANGE G_YELLOW G_ORANGE G_YELLOW G_ORANGE G_BLUE)
+   ; {if
+      ; CHEATS_ALLOWED
+      ; {if_else
+         ; $awesomeness
+         ; {do
+            ; {set $awesomeness FALSE}
+            ; {main_screen display_cheat_msg cheat_awesomeness FALSE}
+            ; {play_sfx cheat_off}}
+         ; {do
+            ; {set $awesomeness FALSE}
+            ; {main_screen display_cheat_msg cheat_awesomeness FALSE}
+            ; {play_sfx cheat_off}}}})
+; ((G_ORANGE G_BLUE G_YELLOW G_YELLOW G_ORANGE G_BLUE G_YELLOW G_YELLOW)
+   ; {if
+      ; CHEATS_ALLOWED
+      ; {if_else
+         ; $awesomeness
+         ; {do
+            ; {set $awesomeness FALSE}
+            ; {main_screen display_cheat_msg cheat_awesomeness FALSE}
+            ; {play_sfx cheat_off}}
+         ; {do
+            ; {set $awesomeness FALSE}
+            ; {main_screen display_cheat_msg cheat_awesomeness FALSE}
+            ; {play_sfx cheat_off}}}})
+; ((G_ORANGE G_RED G_ORANGE G_RED G_ORANGE G_BLUE)
+   ; {if
+      ; CHEATS_ALLOWED
+      ; {if_else
+         ; $awesomeness
+         ; {do
+            ; {set $awesomeness FALSE}
+            ; {main_screen display_cheat_msg cheat_awesomeness FALSE}
+            ; {play_sfx cheat_off}}
+         ; {do
+            ; {set $awesomeness FALSE}
+            ; {main_screen display_cheat_msg cheat_awesomeness FALSE}
+            ; {play_sfx cheat_off}}}})
+; ((G_YELLOW G_BLUE G_YELLOW G_ORANGE G_BLUE G_BLUE)
+   ; {if
+      ; CHEATS_ALLOWED
+      ; {if_else
+         ; $awesomeness
+         ; {do
+            ; {set $awesomeness FALSE}
+            ; {main_screen display_cheat_msg cheat_awesomeness FALSE}
+            ; {play_sfx cheat_off}}
+         ; {do
+            ; {set $awesomeness FALSE}
+            ; {main_screen display_cheat_msg cheat_awesomeness FALSE}
+            ; {play_sfx cheat_off}}}})
+; ((G_BLUE G_BLUE G_ORANGE G_YELLOW G_YELLOW G_BLUE G_ORANGE G_BLUE)
+   ; {if
+      ; CHEATS_ALLOWED
+      ; {if_else
+         ; $awesomeness
+         ; {do
+            ; {set $awesomeness FALSE}
+            ; {main_screen display_cheat_msg cheat_awesomeness FALSE}
+            ; {play_sfx cheat_off}}
+         ; {do
+            ; {set $awesomeness FALSE}
+            ; {main_screen display_cheat_msg cheat_awesomeness FALSE}
+            ; {play_sfx cheat_off}}}})
+; ((G_BLUE G_ORANGE G_ORANGE G_BLUE G_YELLOW G_BLUE G_ORANGE G_ORANGE G_BLUE G_YELLOW)
+   ; {if
+      ; CHEATS_ALLOWED
+      ; {if_else
+         ; $awesomeness
+         ; {do
+            ; {set $awesomeness FALSE}
+            ; {main_screen display_cheat_msg cheat_awesomeness FALSE}
+            ; {play_sfx cheat_off}}
+         ; {do
+            ; {set $awesomeness FALSE}
+            ; {main_screen display_cheat_msg cheat_awesomeness FALSE}
+            ; {play_sfx cheat_off}}}})
+; ((G_YELLOW G_ORANGE G_YELLOW G_ORANGE G_YELLOW G_ORANGE G_BLUE G_ORANGE)
+   ; {if
+      ; CHEATS_ALLOWED
+      ; {if_else
+         ; $awesomeness
+         ; {do
+            ; {set $awesomeness FALSE}
+            ; {main_screen display_cheat_msg cheat_awesomeness FALSE}
+            ; {play_sfx cheat_off}}
+         ; {do
+            ; {set $awesomeness FALSE}
+            ; {main_screen display_cheat_msg cheat_awesomeness FALSE}
+            ; {play_sfx cheat_off}}}})
+; ((G_YELLOW G_BLUE G_ORANGE G_ORANGE G_ORANGE G_BLUE G_YELLOW)
+   ; {if
+      ; CHEATS_ALLOWED
+      ; {if_else
+         ; $awesomeness
+         ; {do
+            ; {set $awesomeness FALSE}
+            ; {main_screen display_cheat_msg cheat_awesomeness FALSE}
+            ; {play_sfx cheat_off}}
+         ; {do
+            ; {set $awesomeness FALSE}
+            ; {main_screen display_cheat_msg cheat_awesomeness FALSE}
+            ; {play_sfx cheat_off}}}})
+; ((G_BLUE G_BLUE G_ORANGE G_YELLOW G_BLUE G_BLUE G_ORANGE G_YELLOW)
+   ; {if
+      ; CHEATS_ALLOWED
+      ; {if_else
+         ; $awesomeness
+         ; {do
+            ; {set $awesomeness FALSE}
+            ; {main_screen display_cheat_msg cheat_awesomeness FALSE}
+            ; {play_sfx cheat_off}}
+         ; {do
+            ; {set $awesomeness FALSE}
+            ; {main_screen display_cheat_msg cheat_awesomeness FALSE}
+            ; {play_sfx cheat_off}}}})

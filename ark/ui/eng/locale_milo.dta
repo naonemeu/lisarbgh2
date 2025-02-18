@@ -319,6 +319,9 @@
    "\qTHIS JUST ISN'T MY BAND ANYMORE\q SAYS FORMER SINGER")
 (toogle_label
    "AUTOPLAY")
+ 
+(display_cheat_msg "Ativado:")
+(cheat_hyper_speed_mode "Hyperspeed")
 
 ;lisarb gh2 - debug Naonemeu
 ;startfromhere

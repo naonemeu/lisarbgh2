@@ -141,11 +141,11 @@
 (op_data_settings
    "Quando que") ;"Gerenciar banda") ;1
 (op_game_settings
-   "Áudio ")
+   "Opções de áudio")
 (op_video_settings
-   "Vídeo")
+   "Opções de vídeo")
 (op_memcard
-   "vai sar a versao") ;"Opções de Dados") ;2
+   "vai sair a versão") ;"Opções de Dados") ;2
 (GAME_SETTINGS
    "OPÇÕES DE ÁUDIO")
 (LEFT_PLAYER_1
@@ -249,9 +249,9 @@
 (Venue
    "LOCAL")
 (cheat_enabled_fmt
-   "CHEAT HABILITADO:\n%s")
+   "CHEAT ATIVADO:\n%s")
 (cheat_disabled_fmt
-   "CHEAT DESABILITADO:\n%s")
+   "CHEAT DESATIVADO:\n%s")
 (cheat_unlock_all
    "Destravar tudo (sem save!)")
 (CAREER
