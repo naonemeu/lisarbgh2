@@ -3,6 +3,7 @@
 #ifndef _ONYX
 #ifndef 8DBUG
 #ifndef GH1RX
+
 (order
    (battle money razoeseemocoes soporumanoite demusicaligeira espelhosmagicos rebirth)
    (small1 diasdeluta annajulia irreversivel pegasusfantasy lukeeusouseupai thebull)
@@ -12,7 +13,8 @@
    (fest)
    (arena)
    (stone)
-   
+)
+
    ;(small1 mother lifewasted cherrypie woman youreallygotme tonightimgonna)
    ;(small2 carryonwayward searchanddestroy messageinabottle billiondollar thembones warpigs)
    ;(big monkeywrench hush girlfriend whowasinmyroom cantyouhearme sweetchild)
@@ -20,7 +22,7 @@
    ;(fest crazyonyou trippinonahole dead killinginthenameof freya stop)
    ;(arena madhouse trooper rockthistown laidtorest psychobilly yyz)
    ;(stone beastandtheharlot carrymehome institutionalized misirlou hangar18 freebird)
- )
+
 (required_songs
    (kDifficultyEasy 4 5)
    (kDifficultyMedium 5 6)

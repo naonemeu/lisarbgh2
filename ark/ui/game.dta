@@ -145,7 +145,7 @@
       {if
          {==
             {gamecfg get_song}
-            tonightimgonna}
+            rebirth} ;tonightimgonna
          {{{world_panel loaded_dir}
                find
                drummer}
@@ -313,7 +313,7 @@
       ;{world_panel set_showing TRUE}
 	  {if_else $focusmode {world_panel set_showing FALSE} {world_panel set_showing TRUE}} ;forces venue to stay off in focus mode
       {if_else {gamecfg get game_over_sequence}
-         {do {if {== {gamecfg get_song} tonightimgonna}
+         {do {if {== {gamecfg get_song} rebirth} ;tonightimgonna
                {do {script_task (delay DRUMMER_EXPLODE_DELAY) (units kTaskSeconds)
                      (script {handle ($this drummer_explode)}
                         {play_sfx drummer_exp}
