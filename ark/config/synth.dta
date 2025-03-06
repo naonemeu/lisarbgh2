@@ -5,7 +5,7 @@
 (metamusic
    (volume -3.0)
    (fade_rate 1.0)
-   (music metaloop_razoes metaloop_lua metaloop_rebirth metaloop_astro metaloop_tempo metaloop_cpm22 metaloop_teto metaloop_mepirou metaloop_grilo)
+   (music metaloop_razoes metaloop_lua metaloop_rebirth metaloop_astro metaloop_tempo metaloop_cpm22 metaloop_teto metaloop_mepirou metaloop_grilo metaloop_living)
    ;main - 8/10?
    ;bonus - 1/10?
    (background_sfx

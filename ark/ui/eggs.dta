@@ -17,13 +17,15 @@
    (focus easter_egg_panel1)
    (helpbar
       (default
-         ((fret2 help_back))))
+         ((fret2 help_continue))))
    (BUTTON_DOWN_MSG
       {if
          {== $button kPad_Tri}
          {$this backwards_anim}
          {synth play_sequence button_back.cue}
-         {ui goto_screen $egg_back}})}
+         ;{ui goto_screen $egg_back}
+		 {ui goto_screen easter_egg_screen2}
+		 })}
 {new
    GHPanel
    easter_egg_panel2
@@ -41,13 +43,15 @@
    (focus easter_egg_panel2)
    (helpbar
       (default
-         ((fret2 help_back))))
+         ((fret2 help_continue))))
    (BUTTON_DOWN_MSG
       {if
          {== $button kPad_Tri}
          {$this backwards_anim}
          {synth play_sequence button_back.cue}
-         {ui goto_screen $egg_back}})}
+         ;{ui goto_screen $egg_back}
+		 {ui goto_screen easter_egg_screen3}
+		 })}
 {new
    GHPanel
    easter_egg_panel3
@@ -65,13 +69,15 @@
    (focus easter_egg_panel3)
    (helpbar
       (default
-         ((fret2 help_back))))
+         ((fret2 help_continue))))
    (BUTTON_DOWN_MSG
       {if
          {== $button kPad_Tri}
          {$this backwards_anim}
          {synth play_sequence button_back.cue}
-         {ui goto_screen $egg_back}})}
+         ;{ui goto_screen $egg_back}
+		 {ui goto_screen main_screen}
+		 })}
 {new
    GHPanel
    easter_egg_panel4
@@ -89,13 +95,15 @@
    (focus easter_egg_panel4)
    (helpbar
       (default
-         ((fret2 help_back))))
+         ((fret2 help_dummy))))
    (BUTTON_DOWN_MSG
       {if
          {== $button kPad_Tri}
          {$this backwards_anim}
          {synth play_sequence button_back.cue}
-         {ui goto_screen $egg_back}})}
+         ;{ui goto_screen $egg_back}
+		 {ui goto_screen splash_screen}
+		 })}
 {new
    GHScreen
    final_egg_screen

@@ -25,7 +25,10 @@
       {campaign set_all_access 1}
       {set $disable_save 1}
       {set $disable_career 1}
+	  {set $tadebot TRUE}
 	  #endif
+	  
+	  {set $disclaimer TRUE}
 	  
       {$this reset_player_settings}
       {if
@@ -38,6 +41,7 @@
       {set
          [msg_last_frame]
          0})
+
    (SELECT_START_MSG
       {switch
          $component
@@ -68,6 +72,8 @@
             {ui goto_screen options_screen})
 		}
     )
+	
+	
    (poll
       {if_else
          {game is_missing_multi_controller}
@@ -101,21 +107,22 @@
          {$player2_config set_difficulty kDifficultyMedium}}
 )
 
-
    (display_cheat_msg
+   
       ($cheat $enable)
-      {mm_msg.lbl
-         set_localized_text
-         {sprintf
-            {localize
-               {if_else $enable cheat_enabled_fmt cheat_disabled_fmt}}
-            {localize $cheat}}}
-      {$this
-         set
-         msg_last_frame
-         {'+'
-            {taskmgr ui_seconds}
-            5}})
+	  
+      {mm_msg.lbl set_localized_text {sprintf {localize {if_else $enable cheat_enabled_fmt cheat_disabled_fmt}} {localize $cheat}}}
+		 
+      {$this set msg_last_frame {'+' {taskmgr ui_seconds} 5}})
+	  
+   (display_desc_msg
+   
+      ($enable)
+	  
+      {mm_msg.lbl set_localized_text {sprintf {localize {if_else $enable desc_on desc_off}} }}
+		 
+      {$this set msg_last_frame {'+' {taskmgr ui_seconds} 5}})
+
 }
 
 {new

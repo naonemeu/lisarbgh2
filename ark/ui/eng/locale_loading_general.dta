@@ -3,7 +3,7 @@
 (milo_tip1
    "Aperte select na lista de musicas para modificar a velocidade das notas e das musicas! (Faz parte do GH2 Deluxe)")
 (milo_tip2
-   "Sim, o menu de baixo do GH2 Deluxe foi retirado. Sem paciência pra fazer baixo")
+   "Sim, o menu de baixo do GH2 Deluxe foi retirado.\nSem paciência pra fazer baixo")
 (milo_tip3
    "Assim como no GH3, as mensagens de \qNote Streak\q aparecem no jogo. (Faz parte do GH2 Deluxe)")
 (milo_tip4
@@ -13,7 +13,7 @@
     ;  $game80s
     ;  "No worries - \qBecause, It's Midnite\q isn't a campaign song anymore. Pays to use cut songs."
     ;  "We've reordered the setlist to match the 360 version of Guitar Hero II. It should be a bit easier to progress now."})
-    "Calma lá que a setlist final ira sair algum dia! Mas não adianta ficar enchendo o saco.")
+    "Calma lá, que a setlist final vai sair algum dia!\n...mas não adianta ficar enchendo o saco.")
 (milo_tip6
    "De uma olhada no menu de \qExtras\q do modo rápido (Quick Play). Ha vários cheats do GH2 original la. (Faz parte do GH2 Deluxe)")
 (milo_tip7
@@ -55,7 +55,7 @@
 (easy_tip2
    "Se tiver uma nota azul no Easy, ops... foi acidental.")
 (easy_tip3
-   "Pro pessoal que queria todas as dificuldades: deixe o seu comentário/feedback! Faz anos que nao mexo com chart fora do Expert.\n(Você está jogando no Easy, acertei?)")
+   "Pro pessoal que queria todas as dificuldades: deixe o seu comentário/feedback!\n(Você está jogando no Easy, acertei?)")
 (easy_tip4
    "Tenta jogar no Easy em 200% de velocidade, e divertido.")
    
@@ -65,7 +65,7 @@
 (medium_tip2
    "Se tiver uma nota laranja no medium, ops... foi acidental.")
 (medium_tip3
-   "Pro pessoal que queria todas as dificuldades: deixe o seu comentário/feedback! Faz anos que nao mexo com chart fora do Expert.\n(Você está jogando no Medium, acertei?)")
+   "Pro pessoal que queria todas as dificuldades: deixe o seu comentário/feedback!\n(Você está jogando no Medium, acertei?)")
    
    
 (hard_tip1
@@ -73,7 +73,7 @@
 (hard_tip2
    "Se o Hard estiver igual ao Expert, ops... foi acidental.")
 (hard_tip3
-   "Pro pessoal que queria todas as dificuldades: deixe o seu comentário/feedback! Faz anos que nao mexo com chart fora do Expert.\n(Você está jogando no Hard, acertei?)")
+   "Pro pessoal que queria todas as dificuldades: deixe o seu comentário/feedback!\n(Você está jogando no Hard, acertei?)")
    
    
 (advanced_tip1
@@ -128,19 +128,21 @@
 ;   "áéíóúâêîôûç\nÁÉÍÓÚÂÊÎÔÛÇ\n")
 (loading_tip_mepirou
    "Você deve estar se perguntando: \qSe era pra ter uma banda por música, porque tem duas do Charlie Brown Jr?\q")
+(loading_tip_fairytale
+   "É Fairy TALE, não Fairy \qTail\q, Tuco.")
    
 (charter_tip1
    ;"I've said before that charting is a mostly thankless job. That still rings true. Once every few months, someone would thank me. Truth is that I slightly resent that fact -Maupy2"
    "\qEu já disse antes que charting é na maior parte um trabalho \qingrato\q (thankless). Isso ainda é verdade. Uma vez a cada uns meses, alguém me agradecia. A verdade é que eu ainda estou ressentido desse fato\q  -Maupy2")
    
 ;AVISOS - OPL e EMU
-(lisarbtest_tip_1
-   "Essa ISO NÃO FOI testada no AetherSX2!")
-(lisarbtest_tip_2
-   "Configure certo o seu OPL, principalmente se tiver pelo USB. O jogo foi testado e texturas das notas/gems foram modificadas de forma a reduzir os lags no USB")
-(lisarbtest_tip_3
+(lisarb_tip_1
+   "Essa ISO NÃO FOI testada no AetherSX2!\n(Está jogando no AetherSX2? Entre em contato!)")
+(lisarb_tip_2
+   "Configure certo o seu OPL, principalmente se tiver pelo USB. Build testada: \qv1.2.0-Beta-2109\q")
+(lisarb_tip_3
    "Pela enésima vez: Essa ISO NÃO e o Brazucas!")
-(lisarbtest_tip_4
+(lisarb_tip_4
    "Essa ISO foi testada no PCSX2!\nUse a versão mais recente.")
-(lisarbtest_tip_5
+(lisarb_tip_5
    "Para os antigos na comunidade: Essa ISO foi feito com programas modernos! Nada de GHEX (eca) ou DTB Editor. (Procure por \qArkhelper GH2\q e \qMilohax\q se tiver curiosidade)")

@@ -9,53 +9,15 @@
 #define G_GREEN
 (kPad_R2)
 #define G_RED
-(kPad_Circle)
+(kPad_Circle) ;W
 #define G_YELLOW
-(kPad_Tri)
+(kPad_Tri) ;E
 #define G_BLUE
 (kPad_X)
 #define G_ORANGE
-(kPad_Square)
+(kPad_Square) ;Q
 
-((G_ORANGE G_ORANGE G_ORANGE)
-   {if CHEATS_ALLOWED
-      {if_else {!= $trackspd 1.5}
-         {do
-            {set $trackspd 1.5}
-            {main_screen display_cheat_msg cheat_hyper_speed_mode TRUE}
-            {play_sfx cheat}
-}
-         {do
-            {set $trackspd 1.0}
-            {main_screen display_cheat_msg cheat_hyper_speed_mode FALSE}
-            {play_sfx cheat_off}}
-        }
-    }
-)
-
-((G_RED G_RED G_RED)
-   {do {play_sfx cheat}}
-   {if
-      {&& CHEATS_ALLOWED {! $cheat_enabled_unlock_all}}
-	  {$this disable main_career.btn}
-      {set $cheat_enabled_unlock_all 1}
-      {campaign set_all_access 1}
-      {set $disable_save 1}
-      {set $disable_career 1}
-      {main_screen display_cheat_msg cheat_unlock_all TRUE}
-      {{game get_player_config 0} set autoplay TRUE}
-      {play_sfx cheat}
-    }
-)
-
-#ifdef 2DBUG
-((G_YELLOW G_YELLOW G_YELLOW)
-   {{game get_player_config 0} set autoplay TRUE}
-   {{game get_player_config 1} set autoplay TRUE}
-   {play_sfx cheat}
-)
-#endif
-
+;Song/Track Speed "Cheat"
 ((kPad_Select kPad_Select)
    {if {&& {exists ui} {! {ui in_transition}}
          {'||'
@@ -82,31 +44,106 @@
     }
 )
 
-; ((G_ORANGE G_BLUE G_ORANGE G_YELLOW G_ORANGE G_BLUE G_ORANGE G_YELLOW)
+;Quick Hyperspeed
+;EEW
+((G_YELLOW G_YELLOW G_RED)
+   {if CHEATS_ALLOWED
+      {if_else {!= $trackspd 1.5}
+         {do
+            {set $trackspd 1.5}
+            {main_screen display_cheat_msg cheat_hyper_speed_mode TRUE}
+            {play_sfx cheat}
+}
+         {do
+            {set $trackspd 1.0}
+            {main_screen display_cheat_msg cheat_hyper_speed_mode FALSE}
+            {play_sfx cheat_off}}
+        }
+    }
+)
+
+;Quick Bot
+;EEQQ
+((G_YELLOW G_YELLOW G_ORANGE G_ORANGE)
+    {if CHEATS_ALLOWED
+        {if_else {! $tadebot}
+            {do
+                {{game get_player_config 0} set autoplay TRUE}
+                {{game get_player_config 1} set autoplay TRUE}
+                {main_screen display_cheat_msg cheat_bot TRUE}
+                {set $disable_save 1}
+                {set $tadebot TRUE}
+                {play_sfx cheat}
+            }
+            {do
+                {{game get_player_config 0} set autoplay FALSE}
+                {{game get_player_config 1} set autoplay FALSE}
+                {main_screen display_cheat_msg cheat_botoff FALSE}
+                {set $disable_save 0}
+                {set $tadebot FALSE}
+                {play_sfx cheat_off}
+            }
+        }
+   }
+)
+
+;Leia a descricao
+;EEEEW
+((G_YELLOW G_YELLOW G_YELLOW G_YELLOW G_RED)
+   {if CHEATS_ALLOWED
+      {if_else {! $descmsg}
+         {do
+            {set $descmsg TRUE}
+            {main_screen display_desc_msg TRUE}
+            {play_sfx cheat}
+}
+         {do
+            {set $descmsg FALSE}
+            {main_screen display_desc_msg FALSE}
+            {play_sfx cheat_off}}
+        }
+    }
+)
+
+((kPad_Start kPad_Select kPad_Start)
+   {if CHEATS_ALLOWED {play_sfx cash_award.cue} {ui goto_screen guitar_help_screen}}
+)
+
+
+; ((G_RED G_RED G_RED)
+   ; {if
+      ; {&& CHEATS_ALLOWED {! $cheat_enabled_unlock_all}}
+	  ; {$this disable main_career.btn}
+      ; {set $cheat_enabled_unlock_all 1}
+      ; {campaign set_all_access 1}
+      ; {set $disable_save 1}
+      ; {set $disable_career 1}
+      ; {main_screen display_cheat_msg cheat_unlock_all TRUE}
+      ; {{game get_player_config 0} set autoplay TRUE}
+      ; {play_sfx cheat}
+    ; }
+; )
+
+((kPad_Start kPad_Start)
+   {if CHEATS_ALLOWED
+   {set $egg_back {ui current_screen}}
+   {ui goto_screen easter_egg_screen1}
+   }
+)
+
+
+
+
+;((G_ORANGE G_BLUE G_ORANGE G_YELLOW G_ORANGE G_BLUE G_ORANGE G_YELLOW)
+; ((kPad_Start kPad_Start)
    ; {if
       ; {exists ui}
-      ; {do
-         ; {if
-            ; {!
-               ; {'||'
-                  ; {==
-                     ; {ui current_screen}
-                     ; easter_egg_screen1}
-                  ; {==
-                     ; {ui current_screen}
-                     ; easter_egg_screen2}
-                  ; {==
-                     ; {ui current_screen}
-                     ; easter_egg_screen3}
-                  ; {==
-                     ; {ui current_screen}
-                     ; easter_egg_screen4}
-                  ; {==
-                     ; {ui current_screen}
-                     ; final_egg_screen}}}
-            ; {set
-               ; $egg_back
-               ; {ui current_screen}}}
+      ; {do {if {! {'||' {== {ui current_screen} easter_egg_screen1}
+                  ; {== {ui current_screen} easter_egg_screen2}
+                  ; {== {ui current_screen} easter_egg_screen3}
+                  ; {==  {ui current_screen} easter_egg_screen4}
+                  ; {== {ui current_screen} final_egg_screen}}}
+            ; {set $egg_back {ui current_screen}}}
          ; {switch
             ; $egg_back
             ; (main_screen
@@ -141,6 +178,7 @@
                      ; {set $game80s FALSE}
                      ; {set $gamegh1 FALSE}
                      ; {ui goto_screen final_egg_screen}}})}}})
+
 ; ((G_YELLOW G_ORANGE G_BLUE G_ORANGE G_YELLOW G_ORANGE G_BLUE G_ORANGE)
    ; {if
       ; {exists ui}

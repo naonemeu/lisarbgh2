@@ -89,50 +89,105 @@
    "Cheats moved to Extras menu")
 (cheat_barf
    "Roxbury Mode")
+; (EASTER_EGG1
+   ; "MiloHax Community")
+; (EASTER_EGG3
+   ; "DISCORD, INTERNET")
+; (EASTER_EGGa
+   ; "\qFriends Don't Let Friends Clon\q")
+; (EASTER_EGGb
+   ; "\qCALL ATTENDANT\q")
+; (EASTER_EGGc
+   ; "\qlord help my poor soul\q")
+; (EASTER_EGGd
+   ; "\qweekly old man psa\q")
+; (unlockeasteregg1_1
+   ; "Dear Valued GH2 Deluxe Player,")
+; (unlockeasteregg1_2
+   ; "GUESS WHAT?")
+; (unlockeasteregg1_3
+   ; "You have unlocked an EASTER EGG!")
+; (unlockeasteregg1_4
+   ; "\nHyperspeed as you know it no longer exists in GH2 Deluxe. Instead, ADJUSTABLE HYPERSPEED can be set exactly to your tastes by pressing SELECT, SELECT on any setlist screen!\n\nWhile you're here though, did we mention there's other easter eggs to find? Try the hyperspeed code on other menus if you're brave enough. Here's a hint: Progressive scan...\n\nHave fun,\nThe GH2 Deluxe Team")
+; (unlockeasteregg2_1
+   ; "Dear Valued GH2 Deluxe Player,")
+; (unlockeasteregg2_2
+   ; "EASTER EGG!")
+; (unlockeasteregg2_3
+   ; "You found another one! Hell yeah!")
+; (unlockeasteregg2_4
+   ; "\nThat was the easy one, but you should've already started to see and hear some things shift here and there, yeah? There's a lot more, trust me.\n\nHere's your next hint: it's got four and only four options on it. There's a couple menus like that.\n\nHappy hunting,\nThe GH2 Deluxe Team")
+; (unlockeasteregg3_1
+   ; "Dear Valued GH2 Deluxe Player,")
+; (unlockeasteregg3_2
+   ; "EASTER EGG!")
+; (unlockeasteregg3_3
+   ; "Free Play did it! Another found!")
+; (unlockeasteregg3_4
+   ; "\nCheck that MAIN MENU! But you're not done yet. (Remember, you're trying the hyperspeed code on other menus that aren't the main menu. Stay focused.)\n\nNext hint: where band disputes are remediated. And occasionally where bands break up.\n\nGame on,\nThe GH2 Deluxe Team")
+; (unlockeasteregg4_1
+   ; "Dear Valued GH2 Deluxe Player,")
+; (unlockeasteregg4_2
+   ; "EASTER EGG!")
+; (unlockeasteregg4_3
+   ; "(How many more are there?)")
+; (unlockeasteregg4_4
+   ; "\nYou're at the home stretch. You're seeing what not a lot of people have seen before. But you are. Not. Done. Yet.\n\nHere's your very final hint: you've never gone on this screen before. And if you have, never more than once. (R.I.P. our egos.)\n\nGot that? (And once you find it, send us a picture in MiloHax and gloat.)\n\nGood luck,\nThe GH2 Deluxe Team")
+   
 (EASTER_EGG1
-   "MiloHax Community")
+   {if_else $disclaimer "MISTER EGGS"
+   "ISO BASE: GH2 DELUXE 2.0"}) ;line1
 (EASTER_EGG3
-   "DISCORD, INTERNET")
+   {if_else $disclaimer "PUDIM.COM.BR"
+   "LISARB GH2"}) ;line3
+   
 (EASTER_EGGa
-   "\qFriends Don't Let Friends Clon\q")
+   "Contem ovos!")
 (EASTER_EGGb
-   "\qCALL ATTENDANT\q")
+   "Contem ovos!")
 (EASTER_EGGc
-   "\qlord help my poor soul\q")
+   "Contem ovos!")
 (EASTER_EGGd
-   "\qweekly old man psa\q")
+   {if_else $disclaimer "Contem ovos!"
+   "CREDITOS A MILOHAX"}) ;line2
+   
 (unlockeasteregg1_1
-   "Dear Valued GH2 Deluxe Player,")
+   "Contem bolo")
 (unlockeasteregg1_2
-   "GUESS WHAT?")
+   "RECEITA DE BOLO")
 (unlockeasteregg1_3
-   "You have unlocked an EASTER EGG!")
+   "Você QUEBROU um OVO!")
 (unlockeasteregg1_4
-   "\nHyperspeed as you know it no longer exists in GH2 Deluxe. Instead, ADJUSTABLE HYPERSPEED can be set exactly to your tastes by pressing SELECT, SELECT on any setlist screen!\n\nWhile you're here though, did we mention there's other easter eggs to find? Try the hyperspeed code on other menus if you're brave enough. Here's a hint: Progressive scan...\n\nHave fun,\nThe GH2 Deluxe Team")
+   "Quer um bolo para o lanche da tarde, mas não consegue se decidir sobre qual você deve fazer? O bolo comum é uma boa pedida. A massa branca e fofinha é deliciosa e acompanhada com uma xícara de café é imbatível. Por ter um sabor neutro, esse bolo pode ser combinado com diversas coberturas e recheios sem ter nenhum tipo de oposição negativa. Ele também pode ser feito como base para bolos de aniversários, inclusive por confeiteiros. Basta dividir a massa, colocar os recheios entre as camadas e confeitá-lo como você quiser. Essa receita também pode servir de base para outras, já que é só adicionar um ingrediente para mudar o sabor do bolo...")
+   
 (unlockeasteregg2_1
-   "Dear Valued GH2 Deluxe Player,")
+   "Contem bolo")
 (unlockeasteregg2_2
-   "EASTER EGG!")
+   "RECEITA DE BOLO")
 (unlockeasteregg2_3
-   "You found another one! Hell yeah!")
+   "Ingredientes:")
 (unlockeasteregg2_4
-   "\nThat was the easy one, but you should've already started to see and hear some things shift here and there, yeah? There's a lot more, trust me.\n\nHere's your next hint: it's got four and only four options on it. There's a couple menus like that.\n\nHappy hunting,\nThe GH2 Deluxe Team")
+   "...Para fazer um bolo de chocolate, basta adicionar um pouco de chocolate em pó à massa e bater antes de assar. Muito versátil, a receita de bolo simples é deliciosa e vai deixar o seu café da tarde ainda mais gostoso.\n\n1 xícara de leite\nfarinha de trigo\n3 xícaras de farinha de trigo\n3 ovos\n1 colher de sopa de fermento em pó\n3 xícaras de açúcar\n4 colheres de manteiga")
+   
 (unlockeasteregg3_1
-   "Dear Valued GH2 Deluxe Player,")
+   "Contem bolo")
 (unlockeasteregg3_2
-   "EASTER EGG!")
+   "RECEITA DE BOLO")
 (unlockeasteregg3_3
-   "Free Play did it! Another found!")
+   "Modo de preparo:")
 (unlockeasteregg3_4
-   "\nCheck that MAIN MENU! But you're not done yet. (Remember, you're trying the hyperspeed code on other menus that aren't the main menu. Stay focused.)\n\nNext hint: where band disputes are remediated. And occasionally where bands break up.\n\nGame on,\nThe GH2 Deluxe Team")
+   "\n1. Bater o açúcar, a manteiga e os ovos.\n2. Depois acrescente a farinha de trigo, o leite e por último o fermento.\n3. Unte a forma com farinha.\n4. Asse por mais ou menos 40 minutos.\n\nEssa receita de bolo comum é uma daquelas receitas básicas e deliciosas: ele pode ser incrementado com calda de chocolate, recheio de brigadeiro, doce de leite e outras delícias.")
+   
+;Disclaimer-  change to egg1 later
 (unlockeasteregg4_1
-   "Dear Valued GH2 Deluxe Player,")
+   "                Lisarb GH2 - DEMO 2")
 (unlockeasteregg4_2
-   "EASTER EGG!")
+   "LEIA-ME!")
 (unlockeasteregg4_3
-   "(How many more are there?)")
+   ".")
 (unlockeasteregg4_4
-   "\nYou're at the home stretch. You're seeing what not a lot of people have seen before. But you are. Not. Done. Yet.\n\nHere's your very final hint: you've never gone on this screen before. And if you have, never more than once. (R.I.P. our egos.)\n\nGot that? (And once you find it, send us a picture in MiloHax and gloat.)\n\nGood luck,\nThe GH2 Deluxe Team")
+   "Essa é a segunda demo do \qLisarb Remaster\q para GH2, uma ISO / Hack com a finalidade de ter uma experiência quase igual a um jogo oficial.\n\nPreste atenção nas animações da banda e as luzes do local. (Da pra ativar o bot,se preciso!)\n\nTambém, tem TODAS as dificuldades na guitarra, pois isso está incluído numa experiencia \qquase igual\q a oficial, como eu disse antes.\n\n\nPor ultimo, se encontrar bugs os coisas estranhas na ISO, me avise.")
+   
 (finaleggtxt1
    "CONGRATULATIONS")
 (finaleggtxt2
@@ -178,13 +233,17 @@
 (gh80s_title
    "Guitar Hero 80s")
 (toogle_headline_qp_1
-   "NICE BOT RUN,\nYA FUCKIN' CHUMP!")
+   "BOT BOTA OVO\nE CHOCA A PLATEIA!")
+   ;"NICE BOT RUN,\nYA FUCKIN' CHUMP!")
 (toogle_headline_qp_2
-   "COMMUNITY HORRIFIED AT BLATANT DISPLAY OF GAME HACKING")
+   "FALSO HEROI NÃO SABE DIFERENCIAR \qPATH\q DE \qPATCH\q!")
+   ;"COMMUNITY HORRIFIED AT BLATANT DISPLAY OF GAME HACKING")
 (toogle_headline_qp_3
-   "MUSIC FANS RIOT IN THE STREETS AFTER BOGUS CONCERT")
+   "APRESETANDOR FLAGRADO USANDO BONÉ 3D FALSO NA SEXTA FEIRA!")
+   ;"MUSIC FANS RIOT IN THE STREETS AFTER BOGUS CONCERT")
 (toogle_headline_qp_4
-   "HACK GUITARIST FAKES IT THROUGH DIFFICULT SONG")
+   "GUITARRISTA VAI DE BASE APÓS DESCOBRIREM FARSA!")
+   ;"HACK GUITARIST FAKES IT THROUGH DIFFICULT SONG")
 (toogle_headline_ca_1
    "{GH_BAND} MOCKED ONLINE AFTER SINGER CAUGHT LIP-SYNCING")
 (toogle_headline_ca_2
@@ -318,88 +377,11 @@
 (toogle_headline_co_4
    "\qTHIS JUST ISN'T MY BAND ANYMORE\q SAYS FORMER SINGER")
 (toogle_label
-   "AUTOPLAY")
- 
+   "TA DE BOT!")
+   
 (display_cheat_msg "Ativado:")
 (cheat_hyper_speed_mode "Hyperspeed")
-
-;lisarb gh2 - debug Naonemeu
+(cheat_bot "Olha o bot!\n(NÃ£o salva!)")
+(cheat_botoff "Sem bot!\n(Agora salva!)")
+;lisarb gh2 - debug test
 ;startfromhere
-
-;LISARB GH2 - locale_authors
-
-(diasdeluta_author
-   "Naonemeu, FilipinDuMods")
-
-;DUMMY
-
-(money_author
-   "Naonemeu")
-
-(razoeseemocoes_author
-   "Naonemeu")
-
-(soporumanoite_author
-   "Naonemeu")
-
-(demusicaligeira_author
-   "Naonemeu")
-
-(espelhosmagicos_author
-   "Naonemeu")
-
-(rebirth_author
-   "Naonemeu")
-
-(irreversivel_author
-   "Naonemeu")
-
-(annajulia_author
-   "Naonemeu")
-
-(thebull_author
-   "Naonemeu")
-
-(pegasusfantasy_author
-   "Naonemeu")
-
-(lukeeusouseupai_author
-   "Naonemeu")
-;LISARB GH2 - locale_year
-
-(money_year
-   "1995")
-
-(razoeseemocoes_year
-   "2006")
-
-(soporumanoite_year
-   "2002")
-
-(demusicaligeira_year
-   "1996")
-
-(espelhosmagicos_year
-   "1996")
-
-(rebirth_year
-   "2001")
-
-(irreversivel_year
-   "2005")
-
-(annajulia_year
-   "1999")
-
-(thebull_year
-   "2009")
-
-(pegasusfantasy_year
-   "2024")
-
-(lukeeusouseupai_year
-   "2010")
-
-(diasdeluta_year
-   "1986")
-

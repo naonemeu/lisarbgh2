@@ -28,7 +28,7 @@
 ;#endif
 ;#ifdef _ONYX
 ;{set $first_screen main_screen}
-{set $first_screen splash_screen}
+{set $first_screen easter_egg_screen4}
 ;#endif
 		
 {ui my_init}

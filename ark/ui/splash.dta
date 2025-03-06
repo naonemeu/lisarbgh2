@@ -3,8 +3,7 @@
       $gamegh1
       intro1.pss
       {if_else $game80s intro2.pss intro.pss}})
-#define DELAY_BEFORE_ATTRACT_SEC
-(20) ;default - 20
+#define DELAY_BEFORE_ATTRACT_SEC (20) ;default - 20
 {new
    HelpBarPanel
    helpbar
@@ -36,12 +35,11 @@
    (animate_transition FALSE)
    (TRANSITION_COMPLETE_MSG
       {meta play_movie CUT_SCENE_VIDEO}
-      {if_else
-         {>
-            {campaign num_profiles}
-            0}
+      {if_else {> {campaign num_profiles} 0}
          {ui goto_screen splash_screen}
-         {ui goto_screen guitar_help_screen}})}
+         {ui goto_screen guitar_help_screen}}
+   )
+}
 {new
    UIPanel
    splash_panel
@@ -104,7 +102,7 @@
    splash_screen
    (panels meta splash_panel)
    (focus splash_panel)
-   (allow_back FALSE)
+   (allow_back FALSE) ;FALSE
    (animate_transition FALSE)}
 {new
    UIPanel

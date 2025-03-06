@@ -13,7 +13,7 @@
          ; $game80s
          ; "Guitar Hero Encore Deluxe © 2006 RedOctane, Inc.\nModifications © 2021 MiloHax. See credits for all contributors.\nOriginal game code © 2005-2006 Harmonix Music Systems, Inc. Developed by Harmonix Music Systems." ;(não traduzido)
          ; "Guitar Hero II Deluxe © 2006 RedOctane, Inc.\nModificações © 2021 MiloHax. Veja 'credits' para todos contribuintes.\nCódigo original © 2005-2006 Harmonix Music Systems, Inc. Desenvolvido por Harmonix Music Systems."}}
-"LISARB REMASTERED VERSÃO GH2DX - POR NAONEMEU\n2025 - VERSÃO DE TESTE 02A"
+"NAONEMEU, VERSÃO 02A (2025-03-08)\nCOM CONTRIBUIÇÕES DE: FILIPINDUMODS."
 )
 
 (guitar_help_using
@@ -95,7 +95,7 @@
 (lag_info_why
    "TVs que não sejam de tubo podem ter atraso que atrapalha a jogatina. Tente calibrar antes de começar a jogar")
 (lag_info_howto
-   "Faça a calibração palhetando a guitarra (D-Pad Down no DS) no ritmo da nota ao alvo.")
+   "Faça a calibração palhetando a guitarra (D-Pad Down no DS) no ritmo da nota.")
 (lag_info_failure
    "Não tivemos uma boa leitura da calibração. Vamos tentar de novo")
 (lag_success
@@ -141,9 +141,13 @@
 (op_data_settings
    "Quando que") ;"Gerenciar banda") ;1
 (op_game_settings
-   "Opções de áudio")
+   "Op. de Áudio") ;test spaces
+(audio_settings
+   "Op. de Áudio") ;test spaces
 (op_video_settings
-   "Opções de vídeo")
+   "Op. de Vídeo")
+(video_settings
+   "Op. de Vídeo")
 (op_memcard
    "vai sair a versão") ;"Opções de Dados") ;2
 (GAME_SETTINGS
@@ -249,11 +253,11 @@
 (Venue
    "LOCAL")
 (cheat_enabled_fmt
-   "CHEAT ATIVADO:\n%s")
+   "ATIVADO:\n%s")
 (cheat_disabled_fmt
-   "CHEAT DESATIVADO:\n%s")
+   "DESATIVADO:\n%s")
 (cheat_unlock_all
-   "Destravar tudo (sem save!)")
+   "Destravar tudo\n(sem save!)")
 (CAREER
    "CARREIRA")
 (MULTIPLAYER
@@ -296,7 +300,7 @@
    {if_else
       $egg5
       "PRESS ANY BUTTON TO JAM"
-      "PRESS ANY BUTTON TO ROCK"}) ;Não traduzido
+      "APERTE QUALQUER BOTÃO"}) ;Não traduzido
 (pausetitle
    "PAUSA")
 (pause_resume
@@ -317,10 +321,6 @@
    "sair")
 (new_song
    "nova música")
-(video_settings
-   "opções de vídeo")
-(audio_settings
-   "opções de áudio")
 (SONG_COMPLETE
    "MúSICA COMPLETA!")
 (PLAYER_1_WINS
@@ -331,7 +331,7 @@
    {if_else
       $egg5
       "TIED!" 
-      "EMPATE!"}) ;tied -> Não traduzido
+      "EMPATE!"})
 (CONTINUE
    "CONTINUAR")
 (MORE_STATS
@@ -344,7 +344,7 @@
    {if_else
       $egg5
       "YOU PULLED IT OUT"
-      "PEDIU PARA PARAR PAROU!"}) ;lmao YOU PULLED IT OUT - não traduzido
+      "PEDIU PARA PARAR, PAROU!"}) ;lmao YOU PULLED IT OUT - não traduzido
 (controller_loss_msg
    "Coloque o controle de volta no port 1")
 (controller_loss_msg_multi
@@ -390,7 +390,7 @@
 (me_notes_hit
    "NOTAS ACERTADAS")
 (me_streak
-   "NOTE STREAK MAIS LONGA")
+   "COMBO MAIS LONGO")
 (me_score
    "PONTOS")
 (meplayer1
@@ -432,9 +432,9 @@
 (highscore_start
    "Aperte START para confirmar o nome")
 (comp_selsong
-   "Nova MUsica")
+   "Nova Musica")
 (comp_restart
-   "Jogar de novo")
+   "De novo")
 (comp_quit
    "Sair")
 (select_song
@@ -499,3 +499,7 @@
    "IH, DEU RUIM!") ;lmao
 (deploy_star
    "DA TILT AI O MEU!") ; lmao
+   
+(desc_on "Leia a\ndescrição!")
+(desc_off "Por favor!")
+(help_dummy ".")

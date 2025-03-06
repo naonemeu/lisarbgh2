@@ -38,7 +38,7 @@
             ;{$this set_line $prefix 3 $artist_text}
             
             #ifdef _SHIP
-            {if_else {== "Naonemeu" {localize {sprint {gamecfg get_song} "_author"}}}
+            {if_else {== "" {localize {sprint {gamecfg get_song} "_author"}}}
             
                ;Hide charter line
                {$this set_line $prefix 3 {sprint $artist_text ", " {localize {sprint $song "_year"}}}}
@@ -60,15 +60,16 @@
             
             ;Doesn't work on debug if empty! :( - fallback doesn't work and asks to put it in locale_milo.dta
             #ifdef 2DBUG
-            {if_else {== "Naonemeu" {localize {sprint {gamecfg get_song} "_author"}}}
+			{$this set_line $prefix 3 $artist_text} ;idc
+            ; {if_else {== "Naonemeu" {localize {sprint {gamecfg get_song} "_author"}}}
             
-               ;Hide charter line
-               {$this set_line $prefix 3 {sprint $artist_text ", " {localize {sprint $song "_year"}}}}
+               ; ;Hide charter line
+               ; {$this set_line $prefix 3 {sprint $artist_text ", " {localize {sprint $song "_year"}}}}
                
-               ;Show charter line
-               {$this set_line $prefix 3 {sprint $artist_text ", " {localize {sprint $song "_year"}}
-                                                     "\nCharter: " {localize {sprint $song "_author"}}}}
-            }
+               ; ;Show charter line
+               ; {$this set_line $prefix 3 {sprint $artist_text ", " {localize {sprint $song "_year"}}
+                                                     ; "\nCharter: " {localize {sprint $song "_author"}}}}
+            ; }
             #endif
 
         }}
@@ -142,10 +143,7 @@
          "encore song is "
          [encore_song]
          "\n"}
-      {if
-         {==
-            {gamecfg get_song}
-            rebirth} ;tonightimgonna
+      {if {== {gamecfg get_song} voudeixar} ;tonightimgonna
          {{{world_panel loaded_dir}
                find
                drummer}
@@ -313,7 +311,7 @@
       ;{world_panel set_showing TRUE}
 	  {if_else $focusmode {world_panel set_showing FALSE} {world_panel set_showing TRUE}} ;forces venue to stay off in focus mode
       {if_else {gamecfg get game_over_sequence}
-         {do {if {== {gamecfg get_song} rebirth} ;tonightimgonna
+         {do {if {== {gamecfg get_song} voudeixar} ;tonightimgonna
                {do {script_task (delay DRUMMER_EXPLODE_DELAY) (units kTaskSeconds)
                      (script {handle ($this drummer_explode)}
                         {play_sfx drummer_exp}
@@ -569,17 +567,11 @@
             {taskmgr ui_seconds}}
          {set $leaving FALSE}
          {set $started_fade FALSE}
-         {set
-            $song_dur
-            {'+'
-               10
-               {'*'
-                  0.75
-                  {game song_duration_sec}}}}
-         {set
-            $attract_length_sec
-            {min ATTRACT_LENGTH_SEC $song_dur}}
-         {track_panel set_showing FALSE}})}
+         {set $song_dur {'+' 10 {'*' 0.75 {game song_duration_sec}}}}
+         {set  $attract_length_sec {min ATTRACT_LENGTH_SEC $song_dur}}
+         {track_panel set_showing FALSE}})
+}
+
 {new
    GHScreen
    finish_fade
