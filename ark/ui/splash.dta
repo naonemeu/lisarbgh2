@@ -96,7 +96,9 @@
       {if
          {meta is_any_button $button $player_num}
          {synth play_sequence button_select}
-         {ui goto_screen main_screen}})}
+        ;{ui goto_screen main_screen}
+         {ui goto_screen $after_splash}
+		 })}
 {new
    GHScreen
    splash_screen

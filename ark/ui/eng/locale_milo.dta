@@ -38,7 +38,8 @@
             "%i Rhythm Streak!")
          (kTrackDrum
             "%i Drum Streak!")
-         "%i Note Streak!"}
+		 "Combo de %i Notas!"}
+        ;"%i Note Streak!"}
       {if_else
          {==
             {gamecfg get mode}
@@ -51,8 +52,9 @@
                "%i Rhythm Streak!")
             (kTrackDrum
                "%i Drum Streak!")
-            "%i Note Streak!"}
-         "%i Note Streak!"}})
+            "Combo de %i Notas!"}
+         "Combo de %i Notas!"}
+		 })
 (stk_format_0
    {sprint $player0_streak})
 (stk_format_1
@@ -180,11 +182,11 @@
    
 ;Disclaimer-  change to egg1 later
 (unlockeasteregg4_1
-   "                Lisarb GH2 - DEMO 2")
+   "               Lisarb GH2 - DEMO 2")
 (unlockeasteregg4_2
    "LEIA-ME!")
 (unlockeasteregg4_3
-   ".")
+   #ifdef _SHIP "" #else "." #endif)
 (unlockeasteregg4_4
    "Essa é a segunda demo do \qLisarb Remaster\q para GH2, uma ISO / Hack com a finalidade de ter uma experiência quase igual a um jogo oficial.\n\nPreste atenção nas animações da banda e as luzes do local. (Da pra ativar o bot,se preciso!)\n\nTambém, tem TODAS as dificuldades na guitarra, pois isso está incluído numa experiencia \qquase igual\q a oficial, como eu disse antes.\n\n\nPor ultimo, se encontrar bugs os coisas estranhas na ISO, me avise.")
    
@@ -381,7 +383,7 @@
    
 (display_cheat_msg "Ativado:")
 (cheat_hyper_speed_mode "Hyperspeed")
-(cheat_bot "Olha o bot!\n(NÃ£o salva!)")
+(cheat_bot "Olha o bot!\n(Não salva!)")
 (cheat_botoff "Sem bot!\n(Agora salva!)")
 ;lisarb gh2 - debug test
 ;startfromhere

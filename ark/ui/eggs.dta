@@ -17,7 +17,7 @@
    (focus easter_egg_panel1)
    (helpbar
       (default
-         ((fret2 help_continue))))
+         ((fret2 help_batata))))
    (BUTTON_DOWN_MSG
       {if
          {== $button kPad_Tri}
@@ -43,7 +43,7 @@
    (focus easter_egg_panel2)
    (helpbar
       (default
-         ((fret2 help_continue))))
+         ((fret2 help_batata))))
    (BUTTON_DOWN_MSG
       {if
          {== $button kPad_Tri}
@@ -69,7 +69,7 @@
    (focus easter_egg_panel3)
    (helpbar
       (default
-         ((fret2 help_continue))))
+         ((fret2 help_batata))))
    (BUTTON_DOWN_MSG
       {if
          {== $button kPad_Tri}
@@ -90,6 +90,7 @@
 {new
    GHScreen
    easter_egg_screen4
+   (allow_back FALSE)
    (panels easter_egg_panel4 helpbar)
    (animate_transition TRUE)
    (focus easter_egg_panel4)
@@ -102,7 +103,7 @@
          {$this backwards_anim}
          {synth play_sequence button_back.cue}
          ;{ui goto_screen $egg_back}
-		 {ui goto_screen splash_screen}
+		 {ui goto_screen $after_disclaimer}
 		 })}
 {new
    GHScreen

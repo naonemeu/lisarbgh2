@@ -456,7 +456,7 @@
 (sd_help
    "DIFICULDADE")
 (sd_help_practice
-   "Dificuldade")
+   "Escolha sua dificuldade")
 (MULTIPLAYER_MODE_SELECT
    "Escolha o modo multi.")
 (MULTI_COMPETE
@@ -502,4 +502,5 @@
    
 (desc_on "Leia a\ndescrição!")
 (desc_off "Por favor!")
-(help_dummy ".")
+(help_dummy   #ifdef _SHIP "" #else "." #endif)
+(help_batata "BATATA")

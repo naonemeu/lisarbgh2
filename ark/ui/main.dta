@@ -128,6 +128,7 @@
 {new
    GHScreen
    main_screen
+   (allow_back FALSE)
    (panels meta main_panel helpbar)
    (focus main_panel)
    (helpbar
