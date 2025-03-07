@@ -92,12 +92,18 @@
       {game set_quickplay}
       {game_screen set attract_mode TRUE}
       {ui goto_screen loading_screen})
+	  
    (BUTTON_DOWN_MSG
+   
       {if
          {meta is_any_button $button $player_num}
+		 
          {synth play_sequence button_select}
-        ;{ui goto_screen main_screen}
+		 
          {ui goto_screen $after_splash}
+		 
+         {if {$disclaimer TRUE} {ui goto_screen main_screen}}
+		 
 		 })}
 {new
    GHScreen

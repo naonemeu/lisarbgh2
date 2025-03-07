@@ -1,9 +1,8 @@
 {func
    is_updown_button
    ($button)
-   {'||'
-      {== $button kPad_DDown}
-      {== $button kPad_DUp}}}
+   {'||' {== $button kPad_DDown} {== $button kPad_DUp}}
+}
 #define VENUE_MAP_SCROLL_SEC
 (0.3)
 {new

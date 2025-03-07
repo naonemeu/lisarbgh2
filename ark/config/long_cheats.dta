@@ -105,10 +105,17 @@
     }
 )
 
-((kPad_Start kPad_Select kPad_Start)
-   {if CHEATS_ALLOWED {play_sfx cash_award.cue} {ui goto_screen guitar_help_screen}}
+((kPad_Start kPad_Select kPad_Start kPad_Select)
+   {if CHEATS_ALLOWED {set $skip_disclaimer TRUE} {play_sfx cash_award.cue} {ui goto_screen guitar_help_screen}}
 )
 
+;lol
+((kPad_Start kPad_Start kPad_Start kPad_Start kPad_Start kPad_Start)
+   {if CHEATS_ALLOWED
+   {set $egg_back {ui current_screen}}
+   {ui goto_screen easter_egg_screen1}
+   }
+)
 
 ; ((G_RED G_RED G_RED)
    ; {if
@@ -123,16 +130,6 @@
       ; {play_sfx cheat}
     ; }
 ; )
-
-((kPad_Start kPad_Start)
-   {if CHEATS_ALLOWED
-   {set $egg_back {ui current_screen}}
-   {ui goto_screen easter_egg_screen1}
-   }
-)
-
-
-
 
 ;((G_ORANGE G_BLUE G_ORANGE G_YELLOW G_ORANGE G_BLUE G_ORANGE G_YELLOW)
 ; ((kPad_Start kPad_Start)

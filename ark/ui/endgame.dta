@@ -191,10 +191,7 @@
 #define TOOGLE_HEAD_CO
 ((toogle_headline_co_1 toogle_headline_co_2 toogle_headline_co_3 toogle_headline_co_4))
 #define HEADLINE_HANDLERS
-((gen_toogle_head_qp
-      {$this
-         generate_headline
-         {random_elem TOOGLE_HEAD_QP}})
+((gen_toogle_head_qp {$this generate_headline {random_elem TOOGLE_HEAD_QP}})
    (gen_toogle_head_ca
       {$this
          generate_headline

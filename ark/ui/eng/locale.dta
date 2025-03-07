@@ -151,7 +151,9 @@
 (op_memcard
    "vai sair a versão") ;"Opções de Dados") ;2
 (GAME_SETTINGS
-   "OPÇÕES DE ÁUDIO")
+   "OP. DE ÁUDIO") ;pause - audio
+(gs_video
+   "OP. DE VÍDEO")  ;pause - audio
 (LEFT_PLAYER_1
    "LEFTY FLIP - JOGADOR 1")
 (LEFT_PLAYER_2
@@ -168,10 +170,8 @@
    "BANDA")
 (gs_sync_help
    "(0-.250 sec, .10 step)")
-(gs_video
-   "OPÇÕES DE VÍDEO")
 (STEREO_SOUND
-   "ESTÉREO")
+   "SOM ESTÉREO")
 (SOUND_FX
    "EFEITOS")
 (BONUS_MATERIAL
@@ -300,7 +300,7 @@
    {if_else
       $egg5
       "PRESS ANY BUTTON TO JAM"
-      "APERTE QUALQUER BOTÃO"}) ;Não traduzido
+      "APERTE QUALQUER BOTAO"}) ;Não traduzido
 (pausetitle
    "PAUSA")
 (pause_resume
@@ -504,3 +504,7 @@
 (desc_off "Por favor!")
 (help_dummy   #ifdef _SHIP "" #else "." #endif)
 (help_batata "BATATA")
+
+(BAND "MÚSICA")
+(GUITAR "(NÃO USA)")
+(AUDIO_SETTINGS "OPÇÕES DE AUDIO")

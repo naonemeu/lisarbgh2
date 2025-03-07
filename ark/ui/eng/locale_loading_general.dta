@@ -3,7 +3,7 @@
 (milo_tip1
    "Aperte select na lista de musicas para modificar a velocidade das notas e das musicas! (Faz parte do GH2 Deluxe)")
 (milo_tip2
-   "Sim, o menu de baixo do GH2 Deluxe foi retirado.\nSem paciência pra fazer baixo")
+   "Sim, o menu de baixo do GH2 Deluxe foi retirado.\nSem paciência pra isso.")
 (milo_tip3
    "Assim como no GH3, as mensagens de \qNote Streak\q aparecem no jogo. (Faz parte do GH2 Deluxe)")
 (milo_tip4
@@ -21,7 +21,7 @@
    ;   $game80s
    ;   "In our testing, the Rock for Safety Tour is the venue that runs the best on both console and emulator."
    ;   "In our testing, the Vans Warped Tour is the venue that runs the best on both console and emulator."})
-   "Pro pessoal que queria todas as dificuldades: deixe o seu comentário/feedback! Faz anos que nao mexo com chart fora do Expert")
+   "Aperte START várias vezes no menu principal. ")
 (milo_tip8
    "Acabou a musica e o contador de notas esta laranja? Parabens, conseguiu um FC! (Faz parte do GH2 Deluxe)")
 (milo_tip9
@@ -39,7 +39,7 @@
 (milo_tip13
    "Configure certo o seu OPL, principalmente se tiver pelo USB. O jogo foi testado e texturas das notas/gems foram modificadas de forma a reduzir os lags no USB")
 (milo_tip14
-   "As musicas não tem as faixas separadas. Ate pensei em usar faixas por IA, mas botar isso no GH2 requer um trabalho de mixagem (haja paciência...)")
+   "As musicas não tem as faixas separadas. AtÉ pensei em usar faixas por IA, mas botar isso no GH2 requer um trabalho de mixagem (haja paciência...)")
 (milo_tip15
    "E possível acessar o modo pratica direto pelo menu de pausa. (Faz parte do GH2 Deluxe)")
 (milo_tip16
@@ -47,7 +47,7 @@
 (milo_tip17
    "As musicas planejadas dessa setlist foram pensadas principalmente para o modo dualshock. Não vai ter tantas musicas de palhetadas.")
 (milo_tip18
-   "Gravou um DVD pra essa demo? Sinto-lhe dizer, mas desperdiçou um disco.")
+   "Gravou um DVD pra essa demo? Sinto-lhe dizer,\nmas desperdiçou um disco.")
    
    
 (easy_tip1
@@ -141,7 +141,7 @@
 (lisarb_tip_2
    "Configure certo o seu OPL, principalmente se tiver pelo USB. Build testada: \qv1.2.0-Beta-2109\q")
 (lisarb_tip_3
-   "Pela enésima vez: Essa ISO NÃO e o Brazucas!")
+   "Pela enésima vez: Essa ISO NÃO é o Brazucas!")
 (lisarb_tip_4
    "Essa ISO foi testada no PCSX2!\nUse a versão mais recente.")
 (lisarb_tip_5
