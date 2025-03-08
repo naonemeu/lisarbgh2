@@ -1,4 +1,4 @@
-(wip_warn "CONTINUAR TRADUCAO DOS LOADINGS, TIRAR OS COMENTARIOS EM CONFIG/TIPS.DTA")
+; "CONTINUAR TRADUCAO DOS LOADINGS, TIRAR OS COMENTARIOS EM CONFIG/TIPS.DTA"
 
 (milo_tip1
    "Aperte select na lista de musicas para modificar a velocidade das notas e das musicas! (Faz parte do GH2 Deluxe)")
@@ -21,11 +21,11 @@
    ;   $game80s
    ;   "In our testing, the Rock for Safety Tour is the venue that runs the best on both console and emulator."
    ;   "In our testing, the Vans Warped Tour is the venue that runs the best on both console and emulator."})
-   "Aperte START várias vezes no menu principal. ")
+   "Aperte START várias vezes no menu principal. Algo legal te espera")
 (milo_tip8
    "Acabou a musica e o contador de notas esta laranja? Parabens, conseguiu um FC! (Faz parte do GH2 Deluxe)")
 (milo_tip9
-   "Pro pessoal que queria todas as dificuldades: deixe o seu comentário/feedback! Faz anos que nao mexo com chart fora do Expert")
+   "Pro pessoal que queria todas as dificuldades: deixe o seu comentário/feedback! Faz anos que não mexo com chart fora do Expert")
 (milo_tip10
    "Essa ISO NÃO FOI testada no AetherSX2!")
 (milo_tip11
@@ -33,13 +33,13 @@
    ;   $game80s
    ;   "We fixed the strum limit so you don't have to. Go check out Trogdor on the OTHER setlist and see how it feels."
    ;   "We fixed the strum limit so you don't have to. Go check out Trogdor and see how it feels."})
-   "Não é o Brazucas! ...mas eu posso chamar a ISO de\n\qGuitar Hero Brazucas 5\q")
+   "Não é o Brazucas! ...mas eu posso\nchamar a ISO de\qGuitar Hero Brazucas 5\q")
 (milo_tip12
-   "Pela enésima vez: Essa ISO NÃO e o Brazucas!")
+   "Pela enésima vez:\nEssa ISO NÃO é o Brazucas!")
 (milo_tip13
    "Configure certo o seu OPL, principalmente se tiver pelo USB. O jogo foi testado e texturas das notas/gems foram modificadas de forma a reduzir os lags no USB")
 (milo_tip14
-   "As musicas não tem as faixas separadas. AtÉ pensei em usar faixas por IA, mas botar isso no GH2 requer um trabalho de mixagem (haja paciência...)")
+   "As musicas não tem as faixas separadas. Até pensei em usar faixas por IA, mas botar isso no GH2 requer um trabalho de mixagem (haja paciência...)")
 (milo_tip15
    "E possível acessar o modo pratica direto pelo menu de pausa. (Faz parte do GH2 Deluxe)")
 (milo_tip16
@@ -77,7 +77,7 @@
    
    
 (advanced_tip1
-   "Stuck on a song? Try getting five stars on an easier one.")
+   "Está travando em uma música?\nSkill Issue.")
 (advanced_tip2
    "Salve o \qStar Power\q para seções com mais notas. Isso vai garantir mais pontos no total.")
 (advanced_tip3
@@ -130,6 +130,8 @@
    "Você deve estar se perguntando: \qSe era pra ter uma banda por música, porque tem duas do Charlie Brown Jr?\q")
 (loading_tip_fairytale
    "É Fairy TALE, não Fairy \qTail\q, Tuco.")
+; (loading_tip_pegasusfantasy
+   ; "Então esse é o crossover do\nAnime Hero x Lisarb Remaster.")
    
 (charter_tip1
    ;"I've said before that charting is a mostly thankless job. That still rings true. Once every few months, someone would thank me. Truth is that I slightly resent that fact -Maupy2"
@@ -141,7 +143,7 @@
 (lisarb_tip_2
    "Configure certo o seu OPL, principalmente se tiver pelo USB. Build testada: \qv1.2.0-Beta-2109\q")
 (lisarb_tip_3
-   "Pela enésima vez: Essa ISO NÃO é o Brazucas!")
+   "Pela enésima vez:\nEssa ISO NÃO é o Brazucas!")
 (lisarb_tip_4
    "Essa ISO foi testada no PCSX2!\nUse a versão mais recente.")
 (lisarb_tip_5

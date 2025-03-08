@@ -151,9 +151,9 @@
 (op_memcard
    "vai sair a versão") ;"Opções de Dados") ;2
 (GAME_SETTINGS
-   "OP. DE ÁUDIO") ;pause - audio
+   "OPÇÃO DE ÁUDIO") ;pause - audio
 (gs_video
-   "OP. DE VÍDEO")  ;pause - audio
+   "OPÇÃO DE VÍDEO")  ;pause - audio
 (LEFT_PLAYER_1
    "LEFTY FLIP - JOGADOR 1")
 (LEFT_PLAYER_2
@@ -304,7 +304,7 @@
 (pausetitle
    "PAUSA")
 (pause_resume
-   "RESUMIR")
+   "CONTINUAR")
 (pause_restart
    "VOLTA AI") ;lmao
 (pause_quit
@@ -314,7 +314,7 @@
 (restart
    "volta ai") ;lmao
 (resume
-   "resumir")
+   "CONTINUAR")
 (retry
    "tentar de novo")
 (exit
@@ -445,7 +445,7 @@
 #else
 (song_quickplay
    ;"Jogue no Modo carreira para mais músicas!")
-   "O que achou da demo? Comente no YT / Discord!")
+   "Lisarb GH2 Demo 2 - LSRB_000.01 - @Naonemeu")
 #endif
 (encore_song_listing
    "Encore: Jogue no Modo carreira para destravar")
@@ -508,3 +508,9 @@
 (BAND "MÚSICA")
 (GUITAR "(NÃO USA)")
 (AUDIO_SETTINGS "OPÇÕES DE AUDIO")
+(CHANGE_SPEED "MUDAR VELOCIDADE")
+(CHANGE_SECTION "MUDAR SECÇÃO")
+(NEW_SONG "NOVA MÚSICA")
+(EXIT "SAIR")
+(PAUSED "PAUSA")
+(RESUME "CONTINUAR")

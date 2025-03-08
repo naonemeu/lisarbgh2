@@ -188,7 +188,7 @@
 (unlockeasteregg4_3
    #ifdef _SHIP "" #else "." #endif)
 (unlockeasteregg4_4
-   "Essa é a segunda demo do \qLisarb Remaster\q para GH2, uma ISO / Hack com a finalidade de ter uma experiência quase igual a um jogo oficial.\n\nPreste atenção nas animações da banda e as luzes do local. (Da pra ativar o bot,se preciso!)\n\nTambém, tem TODAS as dificuldades na guitarra, pois isso está incluído numa experiencia \qquase igual\q a oficial, como eu disse antes.\n\n\nPor ultimo, se encontrar bugs os coisas estranhas na ISO, me avise.")
+   "Essa é a segunda demo do \qLisarb Remaster\q para GH2, uma ISO / Hack com a finalidade de ter uma experiência quase igual a um jogo oficial.\n\nPreste atenção nas animações da banda e as luzes do local. (Da pra ativar o bot, se preciso!)\n\nTambém, tem TODAS as dificuldades na guitarra, pois isso está incluído numa experiencia \qquase igual\q a oficial, como eu disse antes.\n\n\nPor ultimo, se encontrar bugs os coisas estranhas na ISO, me avise: @Naonemeu")
    
 (finaleggtxt1
    "CONGRATULATIONS")

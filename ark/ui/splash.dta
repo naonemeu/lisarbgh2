@@ -102,8 +102,6 @@
 		 
          {ui goto_screen $after_splash}
 		 
-         {if {$disclaimer TRUE} {ui goto_screen main_screen}}
-		 
 		 })}
 {new
    GHScreen

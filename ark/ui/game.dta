@@ -444,19 +444,13 @@
 {new
    UIPanel
    world_panel
-   (file
-      {sprint
-         "../world/"
-         {game get_venue}
-         "/"
-         {game get_venue}
-         {if_else
-            {game multiplayer}
-            {if_else
-               {game multiplayer_vs}
-               "_mp.milo"
-               "_coop.milo"}
-            ".milo"}})
+   (file {sprint "../world/" {game get_venue} "/" {game get_venue}
+         {if_else {game multiplayer} 
+            {if_else {game multiplayer_vs} "_mp.milo" "_coop.milo"} ;if PFO or co-op
+            ".milo" ;if not multiplayer
+         }
+         }
+   )
    (finish_load
       {{$this loaded_dir}
          set_name

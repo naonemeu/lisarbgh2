@@ -89,24 +89,49 @@
 
 ;Leia a descricao
 ;EEEEW
-((G_YELLOW G_YELLOW G_YELLOW G_YELLOW G_RED)
-   {if CHEATS_ALLOWED
-      {if_else {! $descmsg}
-         {do
-            {set $descmsg TRUE}
-            {main_screen display_desc_msg TRUE}
-            {play_sfx cheat}
-}
-         {do
-            {set $descmsg FALSE}
-            {main_screen display_desc_msg FALSE}
-            {play_sfx cheat_off}}
-        }
-    }
-)
+; ((G_YELLOW G_YELLOW G_YELLOW G_YELLOW G_RED)
+   ; {if CHEATS_ALLOWED
+      ; {if_else {! $descmsg}
+         ; {do
+            ; {set $descmsg TRUE}
+            ; {main_screen display_desc_msg TRUE}
+            ; {play_sfx cheat}
+; }
+         ; {do
+            ; {set $descmsg FALSE}
+            ; {main_screen display_desc_msg FALSE}
+            ; {play_sfx cheat_off}}
+        ; }
+    ; }
+; )
 
-((kPad_Start kPad_Select kPad_Start kPad_Select)
-   {if CHEATS_ALLOWED {set $skip_disclaimer TRUE} {play_sfx cash_award.cue} {ui goto_screen guitar_help_screen}}
+;quick exit
+((kPad_Square kPad_Square kPad_Square)
+   {if {&& {exists ui} {! {ui in_transition}}
+         {'||'
+            {==
+               {ui current_screen}
+               sel_song_screen}
+            {==
+               {ui current_screen}
+               qp_selsong_screen}
+            {==
+               {ui current_screen}
+               multi_vs_selsong_screen}
+            {==
+               {ui current_screen}
+               multi_coop_selsong_screen}
+            {==
+               {ui current_screen}
+               multi_fo_selsong_screen}
+            {==
+               {ui current_screen}
+               practice_selsong_screen}
+            }
+        }
+      {synth play_sequence button_back.cue}
+      {ui goto_screen main_screen}
+    }
 )
 
 ;lol
