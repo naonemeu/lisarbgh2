@@ -12,6 +12,13 @@
    (enter
       {gamecfg set practice_speed 0}
 	  {gamecfg set mode practice}) ;fix could not find world
+   (BUTTON_DOWN_MSG
+      {if
+         {== $button kPad_Tri}
+         {$this backwards_anim}
+         {synth play_sequence button_back.cue}
+         {ui goto_screen main_screen}}
+      kDataUnhandled)
    (SELECT_START_MSG
       ;{ui goto_screen practice_selpart_screen}
 	  {ui goto_screen practice_diff_screen}
@@ -846,7 +853,5 @@
       kDataUnhandled)}
 {func
    practice_restart
-   {if_else
-      $focusmode
-      {meta_loading_nosave_goto practice_game_focus_screen}
+   {if_else $focusmode {meta_loading_nosave_goto practice_game_focus_screen}
       {meta_loading_nosave_goto practice_game_screen}}}

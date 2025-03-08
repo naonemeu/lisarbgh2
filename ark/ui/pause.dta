@@ -13,14 +13,11 @@
          {world_panel is_up}
          {world_panel set_paused TRUE}})
    (resume
-      {if
-         {==
-            {gamecfg get mode}
-            practice}
-         {if_else
-            $focusmode
-            {practice_focus_panel set keep_section_text TRUE}
-            {practice_panel set keep_section_text TRUE}}}
+      {if {== {gamecfg get mode} practice}
+         {if_else $focusmode {practice_focus_panel set keep_section_text TRUE}
+            {practice_panel set keep_section_text TRUE}
+         }
+       }
       {set $game_unpause_on_enter TRUE}
       {if_else
          {&&
@@ -55,7 +52,9 @@
             {gamecfg set mode practice}
             {gamecfg set_track 0 0}
             {practice_selpart_screen set career_mode FALSE}
-            {meta_loading_goto practice_selpart_screen})
+           ;{meta_loading_goto practice_selpart_screen}
+            {meta_loading_goto practice_diff_screen} ;skip guitar/bass
+          )
          (quit.btn
             {if
                {==
@@ -86,7 +85,8 @@
    (enter
       {do
          ($career
-            {practice_selpart_screen get career_mode})
+           {practice_selpart_screen get career_mode}
+          )
          {tut_pause_career_buttons.view set_showing $career}
          {tut_pause_buttons.view
             set_showing
