@@ -37,39 +37,44 @@
             
             ;{$this set_line $prefix 3 $artist_text}
             
-            #ifdef _SHIP
-            {if_else {== "" {localize {sprint {gamecfg get_song} "_author"}}}
-            
-               ;Hide charter line
-               {$this set_line $prefix 3 {sprint $artist_text ", " {localize {sprint $song "_year"}}}}
-               
-               ;Anti-crash
-               {if_else {!= "" {localize {sprint {gamecfg get_song} "_year"}}}
-
-               ;Show charter line
-               {$this set_line $prefix 3 {sprint $artist_text ", " {localize {sprint $song "_year"}}
-                                                     "\nCharter: " {localize {sprint $song "_author"}}}}
-
-               ;Anti-crash else
-               {$this set_line $prefix 3 $artist_text}
-
-               }
-             }
-            
-            #endif
-            
-            ;Doesn't work on debug if empty! :( - fallback doesn't work and asks to put it in locale_milo.dta
-            #ifdef 2DBUG
-			{$this set_line $prefix 3 $artist_text} ;idc
-            ; {if_else {== "Naonemeu" {localize {sprint {gamecfg get_song} "_author"}}}
+            ; #ifdef _SHIP
+            ; {if_else {== "" {localize {sprint {gamecfg get_song} "_author"}}}
             
                ; ;Hide charter line
                ; {$this set_line $prefix 3 {sprint $artist_text ", " {localize {sprint $song "_year"}}}}
                
+               ; ;Anti-crash
+               ; {if_else {!= "" {localize {sprint {gamecfg get_song} "_year"}}}
+
                ; ;Show charter line
                ; {$this set_line $prefix 3 {sprint $artist_text ", " {localize {sprint $song "_year"}}
                                                      ; "\nCharter: " {localize {sprint $song "_author"}}}}
-            ; }
+
+               ; ;Anti-crash else
+               ; {$this set_line $prefix 3 $artist_text}
+
+               ; }
+             ; }
+            
+            ; #endif
+			
+			{mtv_campaign_line4.lbl set_wrap_width 500}
+            {mtv_campaign_line4_shadow.lbl set_wrap_width 500}
+			
+            #ifdef _SHIP
+			
+            {$this set_line $prefix 3 {sprint $artist_text ", " {localize {sprint $song "_year"}}}}
+			
+			{if_else {!= "" {localize {sprint $song "_author"}}} ;comparing with empty breaks debug
+			   {$this set_line $prefix 4 {sprint "Charter: " {localize {sprint $song "_author"}}}} ;get from locale files
+			   {$this set_line $prefix 4 {sprint "Charter: Naonemeu"}} ;set "default"
+			}
+            #endif
+            
+            ;Doesn't work on debug if empty! - fallback doesn't work and asks to put it in locale_milo.dta
+            #ifdef 2DBUG
+			{$this set_line $prefix 3 $artist_text}
+			{$this set_line $prefix 4 {sprint "(Charter Line)"}}
             #endif
 
         }}

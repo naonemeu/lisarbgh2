@@ -3,7 +3,7 @@
       $gamegh1
       intro1.pss
       {if_else $game80s intro2.pss intro.pss}})
-#define DELAY_BEFORE_ATTRACT_SEC (20) ;default - 20
+#define DELAY_BEFORE_ATTRACT_SEC (10) ;default - 20
 {new
    HelpBarPanel
    helpbar

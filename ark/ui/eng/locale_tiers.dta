@@ -1,8 +1,8 @@
-#ifndef _ENCO
-#ifndef _MEGA
-#ifndef _ONYX
-#ifndef 8DBUG
-#ifndef GH1RX
+; #ifndef _ENCO
+; #ifndef _MEGA
+; #ifndef _ONYX
+; #ifndef 8DBUG
+; #ifndef GH1RX
 (song_header_battle
    ;"1. Opening Licks")
    "LISARB GH2 TESTE - PARTE 1")
@@ -10,7 +10,8 @@
    ;"2. Amp-Warmers")
    "LISARB GH2 TESTE - PARTE 2")
 (song_header_small2
-   "3. String Snappers")
+   ;"3. String Snappers")
+   "LISARB GH2 TESTE - PARTE 3")
 (song_header_big
    "4. Thrash and Burn")
 (song_header_theatre
@@ -23,11 +24,11 @@
    "8. Face-Melters")
 (song_header_store
    "Bonus Tracks")
-#endif
-#endif
-#endif
-#endif
-#endif
+; #endif
+; #endif
+; #endif
+; #endif
+; #endif
 ; #ifndef _SHIP
 ; #ifndef _MEGA
 ; #ifndef _ONYX

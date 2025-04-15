@@ -1,6 +1,180 @@
 
 ;lisarbgh2
 
+(brasileirinho
+   (name "Brasileirinho")
+   (artist "Armandinho")
+   (caption solo_by)
+   (song 
+   (name songs/brasileirinho/brasileirinho) 
+   (tracks ((guitar 2) (bass 2) (fake 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/brasileirinho/brasileirinho.mid))
+
+   (song_vs (name songs/brasileirinho/brasileirinho)
+      (tracks ((guitar (2)) (bass 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/brasileirinho/brasileirinho.mid))
+
+   (anim_tempo kTempoFast)
+   (preview 57000 87000)
+   (quickplay
+      (character_outfit classic)
+      (guitar lespaul)
+      (venue arena)
+   )
+   (band metal_bass metal_drummer metal_keyboard)
+)
+
+(paudearara
+   (name "Pau-De-Arara")
+   (artist "Kiko Loureiro")
+   (caption solo_by)
+   (song 
+   (name songs/paudearara/paudearara) 
+   (tracks ((guitar 2) (bass 2) (fake 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/paudearara/paudearara.mid))
+
+   (song_vs (name songs/paudearara/paudearara)
+      (tracks ((guitar (2)) (bass 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/paudearara/paudearara.mid))
+
+   (anim_tempo kTempoFast)
+   (preview 87770 117770)
+   (quickplay
+      (character_outfit classic)
+      (guitar lespaul)
+      (venue arena)
+   )
+   (band metal_bass metal_drummer metal_keyboard)
+)
+
+(isabella
+   (name "Isabella")
+   (artist "Ozielzinho")
+   (caption solo_by)
+   (song 
+   (name songs/isabella/isabella) 
+   (tracks ((guitar 2) (bass 2) (fake 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/isabella/isabella.mid))
+
+   (song_vs (name songs/isabella/isabella)
+      (tracks ((guitar (2)) (bass 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/isabella/isabella.mid))
+
+   (anim_tempo kTempoMedium)
+   (preview 145000 175000)
+   (quickplay
+      (character_outfit classic)
+      (guitar lespaul)
+      (venue arena)
+   )
+   (band metal_bass metal_drummer metal_keyboard)
+)
+
+(quedalivre
+   (name "Queda Livre")
+   (artist "Dead Fish")
+   (caption performed_by)
+   (song 
+   (name songs/quedalivre/quedalivre) 
+   (tracks ((guitar 2) (bass 2) (fake 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/quedalivre/quedalivre.mid)
+	  (hopo_threshold 250))
+
+   (song_vs (name songs/quedalivre/quedalivre)
+      (tracks ((guitar (2)) (bass 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/quedalivre/quedalivre.mid)
+	  (hopo_threshold 250))
+
+   (anim_tempo kTempoFast)
+   (preview 63670 93670)
+   (quickplay
+      (character_outfit classic)
+      (guitar lespaul)
+      (venue arena)
+   )
+)
+
+(renata
+   (name "Renata")
+   (artist "Tihuana")
+   (caption performed_by)
+   (song 
+   (name songs/renata/renata) 
+   (tracks ((guitar 2) (bass 2) (fake 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/renata/renata.mid))
+
+   (song_vs (name songs/renata/renata)
+      (tracks ((guitar (2)) (bass 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/renata/renata.mid))
+
+   (anim_tempo kTempoMedium)
+   (preview 46900 76900)
+   (quickplay
+      (character_outfit classic)
+      (guitar lespaul)
+      (venue arena)
+   )
+)
+
+(tetodevidro
+   (name "Teto De Vidro")
+   (artist "Pitty")
+   (caption performed_by)
+   (song 
+   (name songs/tetodevidro/tetodevidro) 
+   (tracks ((guitar 2) (bass 2) (fake 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/tetodevidro/tetodevidro.mid))
+
+   (song_vs (name songs/tetodevidro/tetodevidro)
+      (tracks ((guitar (2)) (bass 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/tetodevidro/tetodevidro.mid))
+
+   (anim_tempo kTempoMedium)
+   (preview 47500 77500)
+   (quickplay
+      (character_outfit classic)
+      (guitar lespaul)
+      (venue arena)
+   )
+   (band metal_bass metal_drummer female_singer)
+)
+
 (diasdeluta
    (name "Dias De Luta")
    (artist "Ira!")
@@ -25,7 +199,8 @@
    (quickplay
       (character_outfit classic)
       (guitar lespaul)
-      (venue arena))
+      (venue arena)
+   )
 )
 
 (lukeeusouseupai
@@ -46,14 +221,16 @@
       (pans (-1.0 1.0 0.0))
       (vols (0.0 0.0 0.0))
       (cores (-1 -1 -1))
-      (midi_file songs/lukeeusouseupai/lukeeusouseupai.mid))
+      (midi_file songs/lukeeusouseupai/lukeeusouseupai.mid)
+	  (hopo_threshold 250))
 
    (anim_tempo kTempoFast)
    (preview 80000 110000)
    (quickplay
       (character_outfit classic)
       (guitar lespaul)
-      (venue arena))
+      (venue arena)
+   )
 )
 
 (pegasusfantasy
@@ -80,7 +257,8 @@
    (quickplay
       (character_outfit classic)
       (guitar lespaul)
-      (venue arena))
+      (venue arena)
+   )
 )
 
 (thebull
@@ -107,7 +285,8 @@
    (quickplay
       (character_outfit classic)
       (guitar lespaul)
-      (venue arena))
+      (venue arena)
+   )
 )
 
 (annajulia
@@ -136,7 +315,9 @@
    (quickplay
       (character_outfit classic)
       (guitar lespaul)
-      (venue arena)))
+      (venue arena)
+   )
+)
 
 (irreversivel
    (name
@@ -164,7 +345,9 @@
    (quickplay
       (character_outfit classic)
       (guitar lespaul)
-      (venue arena)))
+      (venue arena)
+   )
+)
 
 (razoeseemocoes
    (name
@@ -192,7 +375,9 @@
    (quickplay
       (character_outfit classic)
       (guitar lespaul)
-      (venue arena)))
+        (venue arena)
+   )
+)
 
 (demusicaligeira
    (name
@@ -220,7 +405,9 @@
    (quickplay
       (character_outfit classic)
       (guitar lespaul)
-      (venue arena)))
+      (venue arena)
+   )
+)
 
 (soporumanoite
    (name
@@ -248,7 +435,9 @@
    (quickplay
       (character_outfit classic)
       (guitar lespaul)
-      (venue arena)))
+      (venue arena)
+   )
+)
 
 (rebirth
    (name
@@ -276,7 +465,9 @@
    (quickplay
       (character_outfit classic)
       (guitar lespaul)
-      (venue arena)))
+      (venue arena)
+   )
+)
 
 (money
    (name
@@ -304,7 +495,9 @@
    (quickplay
       (character_outfit classic)
       (guitar lespaul)
-      (venue arena)))
+      (venue arena)
+   )
+)
 
 (espelhosmagicos
    (name
@@ -331,7 +524,154 @@
    (quickplay
       (character_outfit classic)
       (guitar lespaul)
-      (venue arena)))
+      (venue arena)
+   )
+)
+
+(dummy2
+   (name
+      "Espelhos Mágicos")
+   (artist
+      "Oficina G3")
+   (caption performed_by)
+   (song
+      (name songs/espelhosmagicos/espelhosmagicos)
+   (tracks ((guitar 2) (bass 2) (fake 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/espelhosmagicos/espelhosmagicos.mid))
+   (song_vs
+      (name songs/espelhosmagicos/espelhosmagicos)
+      (tracks ((guitar (2)) (bass 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/espelhosmagicos/espelhosmagicos.mid))
+   (anim_tempo kTempoMedium)
+   (preview 56660 86660)
+   (quickplay
+      (character_outfit classic)
+      (guitar lespaul)
+      (venue arena)
+   )
+)
+
+(dummy3
+   (name
+      "Espelhos Mágicos")
+   (artist
+      "Oficina G3")
+   (caption performed_by)
+   (song
+      (name songs/espelhosmagicos/espelhosmagicos)
+   (tracks ((guitar 2) (bass 2) (fake 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/espelhosmagicos/espelhosmagicos.mid))
+   (song_vs
+      (name songs/espelhosmagicos/espelhosmagicos)
+      (tracks ((guitar (2)) (bass 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/espelhosmagicos/espelhosmagicos.mid))
+   (anim_tempo kTempoMedium)
+   (preview 56660 86660)
+   (quickplay
+      (character_outfit classic)
+      (guitar lespaul)
+      (venue arena)
+   )
+)
+
+(dummy4
+   (name
+      "Espelhos Mágicos")
+   (artist
+      "Oficina G3")
+   (caption performed_by)
+   (song
+      (name songs/espelhosmagicos/espelhosmagicos)
+   (tracks ((guitar 2) (bass 2) (fake 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/espelhosmagicos/espelhosmagicos.mid))
+   (song_vs
+      (name songs/espelhosmagicos/espelhosmagicos)
+      (tracks ((guitar (2)) (bass 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/espelhosmagicos/espelhosmagicos.mid))
+   (anim_tempo kTempoMedium)
+   (preview 56660 86660)
+   (quickplay
+      (character_outfit classic)
+      (guitar lespaul)
+      (venue arena)
+   )
+)
+
+(dummy5
+   (name
+      "Espelhos Mágicos")
+   (artist
+      "Oficina G3")
+   (caption performed_by)
+   (song
+      (name songs/espelhosmagicos/espelhosmagicos)
+   (tracks ((guitar 2) (bass 2) (fake 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/espelhosmagicos/espelhosmagicos.mid))
+   (song_vs
+      (name songs/espelhosmagicos/espelhosmagicos)
+      (tracks ((guitar (2)) (bass 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/espelhosmagicos/espelhosmagicos.mid))
+   (anim_tempo kTempoMedium)
+   (preview 56660 86660)
+   (quickplay
+      (character_outfit classic)
+      (guitar lespaul)
+      (venue arena)
+   )
+)
+
+(dummy6
+   (name
+      "Espelhos Mágicos")
+   (artist
+      "Oficina G3")
+   (caption performed_by)
+   (song
+      (name songs/espelhosmagicos/espelhosmagicos)
+   (tracks ((guitar 2) (bass 2) (fake 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/espelhosmagicos/espelhosmagicos.mid))
+   (song_vs
+      (name songs/espelhosmagicos/espelhosmagicos)
+      (tracks ((guitar (2)) (bass 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/espelhosmagicos/espelhosmagicos.mid))
+   (anim_tempo kTempoMedium)
+   (preview 56660 86660)
+   (quickplay
+      (character_outfit classic)
+      (guitar lespaul)
+      (venue arena)
+   )
+)
 
 ;; stock
 

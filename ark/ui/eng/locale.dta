@@ -292,10 +292,9 @@
       "as not actually performed by"
       "as made famous by"})
 (performed_by
-   {if_else
-      $egg5
-      "as actually performed by"
-      "da banda"})
+      "da banda")
+(solo_by 
+      "do artista")
 (press_any_button
    {if_else
       $egg5
@@ -439,14 +438,9 @@
    "Sair")
 (select_song
    "Escolha a música")
-#ifdef _ONYX
-(song_quickplay
-   " ")
-#else
 (song_quickplay
    ;"Jogue no Modo carreira para mais músicas!")
-   "Lisarb GH2 Demo 2 - LSRB_000.01 - @Naonemeu")
-#endif
+   "Lisarb GH2 Demo 3 - LSRB_000.01 - @Naonemeu")
 (encore_song_listing
    "Encore: Jogue no Modo carreira para destravar")
 (encore_song_career_listing

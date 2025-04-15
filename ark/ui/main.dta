@@ -1,35 +1,36 @@
 {new GHPanel main_panel
    (file main.milo)
+   ; #ifdef _SHIP
    (focus main_quickspin.btn)
+   ; #else
+   ; (focus main_options.btn)
+   ; #endif
    (msg_last_frame 0)
    (already_entered FALSE)
    (memcard_flow_entered FALSE)
    (retain_last_focus FALSE)
    
    (enter {set $main_entered TRUE}
-	  
+
 	  ;Para salvar: Colocar ELF e mc.dta com o mesmo nome: LSRB_000.01 e "BALSRB-00001"
 	  ;Para pular tela do MC - init.dta
-	  
-	  #ifdef _SHIP ;Desabilitar modo carreira e destravar tudo
       {$this disable main_career.btn}
       {set $cheat_enabled_unlock_all 1}
       {campaign set_all_access 1}
       {set $disable_save 1}
       {set $disable_career 1}
-	  #endif
-	  
+
+	  ; #ifdef _SHIP ;Desabilitar modo carreira e destravar tudo
+	  ; #endif
+
 	  #ifdef 2DBUG ;Desabilitar modo carreira e destravar tudo
-      {$this disable main_career.btn}
-      {set $cheat_enabled_unlock_all 1}
-      {campaign set_all_access 1}
-      {set $disable_save 1}
-      {set $disable_career 1}
+      {{game get_player_config 0} set autoplay TRUE}
+      {{game get_player_config 1} set autoplay TRUE}
 	  {set $tadebot TRUE}
 	  #endif
-	  
+
 	  {set $disclaimer TRUE}
-	  
+
       {$this reset_player_settings}
       {if
          {!

@@ -6,14 +6,15 @@
          $gamegh1
          options_gh1.milo
          {if_else $game80s options_80s.milo options.milo}})
-   (focus op_audio.btn)
+   (focus video_settings.btn)
    (poll
       {if
          $disable_save
          {op_data.btn set_state kDisabled}
          {memory_card.btn set_state kDisabled}}
 		 {op_bonus.btn set_state kDisabled}
-		 {op_credit.btn set_state kDisabled})
+		 ;{op_credit.btn set_state kDisabled}
+   )
    (SELECT_START_MSG
       {switch
          $component

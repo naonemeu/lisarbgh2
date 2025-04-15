@@ -188,7 +188,7 @@
 (unlockeasteregg4_3
    #ifdef _SHIP "" #else "." #endif)
 (unlockeasteregg4_4
-   "Essa é a segunda demo do \qLisarb Remaster\q para GH2, uma ISO / Hack com a finalidade de ter uma experiência quase igual a um jogo oficial.\n\nPreste atenção nas animações da banda e as luzes do local. (Da pra ativar o bot, se preciso!)\n\nTambém, tem TODAS as dificuldades na guitarra, pois isso está incluído numa experiencia \qquase igual\q a oficial, como eu disse antes.\n\n\nPor ultimo, se encontrar bugs os coisas estranhas na ISO, me avise: @Naonemeu")
+   "Essa é a demo 3 do \qLisarb Remaster\q para GH2, uma ISO / Hack com a finalidade de ter uma experiência quase igual a um jogo oficial.\n\nPreste atenção nas animações da banda e as luzes do local. (Da pra ativar o bot, se preciso!)\n\nTambém, tem TODAS as dificuldades na guitarra, pois isso está incluído numa experiencia \qquase igual\q a oficial, como eu disse antes.\n\n\nPor ultimo, se encontrar bugs os coisas estranhas na ISO, me avise: @Naonemeu")
    
 (finaleggtxt1
    "CONGRATULATIONS")
@@ -234,26 +234,35 @@
    "Guitar Hero 2")
 (gh80s_title
    "Guitar Hero 80s")
+   
 (toogle_headline_qp_1
    "BOT BOTA OVO\nE CHOCA A PLATEIA!")
-   ;"NICE BOT RUN,\nYA FUCKIN' CHUMP!")
+  ;"NICE BOT RUN,\nYA FUCKIN' CHUMP!")
 (toogle_headline_qp_2
    "FALSO HEROI NÃO SABE DIFERENCIAR \qPATH\q DE \qPATCH\q!")
-   ;"COMMUNITY HORRIFIED AT BLATANT DISPLAY OF GAME HACKING")
+  ;"COMMUNITY HORRIFIED AT BLATANT DISPLAY OF GAME HACKING")
 (toogle_headline_qp_3
    "APRESETANDOR FLAGRADO USANDO BONÉ 3D FALSO NA SEXTA FEIRA!")
-   ;"MUSIC FANS RIOT IN THE STREETS AFTER BOGUS CONCERT")
+  ;"MUSIC FANS RIOT IN THE STREETS AFTER BOGUS CONCERT")
 (toogle_headline_qp_4
    "GUITARRISTA VAI DE BASE APÓS DESCOBRIREM FARSA!")
-   ;"HACK GUITARIST FAKES IT THROUGH DIFFICULT SONG")
+  ;"HACK GUITARIST FAKES IT THROUGH DIFFICULT SONG")
+(toogle_headline_qp_5
+   "DESCOBERTA: BANDA FEITA EM IA ERA UM HOLOGRAMA!")
+   
 (toogle_headline_ca_1
-   "{GH_BAND} MOCKED ONLINE AFTER SINGER CAUGHT LIP-SYNCING")
+   "CANTOR DA BANDA {GH_BAND} ZOADO APÓS FLAGLAREM LIP-SYNCING")
+  ;"{GH_BAND} MOCKED ONLINE AFTER SINGER CAUGHT LIP-SYNCING")
 (toogle_headline_ca_2
-   "{GH_BAND} FANS RETURNING THEIR ALBUMS IN SHAME")
+   "BATERISTA DE {GH_BAND} FLAGRADO COM PLAYBACK.")
+  ;"{GH_BAND} FANS RETURNING THEIR ALBUMS IN SHAME")
 (toogle_headline_ca_3
-   "\qEVEN THE GUITAR WAS AUTOTUNED\q SAYS {GH_VENUE}")
+   "\ATÉ A GUITARRA TINHA AUTOTUNE\q, DISSE {GH_VENUE}")
+  ;"\qEVEN THE GUITAR WAS AUTOTUNED\q SAYS {GH_VENUE}")
 (toogle_headline_ca_4
-   "EVEN ON TOY GUITARS, {GH_BAND} CAN'T CUT IT")
+   "{GH_BAND} NÃO SABEM FAZER O SAMPLEY DE GUITARRA.")
+  ;"EVEN ON TOY GUITARS, {GH_BAND} CAN'T CUT IT")
+  
 (toogle_headline_vsp1_1
    {sprint
       {localize
