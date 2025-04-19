@@ -24,10 +24,8 @@
    ;(stone beastandtheharlot carrymehome institutionalized misirlou hangar18 freebird)
 
 (required_songs
-   ; (kDifficultyEasy 4 5)
-   ; (kDifficultyMedium 5 6)
-   (kDifficultyEasy 6 6)
-   (kDifficultyMedium 6 6)
+   (kDifficultyEasy 4 5)
+   (kDifficultyMedium 5 6)
    (kDifficultyHard 6 6)
    (kDifficultyExpert 6 6)
 )
@@ -242,4 +240,4 @@
 ; #ifdef 8DBUG
 ; (unlock_song becauseitsmidnite)
 ; #endif
-; (unlock_game_modes multi_fo)
+(unlock_game_modes multi_fo)
