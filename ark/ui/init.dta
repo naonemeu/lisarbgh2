@@ -27,7 +27,8 @@
 {set $after_disclaimer main_screen}
 
 #ifdef _SHIP
-{set $first_screen splash_screen}
+;{set $first_screen splash_screen}
+{set $first_screen bootup_load}
 #else
 {set $first_screen main_screen}
 #endif

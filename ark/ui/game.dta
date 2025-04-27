@@ -57,24 +57,24 @@
              ; }
             
             ; #endif
-			
-			{mtv_campaign_line4.lbl set_wrap_width 500}
+         
+         {mtv_campaign_line4.lbl set_wrap_width 500}
             {mtv_campaign_line4_shadow.lbl set_wrap_width 500}
-			
+         
             #ifdef _SHIP
-			
+         
             {$this set_line $prefix 3 {sprint $artist_text ", " {localize {sprint $song "_year"}}}}
-			
-			{if_else {!= "" {localize {sprint $song "_author"}}} ;comparing with empty breaks debug
-			   {$this set_line $prefix 4 {sprint "Charter: " {localize {sprint $song "_author"}}}} ;get from locale files
-			   {$this set_line $prefix 4 {sprint "Charter: Naonemeu"}} ;set "default"
-			}
+         
+         {if_else {!= "" {localize {sprint $song "_author"}}} ;comparing with empty breaks debug
+            {$this set_line $prefix 4 {sprint "Charter: " {localize {sprint $song "_author"}}}} ;get from locale files
+            {$this set_line $prefix 4 {sprint "Charter: Naonemeu"}} ;set "default"
+         }
             #endif
             
             ;Doesn't work on debug if empty! - fallback doesn't work and asks to put it in locale_milo.dta
             #ifdef 2DBUG
-			{$this set_line $prefix 3 $artist_text}
-			{$this set_line $prefix 4 {sprint "(Charter Line)"}}
+         {$this set_line $prefix 3 $artist_text}
+         {$this set_line $prefix 4 {sprint "(Charter Line)"}}
             #endif
 
         }}
@@ -314,36 +314,38 @@
       {if {&& $focusmode {'||' {== {gamecfg get mode} career} {== {gamecfg get mode} quickplay} {== {gamecfg get mode} multi_coop}}}
          {if {exists world} {world toggle_pick_shot}}}
       ;{world_panel set_showing TRUE}
-	  {if_else $focusmode {world_panel set_showing FALSE} {world_panel set_showing TRUE}} ;forces venue to stay off in focus mode
+       {world_panel set_showing {! $focusmode}}
+     ; {if_else $focusmode {world_panel set_showing FALSE} {world_panel set_showing TRUE}} ;forces venue to stay off in focus mode
       {if_else {gamecfg get game_over_sequence}
          {do {if {== {gamecfg get_song} voudeixar} ;tonightimgonna
                {do {script_task (delay DRUMMER_EXPLODE_DELAY) (units kTaskSeconds)
                      (script {handle ($this drummer_explode)}
                         {play_sfx drummer_exp}
                         {handle ({{world_panel loaded_dir} find guitarist0} game_won_msg $encore)}
-						)
-					}
-				}
-			}
+                  )
+               }
+            }
+         }
             {track_panel explode}
             {play_game_sfx TRACK_EXPLODE_SFX}
             {game set_realtime TRUE}
             {beatmatch set_paused TRUE}
             {if $encore {encore_stream play}} kDataUnhandled} 0}
-	)
+   )
 
    (game_lost
       {if {&& $focusmode {'||' {== {gamecfg get mode}  career}
-	      {== {gamecfg get mode} quickplay} {== {gamecfg get mode} multi_coop}}} 
-		  {if {exists world} {world toggle_pick_shot}}
+         {== {gamecfg get mode} quickplay} {== {gamecfg get mode} multi_coop}}} 
+        {if {exists world} {world toggle_pick_shot}}
       }
       ;{world_panel set_showing TRUE}
-	  {if_else $focusmode {world_panel set_showing FALSE} {world_panel set_showing TRUE}} ;forces venue to stay off in focus mode
+     {world_panel set_showing {! $focusmode}}
+     ;{if_else $focusmode {world_panel set_showing FALSE} {world_panel set_showing TRUE}} ;forces venue to stay off in focus mode
       {track_panel set_showing FALSE}
       {game set_realtime TRUE}
       {$this slow_music}
       kDataUnhandled
-	)
+   )
    (game_outro_complete
       {synth stop_all_sfx}
       {game set_paused TRUE}

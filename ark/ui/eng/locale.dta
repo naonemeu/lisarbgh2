@@ -286,15 +286,8 @@
    "CARREGANDO")
 (LOADING
    "CARREGANDO....")
-(mtv_made_famous 
-   {if_else
-      $egg5
-      "as not actually performed by"
-      "as made famous by"})
-(performed_by
-      "da banda")
-(solo_by 
-      "do artista")
+(mtv_made_famous "do artista")
+(performed_by "da banda")
 (press_any_button
    {if_else
       $egg5

@@ -114,8 +114,10 @@
 ;lol
 ((kPad_Start kPad_Start kPad_Start kPad_Start kPad_Start kPad_Start)
    {if CHEATS_ALLOWED
-   {set $egg_back {ui current_screen}}
-   {ui goto_screen easter_egg_screen1}
+   {set $disclaimer FALSE}
+   {ui goto_screen bootup_load}
+   ; {set $egg_back {ui current_screen}}
+   ; {ui goto_screen easter_egg_screen1}
    }
 )
 

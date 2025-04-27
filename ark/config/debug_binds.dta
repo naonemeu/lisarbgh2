@@ -52,21 +52,21 @@
       {a_cheat})
    (A
       {A_cheat})
-   (b
-      {b_cheat})
-   (B
-      {if_else
-         $barf_cheat
-         {do
-            {set $barf_cheat FALSE}
-            {cheat_display
-               show
-               "Quick Roxbury: OFF"}}
-         {do
-            {set $barf_cheat TRUE}
-            {cheat_display
-               show
-               "Quick Roxbury: ON"}}})
+   ; (b
+      ; {b_cheat})
+   ; (B
+      ; {if_else
+         ; $barf_cheat
+         ; {do
+            ; {set $barf_cheat FALSE}
+            ; {cheat_display
+               ; show
+               ; "Quick Roxbury: OFF"}}
+         ; {do
+            ; {set $barf_cheat TRUE}
+            ; {cheat_display
+               ; show
+               ; "Quick Roxbury: ON"}}})
    (c
       {if
          {game is_up}
@@ -103,38 +103,38 @@
             set_showing
             {!
                {hud showing}})})
-   (i
-      {handle
-         (world toggle_lighting_events)}
-      {cheat_display
-         show
-         "World lighting toggled, starting on next lighting call"})
-   (I
-      {rnd toggle_overlay light_preset})
-   (j
-      {handle
-         ({find_obj world guitarist0}
-            start_walk)}
-      {cheat_display
-         show
-         "Walking to next waypoint (if supported by venue)"})
-   (J
-      {set
-         $guitarist_debug
-         {mod
-            {'+' $guitarist_debug 1}
-            3}}
-      {if_else
-         {> $guitarist_debug 0}
-         {cheat_display
-            show
-            {sprint
-               "Player "
-               $guitarist_debug
-               " debug"}}
-         {cheat_display
-            show
-            "Player debug: OFF"}})
+   ; (i
+      ; {handle
+         ; (world toggle_lighting_events)}
+      ; {cheat_display
+         ; show
+         ; "World lighting toggled, starting on next lighting call"})
+   ; (I
+      ; {rnd toggle_overlay light_preset})
+   ; (j
+      ; {handle
+         ; ({find_obj world guitarist0}
+            ; start_walk)}
+      ; {cheat_display
+         ; show
+         ; "Walking to next waypoint (if supported by venue)"})
+   ; (J
+      ; {set
+         ; $guitarist_debug
+         ; {mod
+            ; {'+' $guitarist_debug 1}
+            ; 3}}
+      ; {if_else
+         ; {> $guitarist_debug 0}
+         ; {cheat_display
+            ; show
+            ; {sprint
+               ; "Player "
+               ; $guitarist_debug
+               ; " debug"}}
+         ; {cheat_display
+            ; show
+            ; "Player debug: OFF"}})
    (k
       {handle
          ({find_obj world guitarist0}
@@ -142,23 +142,23 @@
       {cheat_display
          show
          "Teleporting to next waypoint (if supported by venue)"})
-   (l
-      {handle
-         (player0 lose)})
-   (m
-      {toggle_crowd_meter})
-   (M
-      {toggle_mute_global})
-   (n
-      {toggle_normalization})
-   (o
-      {toggle_auto_solo})
-   (O
-      {rnd save_objects dump.rnd ui})
-   (p
-      {toggle_auto_play})
-   (P
-      {cycle_music_speed})
+   ; (l
+      ; {handle
+         ; (player0 lose)})
+   ; (m
+      ; {toggle_crowd_meter})
+   ; (M
+      ; {toggle_mute_global})
+   ; (n
+      ; {toggle_normalization})
+   ; (o
+      ; {toggle_auto_solo})
+   ; (O
+      ; {rnd save_objects dump.rnd ui})
+   ; (p
+      ; {toggle_auto_play})
+   ; (P
+      ; {cycle_music_speed})
    (q
       {toggle_solo_quantize})
    (Q
@@ -178,10 +178,10 @@
    (T
       {rnd toggle_timers}
       {rnd toggle_overlay rate})
-   (u
-      {next_tutorial_lesson})
-   (U
-      {prev_tutorial_lesson})
+   ; (u
+      ; {next_tutorial_lesson})
+   ; (U
+      ; {prev_tutorial_lesson})
    (v
       {show_version})
    (V
@@ -189,10 +189,10 @@
       {cheat_display
          show
          "Static camera toggled"})
-   (w
-      {handle
-         (player0 win 3)})
-   (W
+   ; (w
+      ; {handle
+         ; (player0 win 3)})
+   (w ;(W
       {toggle_walks})
    (x
       {toggle_cam})

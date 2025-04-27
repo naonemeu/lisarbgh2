@@ -31,7 +31,11 @@
 {new
    GHScreen
    cut_scene_screen
+   #ifdef _SHIP 
    (allow_back FALSE)
+   #else
+   (allow_back TRUE)
+   #endif
    (animate_transition FALSE)
    (TRANSITION_COMPLETE_MSG
       {meta play_movie CUT_SCENE_VIDEO}

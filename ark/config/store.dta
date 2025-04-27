@@ -160,6 +160,7 @@
       (price 550)))
 
 (song
+   (dummy2 (price 550))
    ; #ifndef _ENCO
    ; #ifndef _ONYX
    ; #ifndef 8DBUG
