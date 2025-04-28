@@ -160,7 +160,59 @@
       (price 550)))
 
 (song
-   (dummy2 (price 550))
+;lisarb1
+;ptbr
+;   (pqhomemnaochora (price 550)) ;(1)
+
+;eng
+;   (realtime (price 550)) ;(4)
+;   (sonoftheking (price 550) ;(5)
+;   (breakmeout (price 550)) ;(1)
+
+;ins
+;   (cachacacomlimao (price 550)) ; (3)
+
+;lisarb2
+;ptbr
+;   (theywannawatch (price 550)) ;(1)
+;   (sonhador (price 550)) ;(1)
+;   (mulheroferecida (price 550)) ;(4)
+;   (temcerteza (price 550)) ;(4)
+;   (alvomarcado (price 550)) ;(1)
+;   (gatinhacomunista (price 550)) ;(2)
+
+;eng
+;   (timetofly (price 550)) ;(4)
+;   (wearethesame (price 550)) ;(4)
+
+;ins
+;   (vinhetas (price 500000)) ;(3)
+
+;lisarb3
+;ptbr
+;   (quandotudomudou (price 550)) ;(2)
+;   (aporta (price 550)) ;(3)
+;   (serenata (price 550)) ;(1)
+;   (umbral (price 550)) ;(5)
+;   (oterno66 (price 550)) ;(3)
+;   (doisdefevereiro (price 550)) ;(2)
+;   (afrodite (price 550)) ;(1)
+
+;eng
+;   (dragonsfall (price 550)) ;(3)
+;   (spiritofthedark (price 550)) ;(4)
+;   (childrenofthemoon (price 550)) ;(3)
+;   (shadowdancer (price 550)) ;(3)
+;   (tryharder (price 550)) ;(6)
+
+;ins
+;   (tomyfather (price 550)) ;(6)
+
+
+
+
+
+   ;(dummy2 (price 550))
    ; #ifndef _ENCO
    ; #ifndef _ONYX
    ; #ifndef 8DBUG
