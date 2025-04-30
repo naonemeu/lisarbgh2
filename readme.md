@@ -6,6 +6,8 @@ Repositório para guardar o progresso do Lisarb GH2 - somente scripts "dta". Nã
 
 **Nota: foi o usado o GH2 DELUXE 2.0, não a versão original, como jogo de base para a custom**
 
+Veja o [tutorial](https://github.com/naonemeu/gh2_tutorial/wiki) de como modificar o GH2 Deluxe para entender melhor sobre esses scripts.
+
 ### config
 + [config/campaign.dta](https://github.com/naonemeu/lisarbgh2/blob/main/ark/config/campaign.dta): Define a ordem das músicas principais **a partir do nome interno**. Como eu vou mudar todos os nomes internos, então preciso mudar aqui também (pra ter aquele extra que faz parecer oficial) 
 + [config/mc.dta](https://github.com/naonemeu/lisarbgh2/blob/main/ark/config/mc.dta): Muda o ID do jogo salvo (aquele que começa com SLUS...), para separar do GH2 oficial.
