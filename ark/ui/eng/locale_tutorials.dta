@@ -1,15 +1,15 @@
 (TRAINING
-   "Praticar")
+   "Pratica")
 (practice
-   "praticar")
+   "Pratica")
 (sel_speed
-   "select speed")
+   "escolha a velocidade")
 (select_start_section
-   "select start section")
+   "escolher section inicial")
 (select_end_section
-   "select end section")
+   "escolher section final")
 (speed_label0
-   "Full speed")
+   "Música inteira")
 (speed_label1
    "Slow")
 (speed_label2
@@ -17,27 +17,24 @@
 (speed_label3
    "Slowest")
 (PRACTICE_END
-   {if_else
-      $gamegh1
-      "GH1DX PRACTICE"
-      {if_else
-         $game80s
-         "GH80SDX PRACTICE"
-         "GH2DX PRACTICE"}})
+   "GH2DX PRACTICE")
 (CHANGE_SECTION
-   "CHANGE SECTION")
+   "MUDAR SECTION")
 (CHANGE_SPEED
-   "CHANGE SPEED")
+   "MUDAR VELOCIDADE")
 (NEW_SONG
-   "NEW SONG")
+   "NOVA MÚSICA")
 (SELECT_PART
-   "SELECT PART")
+   "ESCOLHER PARTE")
 (change_speed
    "change speed")
 (gems_hit_pattern
-   "notes hit: %i%% (%i/%i)")
+   "Acertos: %i%% (%i/%i)")
 (tutorials
-   "Tela inicial");"Tutorials")
+   "Tela inicial");"Tutorials"
+   
+;Tutorials - disabled
+
 (TUTORIAL_1
    "Basic Lessons")
 (TUTORIAL_2

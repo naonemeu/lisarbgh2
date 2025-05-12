@@ -9,24 +9,24 @@
    
    (enter {set $main_entered TRUE}
 
-	  ;Para salvar: Colocar ELF e mc.dta com o mesmo nome: LSRB_000.01 e "BALSRB-00001"
-	  ;Para pular tela do MC - init.dta
+     ;Para salvar: Colocar ELF e mc.dta com o mesmo nome: LSRB_000.01 e "BALSRB-00001"
+     ;Para pular tela do MC - init.dta
       {$this disable main_career.btn}
       {set $cheat_enabled_unlock_all 1}
       {campaign set_all_access 1}
       {set $disable_save 1}
       {set $disable_career 1}
 
-	  ; #ifdef _SHIP ;Desabilitar modo carreira e destravar tudo
-	  ; #endif
+     ; #ifdef _SHIP ;Desabilitar modo carreira e destravar tudo
+     ; #endif
 
-	  #ifdef 2DBUG ;Desabilitar modo carreira e destravar tudo
+     #ifdef 2DBUG ;Desabilitar modo carreira e destravar tudo
       {{game get_player_config 0} set autoplay TRUE}
       {{game get_player_config 1} set autoplay TRUE}
-	  {set $tadebot TRUE}
-	  #endif
+     {set $tadebot TRUE}
+     #endif
 
-	  {set $disclaimer TRUE}
+     {set $disclaimer TRUE}
 
       {$this reset_player_settings}
       {if
@@ -54,7 +54,7 @@
                   {ui goto_screen nameprof_screen}}
              }
            )
-			 
+          
          (main_quickspin.btn
             {gamecfg set mode quickplay}
             {ui goto_screen qp_selsong_screen})
@@ -62,16 +62,16 @@
             {ui goto_screen multi_screen})
          ;(main_tutorial.btn
          ;   {ui goto_screen training_screen})
-		 ;Skip directly to practice song
-		 ;need to set "{gamecfg set mode practice}" directly in practice.dta
+       ;Skip directly to practice song
+       ;need to set "{gamecfg set mode practice}" directly in practice.dta
          (main_tutorial.btn
             {ui goto_screen practice_selsong_screen})
          (main_options.btn
             {ui goto_screen options_screen})
-		}
+      }
     )
-	
-	
+   
+   
    (poll
       {if_else
          {game is_missing_multi_controller}
@@ -82,20 +82,18 @@
          {<
             {taskmgr ui_seconds}
             {$this get msg_last_frame}}})
-			
-			
+         
+         
 (reset_player_settings
-      {{game get_player_config 0}
-         set_difficulty
-         kDifficultyExpert}
+      {{game get_player_config 0} set_difficulty kDifficultyExpert}
       
       ;#ifdef _SHIP
-      ;{game set_venue fest}
-	   {game set_venue small1}
+      {game set_venue fest}
+      ;{game set_venue small1}
       {game set_song_index 0}
       {game set_character {if_else $game80s metalencore metal1} TRUE}
       ;#endif
-	  
+     
       {game set_guitar_index 1}
       {do
          ($player2_config
@@ -108,17 +106,17 @@
    (display_cheat_msg
    
       ($cheat $enable)
-	  
+     
       {mm_msg.lbl set_localized_text {sprintf {localize {if_else $enable cheat_enabled_fmt cheat_disabled_fmt}} {localize $cheat}}}
-		 
+       
       {$this set msg_last_frame {'+' {taskmgr ui_seconds} 5}})
-	  
+     
    (display_desc_msg
    
       ($enable)
-	  
+     
       {mm_msg.lbl set_localized_text {sprintf {localize {if_else $enable desc_on desc_off}} }}
-		 
+       
       {$this set msg_last_frame {'+' {taskmgr ui_seconds} 5}})
 
 }

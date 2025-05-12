@@ -13,7 +13,7 @@
          {op_data.btn set_state kDisabled}
          {memory_card.btn set_state kDisabled}}
 		 {op_bonus.btn set_state kDisabled}
-		 ;{op_credit.btn set_state kDisabled}
+		 #ifndef 2DBUG {op_credit.btn set_state kDisabled} #endif
    )
    (SELECT_START_MSG
       {switch

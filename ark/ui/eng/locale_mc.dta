@@ -27,7 +27,7 @@
 (already_formatted_error_ps2
    "FORMAT ERROR: O MEMORY CARD no slot {SLOT} já foi formatado! Coloque um memory card não formatado e tente de novo.")
 (autosave_disable_check_ps2
-   "Você quer desativar o Autosave?")
+   "Você quer desativar\no Autosave?")
    
 (bootup_caution_ps2 "Caution! Guitar Hero II Deluxe uses an Autosave feature. Insertion of a memory card (8MB)(for PlayStation®2) beyond this point may cause data to be overwritten. Continue without saving?")
 
@@ -40,7 +40,7 @@
 
 (bootup_create_save_ps2 "Creating Guitar Hero II Deluxe save file. Do not remove memory card (8MB)(for PlayStation®2) in MEMORY CARD slot {SLOT}, reset, or switch off console.")
 
-(bootup_create_save_check_ps2 "No Guitar Hero II Deluxe save data present on memory card (8MB)(for PlayStation®2) in MEMORY CARD slot {SLOT}. Guitar Hero II Deluxe uses an Autosave feature. 175KB of free space is required to save game data. Do you want to create a save file now?")
+(bootup_create_save_check_ps2 "Save do Lisarb Remastered não encontrado no Memory Card no slot {SLOT}. O save usa 175KB de espaço. Criar save?")
 
 
 (bootup_create_save_no_space_ps2 "Insufficient space on the memory card (8MB)(for PlayStation®2) in MEMORY CARD slot {SLOT}. Insert a memory card with at least 175KB of free space, or create some space using the console browser. Continue without saving?")
@@ -72,19 +72,19 @@
    "FORMAT ERROR: There is no memory card (8MB)(for PlayStation®2) detected in MEMORY CARD slot {SLOT}. Please reinsert the memory card (8MB)(for PlayStation®2) 
 and select retry to continue formatting.")
 
-(load_loading_ps2 "Loading Guitar Hero II Deluxe data. Do not remove memory card (8MB)(for PlayStation®2) in MEMORY CARD slot {SLOT}, reset, or switch off the console.")
+(load_loading_ps2 "LSRB_550.14\nLisarb Remastered\n\nCarregando os dados de Lisarb Remastered. Não retire o memory card no slot {SLOT}, reinicie, ou desligue o console.")
 
 (load_success_ps2 "Guitar Hero II Deluxe data loaded successfully.")
 
 (mc_card_removed_error_ps2 "LOAD FAILED: No memory card (8MB)(for PlayStation®2) detected in MEMORY CARD slot {SLOT}. Do you wish to insert a memory card containing Guitar Hero II Deluxe data and reattempt load?")
 
-(mc_checking_ps2 "Checking status of memory card (8MB)(for PlayStation®2) in MEMORY CARD slot {SLOT}. Do not remove the memory card, reset, or switch off console.")
+(mc_checking_ps2 "LSRB_550.14\nLisarb Remastered\n\nAbrindo o Memory Card no\nslot {SLOT}.Não retire-o ou\ndesligue o console.")
 
 (mc_corrupt_error_ps2 "LOAD FAILED: Corrupt data detected on the memory card (8MB)(for PlayStation®2) in MEMORY CARD slot {SLOT}. Try loading again?")
 
-(mc_nocard_error_ps2 "No memory card (8MB)(for PlayStation®2) inserted in MEMORY CARD slot {SLOT}. Do you wish to insert a memory card (8MB)(for PlayStation®2) containing Guitar Hero II Deluxe data and try loading again?")
+(mc_nocard_error_ps2 "Memory Card não encontrado. Coloque o Memory Card e escolha sim para tentar de novo,ou aperte não para continuar sem salvar.")
 
-(mc_nodata_error_ps2 "No Guitar Hero II Deluxe data on memory card (8MB)(for PlayStation®2) in MEMORY CARD slot {SLOT}. Do you wish to insert a memory card (8MB)(for PlayStation®2) containing Guitar Hero II Deluxe data and try loading again?")
+(mc_nodata_error_ps2 "Save do Lisarb Remastered (LSRB_550.14) não encontrado no Memory Card no slot {SLOT}. Insira outro memory card e aperte sim para tentar carregar o save de outro Memory Card.")
 
 (mc_load_confirm_ps2
    "WARNING: \nIf you load data from a memory card (8MB)(for PlayStation®2) in MEMORY CARD slot {SLOT}, you will lose your current game progress. Continue with load?")
@@ -106,3 +106,5 @@ and select retry to continue formatting.")
 (unformatted_card_ps2 "The memory card (8MB)(for PlayStation®2) in MEMORY CARD slot {SLOT} is unformatted. You must format this memory card to save game data. Do you wish to format the memory card in MEMORY CARD slot {SLOT}?")
 
 (mc_new_profile_warning_ps2 "WARNING: You have unsaved data. If you continue you will lose your progress.")
+
+(save_saving_ps2 "Salvando...")

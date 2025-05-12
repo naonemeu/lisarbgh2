@@ -13,7 +13,7 @@
          ; $game80s
          ; "Guitar Hero Encore Deluxe © 2006 RedOctane, Inc.\nModifications © 2021 MiloHax. See credits for all contributors.\nOriginal game code © 2005-2006 Harmonix Music Systems, Inc. Developed by Harmonix Music Systems." ;(não traduzido)
          ; "Guitar Hero II Deluxe © 2006 RedOctane, Inc.\nModificações © 2021 MiloHax. Veja 'credits' para todos contribuintes.\nCódigo original © 2005-2006 Harmonix Music Systems, Inc. Desenvolvido por Harmonix Music Systems."}}
-"NAONEMEU, VERSÃO 02A (2025-03-08)\nCOM CONTRIBUIÇÕES DE: FILIPINDUMODS."
+"NAONEMEU, VERSÃO 03A (2025-05-XX)\nCOM CONTRIBUIÇÕES DE: FILIPINDUMODS."
 )
 
 (guitar_help_using
@@ -433,7 +433,7 @@
    "Escolha a música")
 (song_quickplay
    ;"Jogue no Modo carreira para mais músicas!")
-   "Lisarb GH2 Demo 3 - LSRB_000.01 - @Naonemeu")
+   "Lisarb GH2 Demo 3 - LSRB_550.14 - @Naonemeu")
 (encore_song_listing
    "Encore: Jogue no Modo carreira para destravar")
 (encore_song_career_listing
@@ -500,4 +500,8 @@
 (NEW_SONG "NOVA MÚSICA")
 (EXIT "SAIR")
 (PAUSED "PAUSA")
+(paused "PAUSA")
 (RESUME "CONTINUAR")
+(newsong "NOVA MÚSICA")
+(RESTART "RECOMEÇAR")
+(QUIT "SAIR")

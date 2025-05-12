@@ -148,3 +148,5 @@
    "Essa ISO foi testada no PCSX2!\nUse a versão mais recente.")
 (lisarb_tip_5
    "Para os antigos na comunidade: Essa ISO foi feito com programas modernos! Nada de GHEX (eca) ou DTB Editor. (Procure por \qArkhelper GH2\q e \qMilohax\q se tiver curiosidade)")
+(lisarb_tip_6
+   "Que a Gupy se exploda.")

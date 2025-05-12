@@ -392,6 +392,7 @@
    
 (display_cheat_msg "Ativado:")
 (cheat_hyper_speed_mode "Hyperspeed")
+(cheat_pscan "Quick P.Scan\n(480P)")
 (cheat_bot "Olha o bot!\n(Não salva!)")
 (cheat_botoff "Sem bot!\n(Agora salva!)")
 ;lisarb gh2 - debug test

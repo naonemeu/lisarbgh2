@@ -74,7 +74,7 @@
             ;Doesn't work on debug if empty! - fallback doesn't work and asks to put it in locale_milo.dta
             #ifdef 2DBUG
          {$this set_line $prefix 3 $artist_text}
-         {$this set_line $prefix 4 {sprint "(Charter Line)"}}
+         {$this set_line $prefix 4 {sprint "Lisarb GH2 Debug"}}
             #endif
 
         }}
