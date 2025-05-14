@@ -5,9 +5,9 @@
       {if_else $game80s multi_80s.milo multi.milo})
    (focus faceoff.btn)
    (enter
-   {$this enable faceoff.btn} ;Foda-se. Pra que não ter PFO sem terminar a carreira?
+   {$this enable faceoff.btn} ;pfo on clear save
    {faceoff.btn set_showing TRUE}
-   {$this disable coop.btn} ;Desativar coop
+   {$this disable coop.btn} ;no co-op
    ;{coop.btn set_showing FALSE}
       ;{if_else
          ;{campaign is_unlocked multi_fo}
@@ -17,7 +17,7 @@
         ;{do
             ;{$this enable faceoff.btn} 
             ;{faceoff.btn set_showing TRUE}}}
-			)
+   )
 
    (SELECT_START_MSG
       {switch

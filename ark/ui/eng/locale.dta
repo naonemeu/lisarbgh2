@@ -13,7 +13,7 @@
          ; $game80s
          ; "Guitar Hero Encore Deluxe © 2006 RedOctane, Inc.\nModifications © 2021 MiloHax. See credits for all contributors.\nOriginal game code © 2005-2006 Harmonix Music Systems, Inc. Developed by Harmonix Music Systems." ;(não traduzido)
          ; "Guitar Hero II Deluxe © 2006 RedOctane, Inc.\nModificações © 2021 MiloHax. Veja 'credits' para todos contribuintes.\nCódigo original © 2005-2006 Harmonix Music Systems, Inc. Desenvolvido por Harmonix Music Systems."}}
-"NAONEMEU, VERSÃO 03A (2025-05-XX)\nCOM CONTRIBUIÇÕES DE: FILIPINDUMODS."
+"NAONEMEU, VERSÃO 03A (2025-05-17)\nCOM CONTRIBUIÇÕES DE: FILIPINDUMODS."
 )
 
 (guitar_help_using
@@ -134,12 +134,14 @@
    "NÃO FOI POSSIVEL DELETAR")
 (cant_delete_profile_msg
    "A banda selecionada não pode ser deletada. Para deletar, primeiro seleciona uma outra/nova banda.")
+(op_data_settings
+   "Quando que") ;"Gerenciar banda") ;1
+(op_memcard
+   "vai sair a versão") ;"Opções de Dados") ;2
 (op_bonus_material
    "completa?") ;"Videos Bonus") ;3
 (op_credits
    "Nem eu sei!") ;"Créditos") ;4
-(op_data_settings
-   "Quando que") ;"Gerenciar banda") ;1
 (op_game_settings
    "Op. de Áudio") ;test spaces
 (audio_settings
@@ -148,8 +150,6 @@
    "Op. de Vídeo")
 (video_settings
    "Op. de Vídeo")
-(op_memcard
-   "vai sair a versão") ;"Opções de Dados") ;2
 (GAME_SETTINGS
    "OPÇÃO DE ÁUDIO") ;pause - audio
 (gs_video
@@ -319,11 +319,7 @@
    "JOGADOR 1 GANHOU!")
 (PLAYER_2_WINS
    "JOGADOR 2 GANHOU!")
-(DRAW
-   {if_else
-      $egg5
-      "TIED!" 
-      "EMPATE!"})
+(DRAW "EMPATE!")
 (CONTINUE
    "CONTINUAR")
 (MORE_STATS
@@ -332,11 +328,7 @@
    "Para ativar o lefty flip, é necessário recomeçar a música. Deseja recomeçar?")
 (RESET
    "RESETAR")
-(CONTROLLER_LOSS
-   {if_else
-      $egg5
-      "YOU PULLED IT OUT"
-      "PEDIU PARA PARAR, PAROU!"}) ;lmao YOU PULLED IT OUT - não traduzido
+(CONTROLLER_LOSS "PEDIU PARA PARAR, PAROU!") ;lmao YOU PULLED IT OUT - não traduzido
 (controller_loss_msg
    "Coloque o controle de volta no port 1")
 (controller_loss_msg_multi
@@ -360,7 +352,7 @@
 (lose_diff
    "DIFICULDADE:")
 (lose_title
-   "IH, DEU RUIM") ;lmao
+   "IH DEU RUIM") ;lmao
 (lose_quit
    "SAIR")
 (lose_restart
@@ -390,7 +382,7 @@
 (meplayer2
    "JOGADOR 2")
 (me_streak_format
-   "%d Note Streak!") ;Não traduzido
+   "Combo de %d Notas!")
 (me_caption_format
    "%s É O VENCEDOR!")
 (me_caption_tie
@@ -483,7 +475,7 @@
 (star_ready
    "STAR POWER PRONTO!") ;lmao
 (song_failed
-   "IH, DEU RUIM!") ;lmao
+   "CALMA! NAO FIQUE PISTOLA!") ;lmao
 (deploy_star
    "DA TILT AI O MEU!") ; lmao
    
