@@ -1,3 +1,18 @@
+;(venues battle small1 small2 big theatre fest arena stone)
+; CHARACTERS ((punk alterna glam goth metal rockabill rock deathmetal classic funk1 grim))
+; (alterna "Judy Nails")
+; (classic "Clive Winston")
+; (deathmetal "Lars Ümlaüt")
+; (deathmetal2 "Lars Ümlaüt")
+; (funk1 "Xavier Stone")
+; (glam "Izzy Sparks")
+; (goth "Pandora")
+; (goth1 "Pandora")
+; (grim"Grim Ripper")
+; (metal "Axel Steel")
+; (punk "Johnny Napalm")
+; (rock "Casey Lynch")
+; (rockabill "Eddie Knox")
 
 ;lisarbgh2
 
@@ -574,8 +589,21 @@
    )
 )
 
+
+
+
+
+
+
+
+
+
+
+
+
 ;Usado para preencher uma lista incompleta.
 
+#ifndef HX_XBOX
 (dummy2
    (name
       "Test tier 2")
@@ -735,3 +763,4 @@
       (venue arena)
    )
 )
+#endif

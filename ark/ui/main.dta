@@ -70,8 +70,7 @@
             {ui goto_screen options_screen})
       }
     )
-   
-   
+
    (poll
       {if_else
          {game is_missing_multi_controller}
@@ -83,16 +82,28 @@
             {taskmgr ui_seconds}
             {$this get msg_last_frame}}})
          
+;(venues battle small1 small2 big theatre fest arena stone)
+;#define LOAD_CHARACTERS ((punk1 punk2 alterna1 alterna2 glam1 glam2 goth2 goth1 metal1 metal2 rockabill1 rockabill2 rock2 rock1 deathmetal1 deathmetal2 classic funk1 grim ))
+; (alterna "Judy Nails")
+; (classic "Clive Winston")
+; (deathmetal "Lars Ümlaüt")
+; (deathmetal2 "Lars Ümlaüt")
+; (funk1 "Xavier Stone")
+; (glam "Izzy Sparks")
+; (goth "Pandora")
+; (goth1 "Pandora")
+; (grim"Grim Ripper")
+; (metal "Axel Steel")
+; (punk "Johnny Napalm")
+; (rock "Casey Lynch")
+; (rockabill "Eddie Knox")
          
 (reset_player_settings
       {{game get_player_config 0} set_difficulty kDifficultyExpert}
       
-      ;#ifdef _SHIP
-      {game set_venue fest}
-      ;{game set_venue small1}
+      {game set_venue arena}
       {game set_song_index 0}
-      {game set_character {if_else $game80s metalencore metal1} TRUE}
-      ;#endif
+      {game set_character glam2 TRUE}
      
       {game set_guitar_index 1}
       {do

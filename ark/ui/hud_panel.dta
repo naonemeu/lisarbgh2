@@ -244,8 +244,12 @@
 {new
    GHPanel
    streak_overlay_panel
-   (file
-      "../hud/streak_overlay.milo")
+   (file {if_else {!= {gamecfg get_song} red} ../hud/streak_overlay.milo ../hud/streak_overlay_red.milo})
+   
+   ;dx 2.0 backup
+   ; (file
+      ; "../hud/streak_overlay.milo")
+      
    (enter
       {if_else
          {'||'

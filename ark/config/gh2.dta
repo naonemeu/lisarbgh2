@@ -335,18 +335,18 @@
       ({if_else $game80s grimencore grim}))
 	  
 ;80s in GH2 Mod
-	(punkencore
-      (punkencore))
-   (alternaencore
-      (alternaencore))
-   (glamencore
-      (glamencore))
-   (gothencore
-      (gothencore))
-   (metalencore
-      (metalencore))
-   (grimencore
-      (grimencore))
+	; (punkencore
+      ; (punkencore))
+   ; (alternaencore
+      ; (alternaencore))
+   ; (glamencore
+      ; (glamencore))
+   ; (gothencore
+      ; (gothencore))
+   ; (metalencore
+      ; (metalencore))
+   ; (grimencore
+      ; (grimencore))
 )
 #endif
 #endif

@@ -1,30 +1,34 @@
-#define CHEATS_ALLOWED
-({&& {exists ui} {! {ui in_transition}} {== {ui current_screen}  main_screen}})
+#define CHEATS_ALLOWED ;default cheats allowed in the main screen
+(      {&& {exists ui} {! {ui in_transition}}
+         {==
+         {ui current_screen}  main_screen}
+         }
+)
 
-#define G_GREEN (kPad_R2)
-
-#define G_RED (kPad_Circle) ;W
-
-#define G_YELLOW (kPad_Tri) ;E
-
-#define G_BLUE (kPad_X)
-
-#define G_ORANGE (kPad_Square) ;Q
-
-;Song/Track Speed "Cheat"
-((kPad_Select kPad_Select)
-   {if
-
-      {&&  {exists ui} {! {ui in_transition}}
-         {'||' 
+#define SETLIST_SCREEN ;Song/Track Speed "Cheat" allowed in all setlist screens
+(      {&& {exists ui} {! {ui in_transition}}
+         {'||'
          {== {ui current_screen} sel_song_screen}
          {== {ui current_screen} qp_selsong_screen}
          {== {ui current_screen} multi_vs_selsong_screen}
          {== {ui current_screen} multi_coop_selsong_screen}
          {== {ui current_screen} multi_fo_selsong_screen}
          }
-       }
+       })
 
+#define G_GREEN (kPad_R2) ;don' use this
+
+#define G_RED (kPad_Circle) ;W
+
+#define G_YELLOW (kPad_Tri) ;E
+
+#define G_BLUE (kPad_X) ;don' use this
+
+#define G_ORANGE (kPad_Square) ;Q
+
+;Song/Track Speed "Cheat"
+((kPad_Select kPad_Select)
+   {if SETLIST_SCREEN
       {set $modifier_exit {ui current_screen}}
       {synth play_sequence button_select}
       {ui goto_screen modifiers_screen}

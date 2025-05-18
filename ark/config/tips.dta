@@ -17,11 +17,12 @@
    (milo_tip16)
    (milo_tip17)
    (milo_tip18)
-   (lisarb_tip_1)
-   (lisarb_tip_2)
-   (lisarb_tip_3)
-   (lisarb_tip_4)
-   (lisarb_tip_5)
+   (lisarb_tip1)
+   (lisarb_tip2)
+   (lisarb_tip3)
+   (lisarb_tip4)
+   (lisarb_tip5)
+   (lisarb_tip6)
 
    ; #ifdef GH1RX
    ; (loading_tip_gh1_8)
@@ -71,7 +72,7 @@
    (easy_tip3
       (diff kDifficultyEasy))
    (easy_tip4
-      (diff kDifficultyEasy)) 
+      (diff kDifficultyEasy))
    (medium_tip1
       (diff kDifficultyMedium))
    (medium_tip2
@@ -161,3 +162,5 @@
    (playwithme_tip6))
    
 ;; TIPS LISARBGH2
+
+(tips_brasileirinho (lisarb_tip7))

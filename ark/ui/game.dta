@@ -149,10 +149,10 @@
          [encore_song]
          "\n"}
       {if {== {gamecfg get_song} voudeixar} ;tonightimgonna
-         {{{world_panel loaded_dir}
-               find
-               drummer}
-            show_drummer}})
+         {{{world_panel loaded_dir} find drummer} show_drummer}
+      }
+   )
+   
    (intro_start_msg
       ($fast $encore)
       {track_panel intro_start_msg}
