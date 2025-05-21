@@ -97,6 +97,16 @@
    }
 )
 
+;Go back to screen
+; ((kPad_Start kPad_Start kPad_Start kPad_Start kPad_Start kPad_Start)
+   ; {if CHEATS_ALLOWED
+   ; {set $disclaimer FALSE}
+   ; {ui goto_screen bootup_load}
+   ; ; {set $egg_back {ui current_screen}}
+   ; ; {ui goto_screen easter_egg_screen1}
+   ; }
+; )
+
 ;Leia a descricao
 ;EEEEW
 ; ((G_YELLOW G_YELLOW G_YELLOW G_YELLOW G_RED)
@@ -134,15 +144,6 @@
     ; }
 ; )
 
-;lol
-((kPad_Start kPad_Start kPad_Start kPad_Start kPad_Start kPad_Start)
-   {if CHEATS_ALLOWED
-   {set $disclaimer FALSE}
-   {ui goto_screen bootup_load}
-   ; {set $egg_back {ui current_screen}}
-   ; {ui goto_screen easter_egg_screen1}
-   }
-)
 
 ; ((G_RED G_RED G_RED)
    ; {if

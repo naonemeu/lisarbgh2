@@ -27,8 +27,8 @@
 {set $after_disclaimer main_screen}
 
 #ifdef _SHIP
-;{set $first_screen splash_screen}
-{set $first_screen bootup_load}
+{set $first_screen splash_screen}
+;{set $first_screen bootup_load}
 #else
 {set $first_screen main_screen}
 #endif
@@ -48,32 +48,8 @@
 {set $rbdrum FALSE}
 
 {set $roygb TRUE} ;Sets GRYBO cheat on
-;{set $trackspd 1.5} ;Hyperspeed on boot
 {set $game80s FALSE}
 
-; #ifdef _ENCO
-; {set $game80s TRUE}
-; #endif
-; #ifdef 8DBUG
-; {set $game80s TRUE}
-; #endif
-; #ifdef GH1RX
-; {set $egg2 TRUE}
-; {set $gamegh1 TRUE}
-; #endif
-; #ifdef _ONYX
-; {set $game80s FALSE}
-; {set $nofail TRUE}
-; #endif
-; #ifndef _DRUM
-; #ifdef _ONYX
-; {set $focusmode TRUE}
-; #endif
-; #endif
-; #ifndef _ONYX
-; {set $songtitle FALSE}
-; #else
-; {set $songtitle TRUE}
-; #endif
+{set $songwithredsp red}
 
 {ui goto_screen $first_screen}

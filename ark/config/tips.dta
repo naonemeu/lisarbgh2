@@ -22,7 +22,10 @@
    (lisarb_tip3)
    (lisarb_tip4)
    (lisarb_tip5)
-   (lisarb_tip6)
+   (lisarb_tip7)
+   (lisarb_tip8)
+   (lisarb_tip9)
+   (lisarb_tip10)
 
    ; #ifdef GH1RX
    ; (loading_tip_gh1_8)
@@ -162,5 +165,3 @@
    (playwithme_tip6))
    
 ;; TIPS LISARBGH2
-
-(tips_brasileirinho (lisarb_tip7))

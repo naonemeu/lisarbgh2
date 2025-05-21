@@ -3,7 +3,7 @@
 {new
    TrackPanel
    track_panel
-   (file {if_else {!= {gamecfg get_song} red} ../track/track.milo ../track/track_red.milo})
+   (file {if_else {!= {gamecfg get_song} $songwithredsp} ../track/track.milo ../track/track_red.milo})
    
    ;backup anotation - dx 2.0
    ; (file
