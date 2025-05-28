@@ -160,6 +160,7 @@
       (price 550)))
 
 (song
+#ifdef 2DBUG (red (price 550)) #endif
 ;lisarb1
 ;ptbr
 ;   (pqhomemnaochora (price 550)) ;(1)

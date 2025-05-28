@@ -101,7 +101,7 @@
 (reset_player_settings
       {{game get_player_config 0} set_difficulty kDifficultyExpert}
       
-      {game set_venue arena}
+      {game set_venue fest}
       {game set_song_index 0}
       {game set_character glam2 TRUE}
      

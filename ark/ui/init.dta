@@ -50,6 +50,6 @@
 {set $roygb TRUE} ;Sets GRYBO cheat on
 {set $game80s FALSE}
 
-{set $songwithredsp red}
+;{set $songwithredsp red}
 
 {ui goto_screen $first_screen}
