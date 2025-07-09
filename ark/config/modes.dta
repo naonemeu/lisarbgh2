@@ -13,7 +13,7 @@
    (skip_intro FALSE)
    (show_hud TRUE)
    (show_track TRUE)
-   (encore_fx FALSE)
+   (encore_fx TRUE)
    (track_surface_override '')
    (crowd_audio TRUE)
    (star_power_disable

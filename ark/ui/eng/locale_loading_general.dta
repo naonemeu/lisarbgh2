@@ -165,10 +165,19 @@
 (lisarb_tip12
    "Você se lembrou de tomar os seus remédios de TDAH?")
 (lisarb_tip13
-   "Uma dica importante a comunidade: Não vá assediar um charter porque não tem chart da sua música favorita!\nSe quer tanto, aprenda a fazer!")
+   "Uma dica importante a comunidade: Não faça assédio moral com charters porque não tem chart da sua música favorita!\nSe quer tanto, aprenda a fazer!")
 (lisarb_tip14
    "Pode parecer que essa ISO foi feito com mágica.\nMas se você descobrir como que é feito, essa mágica some...")
 (lisarb_tip15
    "Esse jogo não tem \qmúsculos\q do Luan Santana. Sim, \qmúsculos\q, porque é isso que uma certa pessoa estava me pedindo...")
 (lisarb_tip16
    "Pistolas não são boas em um argumento.\n(Isso não é sobre armas)")
+(lisarb_tip17
+   "O que vai vir primeiro: Essa ISO, ou o modo custom no Guitar Flash Mobile?")
+   
+(loading_tip_money "UAU!!! Eu conshegui ouvir a agulha\ncaindodo outro lado da shala!!!")
+(loading_tip_razoeseemocoes "Só add com scrap")
+(loading_tip_soporumanoite "E se essa música tiver a banda completa?\nSeria louco, né?")
+(loading_tip_demusicaligeira "Essa música não é *original*\nde Capital Inicial,mas sim da\nbanda Argentina \qSoda Stereo\q.")
+(loading_tip_espelhosmagicos "Se \qRock é do diabo\q,\no que seria o Rock Cristão?")
+(loading_tip_rebirth "Essa música como encore faz\nsentido para esse jogo. Olha\nsó o que vai acontecer depois!")

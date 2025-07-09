@@ -16,6 +16,36 @@
 
 ;lisarbgh2
 
+(outrolugar
+   (name "Outro Lugar")
+   (artist "Detonautas Roque Clube")
+   (caption performed_by)
+   (song 
+   (name songs/outrolugar/outrolugar) 
+   (tracks ((guitar 2) (bass 2) (fake 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/outrolugar/outrolugar.mid))
+
+   #ifndef HX_XBOX
+   (song_vs (name songs/outrolugar/outrolugar)
+      (tracks ((guitar (2)) (bass 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/outrolugar/outrolugar.mid))
+   #endif
+
+   (anim_tempo kTempoMedium)
+   (preview 52072 82072)
+   (quickplay
+      (character_outfit classic)
+      (guitar lespaul)
+      (venue arena)
+   )
+)
+
 (red
    (name "Red")
    (artist "Espantalho")
@@ -46,6 +76,35 @@
    )
 )
 
+(red
+   (name "Red")
+   (artist "Espantalho")
+   (caption performed_by)
+   (song 
+   (name songs/red/red) 
+   (tracks ((guitar 2) (bass 2) (fake 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/red/red.mid))
+
+   #ifndef HX_XBOX
+   (song_vs (name songs/red/red)
+      (tracks ((guitar (2)) (bass 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/red/red.mid))
+   #endif
+
+   (anim_tempo kTempoMedium)
+   (preview 100000 130000)
+   (quickplay
+      (character_outfit classic)
+      (guitar lespaul)
+      (venue arena)
+   )
+)
 
 (brasileirinho
    (name "Brasileirinho")
@@ -555,39 +614,6 @@
    )
 )
 
-(money
-   (name
-      "1406")
-   (artist
-      "Mamonas Assassinas")
-   (caption performed_by)
-   (song
-      (name songs/money/money)
-   (tracks ((guitar 2) (bass 2) (fake 2)))
-      (pans (-1.0 1.0 0.0))
-      (vols (0.0 0.0 0.0))
-      (cores (-1 -1 -1))
-      (midi_file songs/money/money.mid))
-	  
-   #ifndef HX_XBOX
-   (song_vs
-      (name songs/money/money)
-      (tracks ((guitar (2)) (bass 2)))
-      (pans (-1.0 1.0 0.0))
-      (vols (0.0 0.0 0.0))
-      (cores (-1 -1 -1))
-      (midi_file songs/money/money.mid))
-   #endif
-
-   (anim_tempo kTempoMedium)
-   (preview 72860 102860)
-   (quickplay
-      (character_outfit classic)
-      (guitar lespaul)
-      (venue arena)
-   )
-)
-
 (espelhosmagicos
    (name
       "Espelhos Mágicos")
@@ -620,21 +646,64 @@
    )
 )
 
+(money
+   (name
+      "1406")
+   (artist
+      "Mamonas Assassinas")
+   (caption performed_by)
+   (song
+      (name songs/money/money)
+   (tracks ((guitar 2) (bass 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/money/money.mid))
 
-
-
-
-
-
-
-
-
-
-
+   (anim_tempo kTempoMedium)
+   (preview 72860 102860)
+   (quickplay
+      (character_outfit classic)
+      (guitar lespaul)
+      (venue arena)
+   )
+)
 
 ;Usado para preencher uma lista incompleta.
 
 #ifndef HX_XBOX
+(dummy1
+   (name
+      "Test tier 1")
+   (artist
+      "Oficina G3")
+   (caption performed_by)
+   (song
+      (name songs/espelhosmagicos/espelhosmagicos)
+   (tracks ((guitar 2) (bass 2) (fake 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/espelhosmagicos/test.mid))
+   #ifndef HX_XBOX
+   (song_vs
+      (name songs/espelhosmagicos/espelhosmagicos)
+      (tracks ((guitar (2)) (bass 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/espelhosmagicos/test.mid))
+   #endif
+
+   (anim_tempo kTempoMedium)
+   (preview 56660 86660)
+   (quickplay
+      (character_outfit classic)
+      (guitar lespaul)
+      (venue arena)
+   )
+)
+
 (dummy2
    (name
       "Test tier 2")
@@ -669,7 +738,7 @@
 
 (dummy3
    (name
-      "Espelhos Mágicos")
+      "Test tier 3")
    (artist
       "Oficina G3")
    (caption performed_by)
@@ -701,7 +770,7 @@
 
 (dummy4
    (name
-      "Espelhos Mágicos")
+      "Test tier 4")
    (artist
       "Oficina G3")
    (caption performed_by)
@@ -733,7 +802,7 @@
 
 (dummy5
    (name
-      "Espelhos Mágicos")
+      "Test tier 5")
    (artist
       "Oficina G3")
    (caption performed_by)
@@ -765,7 +834,7 @@
 
 (dummy6
    (name
-      "Espelhos Mágicos")
+      "Test tier 6")
    (artist
       "Oficina G3")
    (caption performed_by)
