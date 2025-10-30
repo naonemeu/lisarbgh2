@@ -36,7 +36,7 @@
 )
 
 ;Quick PSCAN
-;QQWE
+;QQEW
 ((G_ORANGE G_ORANGE G_RED G_YELLOW)
    {if CHEATS_ALLOWED
       {if_else {== {rnd screen_width} 512}
@@ -55,7 +55,7 @@
 )
 
 ;Quick Hyperspeed
-;EEWW
+;EEQQ
 ((G_YELLOW G_YELLOW G_RED G_RED)
    {if CHEATS_ALLOWED
       {if_else {< $trackspd 1.5}
@@ -73,7 +73,7 @@
 )
 
 ;Quick Bot
-;EEQQ
+;WWQQ
 ((G_YELLOW G_YELLOW G_ORANGE G_ORANGE)
     {if CHEATS_ALLOWED
         {if_else {! $tadebot}
@@ -98,14 +98,14 @@
 )
 
 ;Go back to screen
-; ((kPad_Start kPad_Start kPad_Start kPad_Start kPad_Start kPad_Start)
-   ; {if CHEATS_ALLOWED
-   ; {set $disclaimer FALSE}
-   ; {ui goto_screen bootup_load}
-   ; ; {set $egg_back {ui current_screen}}
-   ; ; {ui goto_screen easter_egg_screen1}
-   ; }
-; )
+((kPad_Start kPad_Start kPad_Start kPad_Start kPad_Start kPad_Start)
+   {if CHEATS_ALLOWED
+   {set $disclaimer FALSE}
+   {ui goto_screen bootup_load}
+   ; {set $egg_back {ui current_screen}}
+   ; {ui goto_screen easter_egg_screen1}
+   }
+)
 
 ;Leia a descricao
 ;EEEEW

@@ -59,7 +59,7 @@
             ; #endif
          
          {mtv_campaign_line4.lbl set_wrap_width 500}
-            {mtv_campaign_line4_shadow.lbl set_wrap_width 500}
+         {mtv_campaign_line4_shadow.lbl set_wrap_width 500}
          
             #ifdef _SHIP
          
@@ -124,33 +124,25 @@
       {set $player1_streak 0}
       {set $player2_streak 0}
       {set_loader_period 5}
-      {set
-         [encore_unlock_check]
-         {&&
-            {==
-               {gamecfg get mode}
-               career}
+	  
+      {set [encore_unlock_check] {&& {== {gamecfg get mode} career}
             {campaign encore_unlock_potential}}}
-      {print
-         "encore unlock check is "
-         [encore_unlock_check]
-         "\n"}
-      {set
-         [encore_song]
-         {&&
-            {!=
-               {gamecfg get mode}
-               tutorial}
-            {campaign
-               is_encore_song
-               {gamecfg get_song}}}}
-      {print
-         "encore song is "
-         [encore_song]
-         "\n"}
-      {if {== {gamecfg get_song} voudeixar} ;tonightimgonna
-         {{{world_panel loaded_dir} find drummer} show_drummer}
-      }
+			
+      {print "encore unlock check is " [encore_unlock_check] "\n"}
+	  
+      {set [encore_song] {&& {!= {gamecfg get mode} tutorial}
+            {campaign is_encore_song {gamecfg get_song}}}}
+			
+      {print "encore song is " [encore_song] "\n"}
+	  
+      ; {if {== {gamecfg get_song} voudeixar} ;tonightimgonna
+         ; {{{world_panel loaded_dir} find drummer} show_drummer}}
+	
+      ;Not setting {!= {gamecfg get mode} practice} causes the game to hang when
+	  ;trying to play the song on practice mode, with a "n.player()" error and a 
+	  ;game.dtb stack trace (might be this)
+      {if {'&&' {== {gamecfg get_song} voudeixar} {!= {gamecfg get mode} practice}}
+         {{{world_panel loaded_dir} find drummer} show_drummer}}
    )
    
    (intro_start_msg

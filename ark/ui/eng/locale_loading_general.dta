@@ -174,10 +174,21 @@
    "Pistolas não são boas em um argumento.\n(Isso não é sobre armas)")
 (lisarb_tip17
    "O que vai vir primeiro: Essa ISO, ou o modo custom no Guitar Flash Mobile?")
+(lisarb_tip18
+   "Puto? Eu já fui puto uma vez, me trancaram num quarto, um quarto de borracha com ratos, E RATOS ME DEIXAM PUTO!")
+(lisarb_tip19 
+   "Algumas pessoas se empolgam demais,\nmas nem toda música precisa ter\num \qBig Rock Ending\q, cara!")
    
-(loading_tip_money "UAU!!! Eu conshegui ouvir a agulha\ncaindodo outro lado da shala!!!")
-(loading_tip_razoeseemocoes "Só add com scrap")
-(loading_tip_soporumanoite "E se essa música tiver a banda completa?\nSeria louco, né?")
-(loading_tip_demusicaligeira "Essa música não é *original*\nde Capital Inicial,mas sim da\nbanda Argentina \qSoda Stereo\q.")
-(loading_tip_espelhosmagicos "Se \qRock é do diabo\q,\no que seria o Rock Cristão?")
-(loading_tip_rebirth "Essa música como encore faz\nsentido para esse jogo. Olha\nsó o que vai acontecer depois!")
+; (loading_tip_money "UAU!!! Eu conshegui ouvir a agulha\ncaindodo outro lado da shala!!!")
+; (loading_tip_razoeseemocoes "Só add com scrap")
+; (loading_tip_soporumanoite "E se essa música tiver a banda completa?\nSeria louco, né?")
+; (loading_tip_demusicaligeira "Essa música não é *original*\nde Capital Inicial,mas sim da\nbanda Argentina \qSoda Stereo\q.")
+; (loading_tip_espelhosmagicos "Se \qRock é do diabo\q,\no que seria o Rock Cristão?")
+; (loading_tip_rebirth "Essa música como encore faz\nsentido para esse jogo. Olha\nsó o que vai acontecer depois!")
+
+; (loading_tip_diasdeluta "Os Dias de Luta... sem os dias de gloria!\nCréditos a FilipinDuMods\npelas animações e lightshow.")
+; (loading_tip_annajulia "Essa ISO tem todas as dificuldades disponíveis!\nE sim, foi tudo feito \qna mão\q, nada de\nonyx ou o CAT. (programa do C3)")
+; (loading_tip_irreversivel "Algumas pessoas se empolgam demais,\nmas nem toda música precisa ter\num \qBig Rock Ending\q, cara!")
+(loading_tip_pegasusfantasy "Tenham cuidado com pessoas que só\nficam pedindo música de anime sem parar!\nEles estão convencidos que se\nacham \qo dono do pedaço\q.")
+(loading_tip_lukeeusouseupai "Em 2010, Star Wars ser do unvierso\nda Disney era só uma piada...")
+(loading_tip_thebull "Se classificação etária fosse necessária\npara esse mod, essa música seria o motivo\npara isso.")

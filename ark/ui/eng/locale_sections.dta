@@ -1,5 +1,5 @@
 (full_song
-   "Full Song")
+   "Toda a Música")
 (intro
    "Intro")
 (intro_a
@@ -537,8 +537,8 @@
    
  ;Sections adicionadas
  
-(gtr_mel_4
-   "Melody 4")
-(gtr_mel_5
-   "Melody 5")
-(pre_verse "Pre-Verse")
+(gtr_mel_4 "Gtr Melody 4")
+(gtr_mel_5 "Gtr Melody 5")
+(pre_verse "Pre Verse")
+(pre_verse_1 "Pre Verse 1")
+(pre_verse_2 "Pre Verse 2")

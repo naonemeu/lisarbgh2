@@ -16,9 +16,100 @@
 
 ;lisarbgh2
 
+(voudeixar
+   (name "Vou Deixar")
+   (artist "Skank")
+   (caption performed_by)
+   (song 
+   (name songs/voudeixar/voudeixar) 
+   (tracks ((guitar 2) (bass 2) (fake 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/voudeixar/voudeixar.mid))
+
+   #ifndef HX_XBOX
+   (song_vs (name songs/voudeixar/voudeixar)
+      (tracks ((guitar (2)) (bass 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/voudeixar/voudeixar.mid))
+   #endif
+
+   (anim_tempo kTempoMedium)
+   (preview 90830 120830)
+   (quickplay
+      (character_outfit classic)
+      (guitar lespaul)
+      (venue arena)
+   )
+)
+
+(homemprimata
+   (name "Homem Primata")
+   (artist "Titãs")
+   (caption performed_by)
+   (song 
+   (name songs/homemprimata/homemprimata) 
+   (tracks ((guitar 2) (bass 2) (fake 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/homemprimata/homemprimata.mid))
+
+   #ifndef HX_XBOX
+   (song_vs (name songs/homemprimata/homemprimata)
+      (tracks ((guitar (2)) (bass 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/homemprimata/homemprimata.mid))
+   #endif
+
+   (anim_tempo kTempoFast)
+   (preview 65010 95010)
+   (quickplay
+      (character_outfit classic)
+      (guitar lespaul)
+      (venue arena)
+   )
+)
+
+(amaispedida
+   (name "A Mais Pedida")
+   (artist "Raimundos")
+   (caption performed_by)
+   (song 
+   (name songs/amaispedida/amaispedida) 
+   (tracks ((guitar 2) (bass 2) (fake 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/amaispedida/amaispedida.mid))
+
+   #ifndef HX_XBOX
+   (song_vs (name songs/amaispedida/amaispedida)
+      (tracks ((guitar (2)) (bass 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/amaispedida/amaispedida.mid))
+   #endif
+
+   (anim_tempo kTempoMedium)
+   (preview 122590 152590)
+   (quickplay
+      (character_outfit classic)
+      (guitar lespaul)
+      (venue arena)
+   )
+)
+
+
 (tempoperdido
    (name "Tempo Perdido")
-   (artist "Legião Urbanma")
+   (artist "Legião Urbana")
    (caption performed_by)
    (song 
    (name songs/tempoperdido/tempoperdido) 

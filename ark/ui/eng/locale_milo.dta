@@ -139,9 +139,12 @@
 (EASTER_EGG1
    {if_else $disclaimer "MISTER EGGS"
    "ISO BASE: GH2 DELUXE 2.0"}) ;line1
+(EASTER_EGGd
+   {if_else $disclaimer "Contem ovos!"
+   "CREDITOS A MILOHAX"}) ;line2
 (EASTER_EGG3
    {if_else $disclaimer "PUDIM.COM.BR"
-   "LISARB GH2"}) ;line3
+   "32% COMPLETO"}) ;line3
    
 (EASTER_EGGa
    "Contem ovos!")
@@ -149,9 +152,6 @@
    "Contem ovos!")
 (EASTER_EGGc
    "Contem ovos!")
-(EASTER_EGGd
-   {if_else $disclaimer "Contem ovos!"
-   "CREDITOS A MILOHAX"}) ;line2
    
 (unlockeasteregg1_1
    "Contem bolo")
@@ -182,13 +182,13 @@
    
 ;Disclaimer-  change to egg1 later
 (unlockeasteregg4_1
-   "               Lisarb GH2 - DEMO 3")
+   "               Lisarb GH2 - DEMO 4")
 (unlockeasteregg4_2
    "LEIA-ME!")
 (unlockeasteregg4_3
    #ifdef _SHIP "" #else "." #endif)
 (unlockeasteregg4_4
-   "Essa é a demo 3 do \qLisarb Remaster\q para GH2, uma ISO com a finalidade de ter uma experiência quase igual a um jogo oficial, com:\n\nTodas as dificuldades na guitarra, animações da banda inteira, efeitos de luzes (incluindo os \qkeyframes\q) e charting de alta qualidade.\n\nAtive o bot e o modo perfomance se quiser olhar as animações em detalhes. Se encontrar bugs na ISO, me avise: @Naonemeu\n\n\nTutorial de como mexer no GH2 (em progresso): github.com/naonemeu/gh2_tutorial/wiki")
+   "Essa é a demo 4 do \qLisarb Remaster\q para GH2, uma ISO com a finalidade de ter uma experiência quase igual a um jogo oficial, com:\n\nTodas as dificuldades na guitarra, animações da banda inteira, efeitos de luzes (incluindo os \qkeyframes\q) e charting de alta qualidade.\n\nAtive o bot e o modo perfomance se quiser olhar as animações em detalhes. Se encontrar bugs na ISO, me avise: @Naonemeu\n\n\nTutorial de como mexer no GH2 (em progresso): github.com/naonemeu/gh2_tutorial/wiki")
    
 (finaleggtxt1
    "CONGRATULATIONS")
