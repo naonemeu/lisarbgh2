@@ -141,6 +141,8 @@
       ;Not setting {!= {gamecfg get mode} practice} causes the game to hang when
 	  ;trying to play the song on practice mode, with a "n.player()" error and a 
 	  ;game.dtb stack trace (might be this)
+	  ;I may have broken something when "refactoring" this dta? Maybe.
+	  ;But atm, this fixes it.
       {if {'&&' {== {gamecfg get_song} voudeixar} {!= {gamecfg get mode} practice}}
          {{{world_panel loaded_dir} find drummer} show_drummer}}
    )

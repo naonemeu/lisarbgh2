@@ -16,6 +16,36 @@
 
 ;lisarbgh2
 
+(anoitemechamou
+   (name "A Noite Me Chamou")
+   (artist "Lion Heart")
+   (caption performed_by)
+   (song 
+   (name songs/anoitemechamou/anoitemechamou) 
+   (tracks ((guitar 2) (bass 2) (fake 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/anoitemechamou/anoitemechamou.mid))
+
+   #ifndef HX_XBOX
+   (song_vs (name songs/anoitemechamou/anoitemechamou)
+      (tracks ((guitar (2)) (bass 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/anoitemechamou/anoitemechamou.mid))
+   #endif
+
+   (anim_tempo kTempoMedium)
+   (preview 57500 87500)
+   (quickplay
+      (character_outfit classic)
+      (guitar lespaul)
+      (venue arena)
+   )
+)
+
 (voudeixar
    (name "Vou Deixar")
    (artist "Skank")
