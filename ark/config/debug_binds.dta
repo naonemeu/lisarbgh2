@@ -159,10 +159,10 @@
       ; {toggle_auto_play})
    ; (P
       ; {cycle_music_speed})
-   (q
-      {toggle_solo_quantize})
-   (Q
-      {meta print_current_screen})
+   ; (q
+      ; {toggle_solo_quantize})
+   ; (Q
+      ; {meta print_current_screen})
    (r
       {reload_song})
    (R

@@ -42,8 +42,11 @@
          $component
          (resume.btn
             {$this resume})
-         (restart.btn
-            {$this restart})
+          (restart.btn
+             {$this restart})
+         ; (restart.btn
+            ; {pause_confirm_restart_screen set pause_screen $this}
+            ; {ui goto_screen pause_confirm_restart_screen})
          (change_speed.btn
             {ui goto_screen pause_audio_settings_screen})
          (section.btn
@@ -311,3 +314,32 @@
    (helpbar
       (default
          ((fret1 help_continue))))}
+		 
+; ;360 restart confirm port
+; {new
+   ; GHPanel
+   ; pause_confirm_restart_panel
+   ; (file pause_restart.milo)
+   ; (focus restart.btn)
+   ; (enter
+      ; {$this set_focus restart.btn})}
+; {new
+   ; GHScreen
+   ; pause_confirm_restart_screen
+   ; (panels GAME_PANELS pause_confirm_restart_panel)
+   ; (focus pause_confirm_restart_panel)
+   ; (in_game TRUE)
+   ; (allow_back FALSE)
+   ; (animate_transition FALSE)
+   ; (pause_screen pause_screen)
+   ; (SELECT_START_MSG
+      ; {switch
+         ; $component
+         ; (restart.btn
+            ; {[pause_screen]
+               ; restart})
+         ; (cancel.btn
+            ; {ui
+               ; goto_screen
+               ; [pause_screen]})
+         ; kDataUnhandled})}

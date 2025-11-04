@@ -461,3 +461,163 @@
    "Launched as a companion to the Gibson Firebird in 1963, the Thunderbird also featured neck-through construction and a high output, good for the thick, heavy low-end the Thunderbird is prized for.")
 (bass_thunderbird_burst_desc
    "The Who, Aerosmith, Cheap Trick, Mötley Crüe - what do they all have in common? They've all made the growl, the rumble, the - er, THUNDER of the Thunderbird a key part of their sound.")
+   
+   
+   
+   ;locale gh2 dtb 2008
+(lespaul
+   "Gibson Les Paul")
+(lespaul_desc
+   "Ja foi vista nas mäos de Jimmy Page, Joe Perry, Slash e inumeros outros, Gibson Les Paul, faz o som do rock pesado. Leve para o palco essa guitarra classica.")
+(lp_cherry
+   "Cherry Sunburst Classic")
+(lp_cherry_desc
+   "O elegante design da Les Paul acentuada com a pintura Cherry Sunburst.")
+(lp_zakk
+   "Zakk Wylde Custom")
+(lp_zakk_desc
+   "Baseada na marca Wylde a Grail bullseye Les Paul, esse modelo mistura visuais acentuados e inclui 2 EMG humuckers, oiled e um raw maple nec.k.")
+(lp_cayenne
+   "Cayenne Standard")
+(lp_cayenne_desc
+   "Tempere uma arquetipica Solidbody eletrica com este folheado cayenne-vermelho especial Les Paul Standard")
+(lp_goddessburst
+   "Rose Burst Goddess")
+(lp_goddessburst_desc
+   "Com um profile e um corpo mais leve, a realeza, com pinturasd e Rose Burst com humbuckers transparentes")
+(lp_sonex
+   "Gibson Sonex 180")
+(lespaul_sonex_desc
+   "Lançada em 1980, a Multi-phonic Sonex foi feita de uma material hibrido designado \qResonwood\q (resina e madeira) com muitas caracteristicas da Les Paul")
+(lp_marauder
+   "Gibson Marauder")
+(lespaul_marauder_desc
+   "Gibson's mid-'70s \qbudget\q oferece um corpo solido, o Marauder era um amálgama de elementos do projeto, com uma \qLes Paul-is\q envelhecida, a serie V headstock, e apresentando um hmbucker em um coil pickup.")
+(lespaul_doublecut
+   "Gibson Les Paul Double Cutaway")
+(lespaul_doublecut_desc
+   "Primeiro apareceu com um corte duplo em 1958, com esta versao da Les Paul voce tem acesso a todos 22 frets, retendo determinadas qualidades dos legendarios LP's")
+(lp_dbl_white
+   "Pintura Branca")
+(lp_dbl_white_desc
+   "Com um visual inovador e atrativo, a aparencia descomplicada da Les Paul Double Cutaway es evidente neste modelo uma pintura branca.")
+(lp_dbl_yellow
+   "Pintura TV Amarela")
+(lp_dbl_yellow_desc
+   "Graças ao debauched, umas das façanhas de Johnny Thunders, a TV amarela de corte duplo, se tornou um marco na area punk-trash da Gibson.")
+(lp_dbl_resin
+   "Pintura de Resina")
+(lp_dbl_resin_desc
+   "Gibson vai jurassica com esta LP amber corte duplo - completa com mosquito pre-historico apanhado dentro da resina se fossilizada")
+(lp_dbl_sticker
+   "Gibson Melody Maker")
+(lespaul_doublecut_sticker_desc
+   "Fabricantes da Melody corte duplo iniciaram originalmente com violöes de entrada-nível, Nos anos 60 Fabricantes de Melodia ficaram altamente procurados.")
+(sg
+   "Gibson SG")
+(sg_desc
+   "Para aqueles que querem fazer rock te damos a Gibson SG. Ja tocada por Angus Young, Tony Iommi e Ian MacKayes, esse corpo em formato de \qchifre do demonio\q se tornou um irönico instrumento de rock pesado.")
+(sg_cherry
+   "Cherry Standard")
+(sg_cherry_desc
+   "Primeiramente introduzida com modelo de assinatura em 1961, a Les Paul, pintura cherry SG, substituiu a familiar Les Paul de corpo cortado no ano seguinte")
+(sg_flames
+   "Pintura De Chamas")
+(sg_flames_desc
+   "Vocë provavelmente vai estar tocando a Highway to Hell com uma SG")
+(sg_gt
+   "Candy Apple GT")
+(sg_gt_desc
+   "As series GT foram feitas para grandes guitarristas, com um numero extras de recursos. Um reforço extra para o pescoço e outras coisas.")
+(sg_white
+   "Worn White Special")
+(sg_white_desc
+   "Guitarristas como Wayne Kramer, Eric Bloom, e Duane Allman ajudaram a Gibson SG tornar se um ícone em seu proprio direito")
+(flying_v
+   "Gibson Flying V")
+(flying_v_desc
+   "A Flying V foi uma das 3 guitarras radicais introduzidas em 1958, com um certo cuidado para manter a sensibilidade conservadora da Gibson. Foi um marco para a area de instrumentos musicais na ëpoca.")
+(fv_white
+   "Pintura Branca")
+(fv_white_desc
+   "A forma vanguardista da Gibson Flying V faz direito na hora de toca no palco e seu modelo agressivo es um show aparte")
+(fv_v2
+   "Natural V2")
+(fv_v2_desc
+   "Por volta dos anos 70, uso de perfil alto da Flying V era o gosoto de Jimi Hendrix e Dave Davies que incitaram numerosas copias do modelo. ")
+(fv_century
+   "Pintura Novo Seculo")
+(fv_century_desc
+   "Gloria deste icone de guitarra, apresentamos aqui um estilo novo milenio, super completa")
+(fv_red
+   "Pintura Cereja Usada")
+(fv_red_desc
+   "Faça eles pensarem que vocë a tem por muitos anos, pintura estilo guitarra usada")
+(explorer
+   "Gibson X-plorer")
+(explorer_desc
+   "Junto com a V e a Moderne, a Explorer (seu nome mudado pra X-Plorer em 2002) ")
+(exp_nat
+   "Pintura Natural")
+(exp_nat_desc
+   "Este modelo foi tocada por Bob Mould, The Edge e Lynyrd Skynyrd's Allen Collins e muitos outros")
+(exp_sun
+   "Pintura Por do Sol")
+(exp_sun_desc
+   "Pintura Por do sol, vai brilhar tanto que o publico vai ficar cego")
+(exp_white
+   "Pintura Classica Branca")
+(exp_white_desc
+   "Alguns dos ritmos mais brutais dos anos 80 era feito com uma Gibson Explorer branca.  ")
+(exp_ebony
+   "Ebony Finish")
+(exp_ebony_desc
+   "Com sua forma de raio, a Explorer estava aparentemente muito a frente de seu tempo e levou uma decada para ter exito")
+(exp_swirl
+   "Custom Cherry Swirl Finish")
+(exp_swirl_desc
+   "Este olho preto pegador uma das Gibson mais reconhecidas por suas formas ousadas")
+(firebird
+   "Gibson Firebird")
+(firebird_desc
+   "Lançado em 1963 como um \q harmonizado baixo \q versäo da näo popular Explorer")
+(fb_burst
+   "Natural Sunburst Finish")
+(fb_burst_desc
+   "Nos anos 60 a Gibson estava querendo por no mercado, uma guitarra progressiva.O desenhista Ray que Dietrich propos a forma assimetrica que era a base para a Firebird.")
+(fb_blue
+   "Ice Blue Finish")
+(fb_blue_desc
+   "A forma de corpo incomum da Firebird foi invertida, devido ao chifre do triplo-lado que é mais alto e mais pronunciado que o outro - um perfil sem igual a esta guitarra")
+(fb_ebony
+   "Ebony Finish")
+(fb_ebony_desc
+   "Apresentando o pacote jogo-pescoço mais tipico,Firebird oferece um giro ligeiramente diferente nesta guitarra")
+(fb_leopard
+   "Custom Leopard Skin Finish")
+(fb_leopard_desc
+   "Foda! Este pequeno gatinho adquiriu garras, meu amigo. Pires de leite pra mesa tres!  Bom ne?")
+(es335
+   "Gibson ES-335")
+(es335_desc
+   "Isto celebrou a thinline, modelo semi-acusticas um maple e pickups de humbucking duplos com tom separado e controle de volume que podem ser prefixados pelo jogador.")
+(es_maple
+   "Birdseye Maple Finish")
+(es_maple_desc
+   "O som distintivo disposto pela construção da semi-hollowbody e facilidade de jogo devido ao pescoço esbelto e acesso confortavel para as lamurias de Chuck Berry, B.B. King,e Roy Orbison.")
+(es_cherry
+   "Custom Cherry Finish")
+(es_cherry_desc
+   "Eric Clapton, Alvin Lee, e numerosos outros guitarristas fizeram uso dessa guitarra")
+(chet_orange
+   "Gibson Country Gentleman")
+(chet_atkins_desc
+   "Introduzida em 1986 e modelada depois da classica Chet Atkins' archtop este modelo foi construida em sociedade intima com Atkins e caracteristicas de madeira bloco interior para maior sustente")
+(eds
+   "Gibson EDS-1275")
+(eds_desc
+   "Gibson começou a oferecer doublenecks sob pedido em 1958. Com um topo limpo curvado e duplo cutaways Florentine, eles recordam o estilo SG.")
+(eds_cherry
+   "Cherry Finish")
+(eds_cherry_desc
+   "Alguem se lembra da risada? As possibilidades multi-tonais da doubleneck EDS-1275 o risonho solo de Jimmy Page fazendo arranjos no concerto.")

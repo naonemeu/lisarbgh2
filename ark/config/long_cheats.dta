@@ -89,7 +89,7 @@
                 {{game get_player_config 0} set autoplay FALSE}
                 {{game get_player_config 1} set autoplay FALSE}
                 {main_screen display_cheat_msg cheat_botoff FALSE}
-                {set $disable_save 0}
+             ;   {set $disable_save 0}
                 {set $tadebot FALSE}
                 {play_sfx cheat_off}
             }
