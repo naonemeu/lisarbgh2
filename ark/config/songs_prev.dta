@@ -1,0 +1,680 @@
+
+;lisarbgh2
+
+(brasileirinho
+   (name "Brasileirinho")
+   (artist "Armandinho")
+   (caption mtv_made_famous)
+   (song 
+   (name songs/brasileirinho/brasileirinho) 
+   (tracks ((guitar 2) (bass 2) (fake 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/brasileirinho/brasileirinho.mid))
+
+   #ifndef HX_XBOX   (song_vs (name songs/brasileirinho/brasileirinho)
+      (tracks ((guitar (2)) (bass 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/brasileirinho/brasileirinho.mid))
+   #endif
+   (anim_tempo kTempoFast)
+   (preview 57000 87000)
+   (quickplay
+      (character_outfit classic)
+      (guitar lespaul)
+      (venue arena)
+   )
+   (band metal_bass metal_drummer metal_keyboard)
+)
+
+(paudearara
+   (name "Pau-De-Arara")
+   (artist "Kiko Loureiro")
+   (caption mtv_made_famous)
+   (song 
+   (name songs/paudearara/paudearara) 
+   (tracks ((guitar 2) (bass 2) (fake 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/paudearara/paudearara.mid))
+
+   #ifndef HX_XBOX   (song_vs (name songs/paudearara/paudearara)
+      (tracks ((guitar (2)) (bass 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/paudearara/paudearara.mid))
+   #endif
+   (anim_tempo kTempoFast)
+   (preview 87770 117770)
+   (quickplay
+      (character_outfit classic)
+      (guitar lespaul)
+      (venue arena)
+   )
+   (band metal_bass metal_drummer metal_keyboard)
+)
+
+(isabella
+   (name "Isabella")
+   (artist "Ozielzinho")
+   (caption mtv_made_famous)
+   (song 
+   (name songs/isabella/isabella) 
+   (tracks ((guitar 2) (bass 2) (fake 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/isabella/isabella.mid))
+
+   #ifndef HX_XBOX   (song_vs (name songs/isabella/isabella)
+      (tracks ((guitar (2)) (bass 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/isabella/isabella.mid))
+   #endif
+   (anim_tempo kTempoMedium)
+   (preview 145000 175000)
+   (quickplay
+      (character_outfit classic)
+      (guitar lespaul)
+      (venue arena)
+   )
+   (band metal_bass metal_drummer metal_keyboard)
+)
+
+(quedalivre
+   (name "Queda Livre")
+   (artist "Dead Fish")
+   (caption performed_by)
+   (song 
+   (name songs/quedalivre/quedalivre) 
+   (tracks ((guitar 2) (bass 2) (fake 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/quedalivre/quedalivre.mid)
+	  (hopo_threshold 250))
+
+   #ifndef HX_XBOX   (song_vs (name songs/quedalivre/quedalivre)
+      (tracks ((guitar (2)) (bass 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/quedalivre/quedalivre.mid)
+	  (hopo_threshold 250))
+   #endif
+   (anim_tempo kTempoFast)
+   (preview 63670 93670)
+   (quickplay
+      (character_outfit classic)
+      (guitar lespaul)
+      (venue arena)
+   )
+)
+
+(renata
+   (name "Renata")
+   (artist "Tihuana")
+   (caption performed_by)
+   (song 
+   (name songs/renata/renata) 
+   (tracks ((guitar 2) (bass 2) (fake 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/renata/renata.mid))
+
+   #ifndef HX_XBOX   (song_vs (name songs/renata/renata)
+      (tracks ((guitar (2)) (bass 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/renata/renata.mid))
+   #endif
+   (anim_tempo kTempoMedium)
+   (preview 46900 76900)
+   (quickplay
+      (character_outfit classic)
+      (guitar lespaul)
+      (venue arena)
+   )
+)
+
+(tetodevidro
+   (name "Teto De Vidro")
+   (artist "Pitty")
+   (caption performed_by)
+   (song 
+   (name songs/tetodevidro/tetodevidro) 
+   (tracks ((guitar 2) (bass 2) (fake 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/tetodevidro/tetodevidro.mid))
+
+   #ifndef HX_XBOX   (song_vs (name songs/tetodevidro/tetodevidro)
+      (tracks ((guitar (2)) (bass 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/tetodevidro/tetodevidro.mid))
+   #endif
+   (anim_tempo kTempoMedium)
+   (preview 47500 77500)
+   (quickplay
+      (character_outfit classic)
+      (guitar lespaul)
+      (venue arena)
+   )
+   (band metal_bass metal_drummer female_singer)
+)
+
+(diasdeluta
+   (name "Dias De Luta")
+   (artist "Ira!")
+   (caption performed_by)
+   (song 
+   (name songs/diasdeluta/diasdeluta) 
+   (tracks ((guitar 2) (bass 2) (fake 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/diasdeluta/diasdeluta.mid))
+
+   #ifndef HX_XBOX   (song_vs (name songs/diasdeluta/diasdeluta)
+      (tracks ((guitar (2)) (bass 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/diasdeluta/diasdeluta.mid))
+   #endif
+   (anim_tempo kTempoFast)
+   (preview 82150 112150)
+   (quickplay
+      (character_outfit classic)
+      (guitar lespaul)
+      (venue arena)
+   )
+)
+
+(lukeeusouseupai
+   (name "Luke, eu sou seu pai")
+   (artist "Os Seminovos")
+   (caption performed_by)
+   (song 
+   (name songs/lukeeusouseupai/lukeeusouseupai) 
+   (tracks ((guitar 2) (bass 2) (fake 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/lukeeusouseupai/lukeeusouseupai.mid)
+      (hopo_threshold 250))
+
+   #ifndef HX_XBOX   (song_vs (name songs/lukeeusouseupai/lukeeusouseupai)
+      (tracks ((guitar (2)) (bass 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/lukeeusouseupai/lukeeusouseupai.mid)
+	  (hopo_threshold 250))
+   #endif
+   (anim_tempo kTempoFast)
+   (preview 80000 110000)
+   (quickplay
+      (character_outfit classic)
+      (guitar lespaul)
+      (venue arena)
+   )
+)
+
+(pegasusfantasy
+   (name "Pegasus Fantasy Ultimate")
+   (artist "Edu Falaschi")
+   (caption performed_by)
+   (song 
+   (name songs/pegasusfantasy/pegasusfantasy) 
+   (tracks ((guitar 2) (bass 2) (fake 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/pegasusfantasy/pegasusfantasy.mid))
+
+   #ifndef HX_XBOX   (song_vs (name songs/pegasusfantasy/pegasusfantasy)
+      (tracks ((guitar (2)) (bass 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/pegasusfantasy/pegasusfantasy.mid))
+   #endif
+   (anim_tempo kTempoFast)
+   (preview 49500 79500)
+   (quickplay
+      (character_outfit classic)
+      (guitar lespaul)
+      (venue arena)
+   )
+)
+
+(thebull
+   (name "The Bull")
+   (artist "Masscration")
+   (caption performed_by)
+   (song 
+   (name songs/thebull/thebull) 
+   (tracks ((guitar 2) (bass 2) (fake 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/thebull/thebull.mid))
+
+   #ifndef HX_XBOX   (song_vs (name songs/thebull/thebull)
+      (tracks ((guitar (2)) (bass 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/thebull/thebull.mid))
+   #endif
+   (anim_tempo kTempoFast)
+   (preview 174890 204890)
+   (quickplay
+      (character_outfit classic)
+      (guitar lespaul)
+      (venue arena)
+   )
+)
+
+(annajulia
+   (name
+      "Anna Julia")
+   (artist
+      "Los Hermanos")
+   (caption performed_by)
+   (song
+      (name songs/annajulia/annajulia)
+   (tracks ((guitar 2) (bass 2) (fake 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/annajulia/annajulia.mid))
+
+   #ifndef HX_XBOX   (song_vs
+      (name songs/annajulia/annajulia)
+      (tracks ((guitar (2)) (bass 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/annajulia/annajulia.mid))
+   #endif
+   (anim_tempo kTempoFast)
+   (preview 98000 128000)
+   (quickplay
+      (character_outfit classic)
+      (guitar lespaul)
+      (venue arena)
+   )
+)
+
+(irreversivel
+   (name
+      "Irreversível")
+   (artist
+      "CPM 22")
+   (caption performed_by)
+   (song
+      (name songs/irreversivel/irreversivel)
+   (tracks ((guitar 2) (bass 2) (fake 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/irreversivel/irreversivel.mid)
+      (hopo_threshold 250))
+	  
+   #ifndef HX_XBOX   (song_vs
+      (name songs/irreversivel/irreversivel)
+      (tracks ((guitar (2)) (bass 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/irreversivel/irreversivel.mid)
+      (hopo_threshold 250))
+   #endif
+   (anim_tempo kTempoFast)
+   (preview 39670 69670)
+   (quickplay
+      (character_outfit classic)
+      (guitar lespaul)
+      (venue arena)
+   )
+)
+
+(razoeseemocoes
+   (name
+      "Razões e Emoções")
+   (artist
+      "NX Zero")
+   (caption performed_by)
+   (song
+      (name songs/razoeseemocoes/razoeseemocoes)
+   (tracks ((guitar 2) (bass 2) (fake 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/razoeseemocoes/razoeseemocoes.mid))
+	  
+   #ifndef HX_XBOX   (song_vs
+      (name songs/razoeseemocoes/razoeseemocoes)
+      (tracks ((guitar (2)) (bass 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/razoeseemocoes/razoeseemocoes.mid))   #endif
+   (anim_tempo kTempoMedium)
+   (preview 108000 138000)
+   (quickplay
+      (character_outfit classic)
+      (guitar lespaul)
+        (venue arena)
+   )
+)
+
+(demusicaligeira
+   (name
+      "De Música Ligeira")
+   (artist
+      "Paralamas do Sucesso")
+   (caption performed_by)
+   (song
+      (name songs/demusicaligeira/demusicaligeira)
+   (tracks ((guitar 2) (bass 2) (fake 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/demusicaligeira/demusicaligeira.mid))
+	  
+   #ifndef HX_XBOX   (song_vs
+      (name songs/demusicaligeira/demusicaligeira)
+      (tracks ((guitar (2)) (bass 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/demusicaligeira/demusicaligeira.mid))   #endif
+   (anim_tempo kTempoMedium)
+   (preview 54410 84410)
+   (quickplay
+      (character_outfit classic)
+      (guitar lespaul)
+      (venue arena)
+   )
+)
+
+(soporumanoite
+   (name
+      "Só Por Uma Noite")
+   (artist
+      "Charlie Brown Jr")
+   (caption performed_by)
+   (song
+      (name songs/soporumanoite/soporumanoite)
+   (tracks ((guitar 2) (bass 2) (fake 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/soporumanoite/soporumanoite.mid))
+	  
+   #ifndef HX_XBOX   (song_vs
+      (name songs/soporumanoite/soporumanoite)
+      (tracks ((guitar (2)) (bass 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/soporumanoite/soporumanoite.mid))   #endif
+   (anim_tempo kTempoMedium)
+   (preview 71000 101000)
+   (quickplay
+      (character_outfit classic)
+      (guitar lespaul)
+      (venue arena)
+   )
+)
+
+(rebirth
+   (name
+      "Rebirth")
+   (artist
+      "Angra")
+   (caption performed_by)
+   (song
+      (name songs/rebirth/rebirth)
+   (tracks ((guitar 2) (bass 2) (fake 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/rebirth/rebirth.mid))
+	  
+   #ifndef HX_XBOX   (song_vs
+      (name songs/rebirth/rebirth)
+      (tracks ((guitar (2)) (bass 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/rebirth/rebirth.mid))   #endif
+   (anim_tempo kTempoFast)
+   (preview 175000 205000)
+   (quickplay
+      (character_outfit classic)
+      (guitar lespaul)
+      (venue arena)
+   )
+)
+
+(money
+   (name
+      "1406")
+   (artist
+      "Mamonas Assassinas")
+   (caption performed_by)
+   (song
+      (name songs/money/money)
+   (tracks ((guitar 2) (bass 2) (fake 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/money/money.mid))
+	  
+   #ifndef HX_XBOX   (song_vs
+      (name songs/money/money)
+      (tracks ((guitar (2)) (bass 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/money/money.mid))   #endif
+   (anim_tempo kTempoMedium)
+   (preview 72860 102860)
+   (quickplay
+      (character_outfit classic)
+      (guitar lespaul)
+      (venue arena)
+   )
+)
+
+(espelhosmagicos
+   (name
+      "Espelhos Mágicos")
+   (artist
+      "Oficina G3")
+   (caption performed_by)
+   (song
+      (name songs/espelhosmagicos/espelhosmagicos)
+   (tracks ((guitar 2) (bass 2) (fake 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/espelhosmagicos/espelhosmagicos.mid))
+   #ifndef HX_XBOX   (song_vs
+      (name songs/espelhosmagicos/espelhosmagicos)
+      (tracks ((guitar (2)) (bass 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/espelhosmagicos/espelhosmagicos.mid))   #endif
+   (anim_tempo kTempoMedium)
+   (preview 56660 86660)
+   (quickplay
+      (character_outfit classic)
+      (guitar lespaul)
+      (venue arena)
+   )
+)
+
+;Usado para preencher uma lista incompleta.
+
+(dummy2
+   (name
+      "Espelhos Mágicos")
+   (artist
+      "Oficina G3")
+   (caption performed_by)
+   (song
+      (name songs/espelhosmagicos/espelhosmagicos)
+   (tracks ((guitar 2) (bass 2) (fake 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/espelhosmagicos/espelhosmagicos.mid))
+   #ifndef HX_XBOX   (song_vs
+      (name songs/espelhosmagicos/espelhosmagicos)
+      (tracks ((guitar (2)) (bass 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/espelhosmagicos/espelhosmagicos.mid))   #endif
+   (anim_tempo kTempoMedium)
+   (preview 56660 86660)
+   (quickplay
+      (character_outfit classic)
+      (guitar lespaul)
+      (venue arena)
+   )
+)
+
+(dummy3
+   (name
+      "Espelhos Mágicos")
+   (artist
+      "Oficina G3")
+   (caption performed_by)
+   (song
+      (name songs/espelhosmagicos/espelhosmagicos)
+   (tracks ((guitar 2) (bass 2) (fake 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/espelhosmagicos/espelhosmagicos.mid))
+   #ifndef HX_XBOX   (song_vs
+      (name songs/espelhosmagicos/espelhosmagicos)
+      (tracks ((guitar (2)) (bass 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/espelhosmagicos/espelhosmagicos.mid))   #endif
+   (anim_tempo kTempoMedium)
+   (preview 56660 86660)
+   (quickplay
+      (character_outfit classic)
+      (guitar lespaul)
+      (venue arena)
+   )
+)
+
+(dummy4
+   (name
+      "Espelhos Mágicos")
+   (artist
+      "Oficina G3")
+   (caption performed_by)
+   (song
+      (name songs/espelhosmagicos/espelhosmagicos)
+   (tracks ((guitar 2) (bass 2) (fake 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/espelhosmagicos/espelhosmagicos.mid))
+   #ifndef HX_XBOX   (song_vs
+      (name songs/espelhosmagicos/espelhosmagicos)
+      (tracks ((guitar (2)) (bass 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/espelhosmagicos/espelhosmagicos.mid))   #endif
+   (anim_tempo kTempoMedium)
+   (preview 56660 86660)
+   (quickplay
+      (character_outfit classic)
+      (guitar lespaul)
+      (venue arena)
+   )
+)
+
+(dummy5
+   (name
+      "Espelhos Mágicos")
+   (artist
+      "Oficina G3")
+   (caption performed_by)
+   (song
+      (name songs/espelhosmagicos/espelhosmagicos)
+   (tracks ((guitar 2) (bass 2) (fake 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/espelhosmagicos/espelhosmagicos.mid))
+   #ifndef HX_XBOX   (song_vs
+      (name songs/espelhosmagicos/espelhosmagicos)
+      (tracks ((guitar (2)) (bass 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/espelhosmagicos/espelhosmagicos.mid))   #endif
+   (anim_tempo kTempoMedium)
+   (preview 56660 86660)
+   (quickplay
+      (character_outfit classic)
+      (guitar lespaul)
+      (venue arena)
+   )
+)
+
+(dummy6
+   (name
+      "Espelhos Mágicos")
+   (artist
+      "Oficina G3")
+   (caption performed_by)
+   (song
+      (name songs/espelhosmagicos/espelhosmagicos)
+   (tracks ((guitar 2) (bass 2) (fake 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/espelhosmagicos/espelhosmagicos.mid))
+   #ifndef HX_XBOX   (song_vs
+      (name songs/espelhosmagicos/espelhosmagicos)
+      (tracks ((guitar (2)) (bass 2)))
+      (pans (-1.0 1.0 0.0))
+      (vols (0.0 0.0 0.0))
+      (cores (-1 -1 -1))
+      (midi_file songs/espelhosmagicos/espelhosmagicos.mid))   #endif
+   (anim_tempo kTempoMedium)
+   (preview 56660 86660)
+   (quickplay
+      (character_outfit classic)
+      (guitar lespaul)
+      (venue arena)
+   )
+)
