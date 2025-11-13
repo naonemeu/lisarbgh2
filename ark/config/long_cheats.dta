@@ -1,6 +1,6 @@
 
 ;Buttons
-\
+
 #define CHEATS_ALLOWED ;Default condition: cheats allowed in the main screen
 (      {&& {exists ui} {! {ui in_transition}}
          {==
