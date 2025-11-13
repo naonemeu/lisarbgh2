@@ -1,4 +1,7 @@
-#define CHEATS_ALLOWED ;default cheats allowed in the main screen
+
+;Buttons
+\
+#define CHEATS_ALLOWED ;Default condition: cheats allowed in the main screen
 (      {&& {exists ui} {! {ui in_transition}}
          {==
          {ui current_screen}  main_screen}
@@ -16,15 +19,16 @@
          }
        })
 
-#define G_GREEN (kPad_R2) ;don' use this
+;Go back to main screen - TEST ONLY
+; ((kPad_Start kPad_Start kPad_Start kPad_Start kPad_Start kPad_Start)
+   ; {if CHEATS_ALLOWED
+   ; {set $disclaimer FALSE}
+   ; {ui goto_screen bootup_load}
+   ; ; {set $egg_back {ui current_screen}}
+   ; ; {ui goto_screen easter_egg_screen1}
+   ; }
+; )
 
-#define G_RED (kPad_Circle) ;W
-
-#define G_YELLOW (kPad_Tri) ;E
-
-#define G_BLUE (kPad_X) ;don' use this
-
-#define G_ORANGE (kPad_Square) ;Q
 
 ;Song/Track Speed "Cheat"
 ((kPad_Select kPad_Select)
@@ -37,6 +41,7 @@
 
 ;Quick PSCAN
 ;QQEW
+;kPad_Square - kPad_Square - kPad_Circle - kPad_Tri
 ((G_ORANGE G_ORANGE G_RED G_YELLOW)
    {if CHEATS_ALLOWED
       {if_else {== {rnd screen_width} 512}
@@ -56,6 +61,7 @@
 
 ;Quick Hyperspeed
 ;EEQQ
+;kPad_Tri - kPad_Tri - kPad_Circle - kPad_Circle
 ((G_YELLOW G_YELLOW G_RED G_RED)
    {if CHEATS_ALLOWED
       {if_else {< $trackspd 1.5}
@@ -74,7 +80,8 @@
 
 ;Quick Bot
 ;WWQQ
-((G_YELLOW G_YELLOW G_ORANGE G_ORANGE)
+;kPad_Tri - kPad_Tri - kPad_Square - kPad_Square
+((G_YELLOW G_YELLOW G_ORANGE G_ORANGE) 
     {if CHEATS_ALLOWED
         {if_else {! $tadebot}
             {do
@@ -89,21 +96,11 @@
                 {{game get_player_config 0} set autoplay FALSE}
                 {{game get_player_config 1} set autoplay FALSE}
                 {main_screen display_cheat_msg cheat_botoff FALSE}
-             ;   {set $disable_save 0}
+               ;{set $disable_save 0}
                 {set $tadebot FALSE}
                 {play_sfx cheat_off}
             }
         }
-   }
-)
-
-;Go back to screen
-((kPad_Start kPad_Start kPad_Start kPad_Start kPad_Start kPad_Start)
-   {if CHEATS_ALLOWED
-   {set $disclaimer FALSE}
-   {ui goto_screen bootup_load}
-   ; {set $egg_back {ui current_screen}}
-   ; {ui goto_screen easter_egg_screen1}
    }
 )
 

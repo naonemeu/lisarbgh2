@@ -246,64 +246,64 @@
    ; "Likes: make-up, hailstorms, leather\n\nDislikes: Small talk, the beach")
 ; (metalencore_outfit_blurb
    ; "Likes: Metal\n\nDislikes: Un-metal")
-(alterna1_outfit
-   "CAVEIRA")
-(alterna2_outfit
-   "COBRAS")
-(deathmetal1_outfit
-   "GAUNTLETS")
-(deathmetal2_outfit
-   "GARGOYLES")
-(goth2_outfit
-   {if_else
-      $egg5
-      "LONG JACKET"
-      "COUROS"})
-(goth1_outfit
-   {if_else
-      $egg5
-      "SILVER WINGS"
-      "ASAS"})
-(glam1_outfit
-   "CODPIECE")
-(glam2_outfit
-   "TOP HAT")
-(metal1_outfit
-   "SHIRT")
-(metal2_outfit
-   "OTHER SHIRT")
-(punk1_outfit
-   "MOHAWK")
-(punk2_outfit
-   "LIBERTY SPIKES")
-(rock1_outfit
-   "SKINS")
-(rock2_outfit
-   "SHIRTS")
-(rockabill1_outfit
-   "RENO")
-(rockabill2_outfit
-   "VEGAS")
-(punkencore_outfit
-   "ANARCHY RED")
-(alternaencore_outfit
-   "LACES")
-(glamencore_outfit
-   "HEADBAND")
-(gothencore_outfit
-   "SKINNY TIE")
-(metalencore_outfit
-   "FANCY SHIRT")
-(punkgh1_outfit
-   "REDUX")
-(alternagh1_outfit
-   "REDUX")
-(glamgh1_outfit
-   "REDUX")
-(gothgh1_outfit
-   "REDUX")
-(metalgh1_outfit
-   "REDUX")
+; (alterna1_outfit
+   ; "CAVEIRA")
+; (alterna2_outfit
+   ; "COBRAS")
+; (deathmetal1_outfit
+   ; "GAUNTLETS")
+; (deathmetal2_outfit
+   ; "GARGOYLES")
+; (goth2_outfit
+   ; {if_else
+      ; $egg5
+      ; "LONG JACKET"
+      ; "COUROS"})
+; (goth1_outfit
+   ; {if_else
+      ; $egg5
+      ; "SILVER WINGS"
+      ; "ASAS"})
+; (glam1_outfit
+   ; "CODPIECE")
+; (glam2_outfit
+   ; "TOP HAT")
+; (metal1_outfit
+   ; "SHIRT")
+; (metal2_outfit
+   ; "OTHER SHIRT")
+; (punk1_outfit
+   ; "MOHAWK")
+; (punk2_outfit
+   ; "LIBERTY SPIKES")
+; (rock1_outfit
+   ; "SKINS")
+; (rock2_outfit
+   ; "SHIRTS")
+; (rockabill1_outfit
+   ; "RENO")
+; (rockabill2_outfit
+   ; "VEGAS")
+; (punkencore_outfit
+   ; "ANARCHY RED")
+; (alternaencore_outfit
+   ; "LACES")
+; (glamencore_outfit
+   ; "HEADBAND")
+; (gothencore_outfit
+   ; "SKINNY TIE")
+; (metalencore_outfit
+   ; "FANCY SHIRT")
+; (punkgh1_outfit
+   ; "REDUX")
+; (alternagh1_outfit
+   ; "REDUX")
+; (glamgh1_outfit
+   ; "REDUX")
+; (gothgh1_outfit
+   ; "REDUX")
+; (metalgh1_outfit
+   ; "REDUX")
    
 ;Overwrite - GH2 Locale.dtb traducao 2008
 

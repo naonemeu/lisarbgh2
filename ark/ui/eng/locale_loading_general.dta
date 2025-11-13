@@ -143,43 +143,47 @@
 (lisarb_tip1
    "Essa ISO NÃO FOI testada no AetherSX2!\n(Está jogando no AetherSX2? Entre em contato!)")
 (lisarb_tip2
-   "Configure certo o seu OPL, principalmente se tiver pelo USB. Build testada: \qv1.2.0-Beta-2109\q")
+   "Configure certo o seu OPL,\nprincipalmente se tiver pelo USB.\nBuild testada: \qv1.2.0-Beta-2109\q")
 (lisarb_tip3
    "Pela enésima vez:\nEssa ISO NÃO é o Brazucas!")
 (lisarb_tip4
    "Essa ISO foi testada no PCSX2!\nUse a versão mais recente.")
 (lisarb_tip5
-   "Para os antigos na comunidade: Essa ISO foi feito com programas modernos! Nada de GHEX (eca) ou DTB Editor. (Procure por \qArkhelper GH2\q e a comunidade\qMilohax\q se tiver curiosidade)")
+   "Para os antigos na comunidade: Essa ISO foi feito com\nprogramas modernos! Nada de GHEX (eca) ou DTB Editor.\n(Procure por \qArkhelper GH2\q e a comunidade\qMilohax\q se tiver curiosidade)")
 (lisarb_tip6
    "Que a Gupy se exploda.")
 (lisarb_tip7
-   "Bonés 3D não são permitidos durante a sexta feira.\nRetire-o antes de jogar.")
+   "Bonés 3D não são permitidos durante a\nsexta feira. Retire-o antes de jogar.")
 (lisarb_tip8
-   "Você pode encontrar a comunidade desse jogo no Orkut...\n\qAcorda mano, é 2025, já fazem 11 anos que o Orkut se foi...\q")
+   "Você pode encontrar a comunidade desse\njogo no Orkut... \qAcorda mano, é 2025,\njá fazem 11 anos que o Orkut se foi...\q")
 (lisarb_tip9
    "Agora também tem o Lisarb GH2 para o 360!\nCréditos a FilipinDuMods pela ajuda.")
 (lisarb_tip10
-   "Quando um gringo faz chart de música brasileira, quase sempre entra nesses três tipos: MPB Clássica, Algum gênero de Metal, ou uma banda Indie que nem você e muito menos eu tinha ideia que existia.")
+   "Quando um gringo faz chart de música brasileira, quase sempre entra nesses três tipos: MPB Clássica, algum gênero de Metal, ou uma banda Indie que nem você e muito menos eu tinha ideia que existia.")
 (lisarb_tip11
    "João... te ligam!\nJoão... a-ten-de ai!")
 (lisarb_tip12
-   "Você se lembrou de tomar os seus remédios de TDAH?")
+   "Você se lembrou de tomar\nos seus remédios de TDAH?")
 (lisarb_tip13
-   "Uma dica importante a comunidade: Não faça assédio moral com charters porque não tem chart da sua música favorita!\nSe quer tanto, aprenda a fazer!")
+   "Uma dica importante a comunidade: Não fique\nem cima de charters porque não tem chart da\nsua música favorita! Se quer tanto, aprenda a fazer!")
 (lisarb_tip14
-   "Pode parecer que essa ISO foi feito com mágica.\nMas se você descobrir como que é feito, essa mágica some...")
+   "Pode parecer que essa ISO foi feito com mágica.\nMas se você descobrir como que é feito,\nessa mágica some... pois nada disso caiu do céu.")
 (lisarb_tip15
-   "Esse jogo não tem \qmúsculos\q do Luan Santana. Sim, \qmúsculos\q, porque é isso que uma certa pessoa estava me pedindo...")
+   "Esse jogo não tem \qmúsculos\q do Luan Santana.\nSim, \qmúsculos\q, porque é isso que uma certa\npessoa estava me pedindo...")
 (lisarb_tip16
-   "Pistolas não são boas em um argumento.\n(Isso não é sobre armas)")
+   "Pistolas não são boas para argumentos.\n(Isso não é sobre armas)")
 (lisarb_tip17
-   "O que vai vir primeiro: Essa ISO, ou o modo custom no Guitar Flash Mobile?")
+   "O que vai vir primeiro: Essa ISO,\nou o modo custom no Guitar Flash Mobile?")
 (lisarb_tip18
-   "Puto? Eu já fui puto uma vez, me trancaram num quarto, um quarto de borracha com ratos, E RATOS ME DEIXAM PUTO!")
+   "Puto? Eu já fui puto uma vez, me trancaram\nnum quarto, um quarto de borracha com urubus,\nE URUBUS ME DEIXAM PUTO!")
 (lisarb_tip19 
    "Algumas pessoas se empolgam demais,\nmas nem toda música precisa ter\num \qBig Rock Ending\q, cara!")
 (lisarb_tip20
-   "As vezes você vai ver o cantor segurando\no microfone durante o solo. Acontece, ele\nquer comer o microfone.")
+   "As vezes você vai ver o cantor segurando\no microfone durante o solo. Acontece, ele\nquer comer o microfone. (mas não deixe-o fazer isso!)")
+(lisarb_tip21
+   "Se o membro da sua banda fica querendo\nbotar teclado toda hora, TIRE O DA BANDA!")
+(lisarb_tip22
+   "Se o membro da sua banda fica querendo\nestraçalhar todo fim de música, TAMBÉM TIRE O DA BANDA!")
    
 ; (loading_tip_money "UAU!!! Eu conshegui ouvir a agulha\ncaindodo outro lado da shala!!!")
 ; (loading_tip_razoeseemocoes "Só add com scrap")
@@ -191,6 +195,8 @@
 ; (loading_tip_diasdeluta "Os Dias de Luta... sem os dias de gloria!\nCréditos a FilipinDuMods\npelas animações e lightshow.")
 ; (loading_tip_annajulia "Essa ISO tem todas as dificuldades disponíveis!\nE sim, foi tudo feito \qna mão\q, nada de\nonyx ou o CAT. (programa do C3)")
 ; (loading_tip_irreversivel "Algumas pessoas se empolgam demais,\nmas nem toda música precisa ter\num \qBig Rock Ending\q, cara!")
-(loading_tip_pegasusfantasy "Tenham cuidado com pessoas que só\nficam pedindo música de anime sem parar!\nEles estão convencidos que se\nacham \qo dono do pedaço\q.")
-(loading_tip_lukeeusouseupai "Em 2010, Star Wars ser do unvierso\nda Disney era só uma piada...")
-(loading_tip_thebull "Esse mod apoia jogadores de Dualshock!\nAo contrario de um pessoal que fica de frescura\ncom quem não joga \qdo jeito que deve\q.")
+; (loading_tip_pegasusfantasy "Tenham cuidado com pessoas que só\nficam pedindo música de anime sem parar!\nEles estão convencidos que se\nacham \qo dono do pedaço\q.")
+; (loading_tip_lukeeusouseupai "Em 2010, Star Wars ser do unvierso\nda Disney era só uma piada...")
+; (loading_tip_thebull "Esse mod apoia jogadores de Dualshock!\nAo contrario de um pessoal que fica de frescura\ncom quem não joga \qdo jeito que deve\q.")
+
+; (loading_tip_tempoperdido "A escolha do personagem e local\né de grande significado para alguns.")
