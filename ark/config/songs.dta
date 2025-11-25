@@ -40,10 +40,9 @@
    (anim_tempo kTempoMedium)
    (preview 57500 87500)
    (quickplay
-      (character_outfit classic)
-      (guitar lespaul)
-      (venue arena)
-   )
+      (character_outfit glam1)
+      (guitar flying_v)
+      (venue small2))
 )
 
 (voudeixar
@@ -70,10 +69,9 @@
    (anim_tempo kTempoMedium)
    (preview 90830 120830)
    (quickplay
-      (character_outfit classic)
-      (guitar lespaul)
-      (venue arena)
-   )
+      (character_outfit alterna1)
+      (guitar sg)
+      (venue small2))
 )
 
 (homemprimata
@@ -100,10 +98,9 @@
    (anim_tempo kTempoFast)
    (preview 65010 95010)
    (quickplay
-      (character_outfit classic)
-      (guitar lespaul)
-      (venue arena)
-   )
+      (character_outfit funk1)
+      (guitar flying_v)
+      (venue small2))
 )
 
 (amaispedida
@@ -163,10 +160,9 @@
    (anim_tempo kTempoFast)
    (preview 178000 208000)
    (quickplay
-      (character_outfit classic)
-      (guitar lespaul)
-      (venue arena)
-   )
+      (character_outfit metal1)
+      (guitar flying_v)
+      (venue small1))
 )
 
 (outrolugar
@@ -193,40 +189,9 @@
    (anim_tempo kTempoMedium)
    (preview 52072 82072)
    (quickplay
-      (character_outfit classic)
+      (character_outfit rockabill1)
       (guitar lespaul)
-      (venue arena)
-   )
-)
-
-(red
-   (name "Red")
-   (artist "Espantalho")
-   (caption performed_by)
-   (song 
-   (name songs/red/red) 
-   (tracks ((guitar 2) (bass 2) (fake 2)))
-      (pans (-1.0 1.0 0.0))
-      (vols (0.0 0.0 0.0))
-      (cores (-1 -1 -1))
-      (midi_file songs/red/red.mid))
-
-   #ifndef HX_XBOX
-   (song_vs (name songs/red/red)
-      (tracks ((guitar (2)) (bass 2)))
-      (pans (-1.0 1.0 0.0))
-      (vols (0.0 0.0 0.0))
-      (cores (-1 -1 -1))
-      (midi_file songs/red/red.mid))
-   #endif
-
-   (anim_tempo kTempoMedium)
-   (preview 100000 130000)
-   (quickplay
-      (character_outfit classic)
-      (guitar lespaul)
-      (venue arena)
-   )
+      (venue big))
 )
 
 (red
@@ -283,10 +248,9 @@
    (anim_tempo kTempoFast)
    (preview 57000 87000)
    (quickplay
-      (character_outfit classic)
-      (guitar lespaul)
-      (venue arena)
-   )
+      (character_outfit glam1)
+      (guitar flying_v)
+      (venue big))
    (band metal_bass metal_drummer metal_keyboard)
 )
 
@@ -316,7 +280,7 @@
    (quickplay
       (character_outfit classic)
       (guitar lespaul)
-      (venue arena)
+      (venue fest)
    )
    (band metal_bass metal_drummer metal_keyboard)
 )
@@ -347,7 +311,7 @@
    (quickplay
       (character_outfit classic)
       (guitar lespaul)
-      (venue arena)
+      (venue big)
    )
    (band metal_bass metal_drummer metal_keyboard)
 )
@@ -378,10 +342,9 @@
    (anim_tempo kTempoFast)
    (preview 63670 93670)
    (quickplay
-      (character_outfit classic)
-      (guitar lespaul)
-      (venue arena)
-   )
+      (character_outfit punk1)
+      (guitar sg)
+      (venue arena))
 )
 
 (renata
@@ -410,7 +373,7 @@
    (quickplay
       (character_outfit classic)
       (guitar lespaul)
-      (venue arena)
+      (venue small1)
    )
 )
 
@@ -438,10 +401,9 @@
    (anim_tempo kTempoMedium)
    (preview 47500 77500)
    (quickplay
-      (character_outfit classic)
-      (guitar lespaul)
-      (venue arena)
-   )
+      (character_outfit alterna1)
+      (guitar sg)
+      (venue fest))
    (band metal_bass metal_drummer female_singer)
 )
 
@@ -469,10 +431,9 @@
    (anim_tempo kTempoFast)
    (preview 82150 112150)
    (quickplay
-      (character_outfit classic)
+      (character_outfit rockabill1)
       (guitar lespaul)
-      (venue arena)
-   )
+      (venue small2))
 )
 
 (lukeeusouseupai
@@ -501,10 +462,9 @@
    (anim_tempo kTempoFast)
    (preview 80000 110000)
    (quickplay
-      (character_outfit classic)
-      (guitar lespaul)
-      (venue arena)
-   )
+      (character_outfit glam1)
+      (guitar flying_v)
+      (venue arena))
 )
 
 (pegasusfantasy
@@ -531,10 +491,9 @@
    (anim_tempo kTempoFast)
    (preview 49500 79500)
    (quickplay
-      (character_outfit classic)
-      (guitar lespaul)
-      (venue arena)
-   )
+      (character_outfit metal1)
+      (guitar flying_v)
+      (venue fest))
 )
 
 (thebull
@@ -561,10 +520,9 @@
    (anim_tempo kTempoFast)
    (preview 174890 204890)
    (quickplay
-      (character_outfit classic)
-      (guitar lespaul)
-      (venue arena)
-   )
+      (character_outfit metal1)
+      (guitar flying_v)
+      (venue stone))
 )
 
 (annajulia
@@ -596,7 +554,7 @@
    (quickplay
       (character_outfit classic)
       (guitar lespaul)
-      (venue arena)
+      (venue small1)
    )
 )
 
@@ -629,10 +587,9 @@
    (anim_tempo kTempoFast)
    (preview 39670 69670)
    (quickplay
-      (character_outfit classic)
-      (guitar lespaul)
-      (venue arena)
-   )
+      (character_outfit punk1)
+      (guitar sg)
+      (venue fest))
 )
 
 (razoeseemocoes
@@ -662,10 +619,9 @@
    (anim_tempo kTempoMedium)
    (preview 108000 138000)
    (quickplay
-      (character_outfit classic)
-      (guitar lespaul)
-        (venue arena)
-   )
+      (character_outfit goth2)
+      (guitar flying_v)
+      (venue battle))
 )
 
 (demusicaligeira
@@ -695,10 +651,9 @@
    (anim_tempo kTempoMedium)
    (preview 54410 84410)
    (quickplay
-      (character_outfit classic)
+      (character_outfit rockabill1)
       (guitar lespaul)
-      (venue arena)
-   )
+      (venue small2))
 )
 
 (soporumanoite
@@ -728,10 +683,9 @@
    (anim_tempo kTempoMedium)
    (preview 71000 101000)
    (quickplay
-      (character_outfit classic)
-      (guitar lespaul)
-      (venue arena)
-   )
+      (character_outfit alterna1)
+      (guitar sg)
+      (venue fest))
 )
 
 (rebirth
@@ -761,10 +715,9 @@
    (anim_tempo kTempoFast)
    (preview 175000 205000)
    (quickplay
-      (character_outfit classic)
-      (guitar lespaul)
-      (venue arena)
-   )
+      (character_outfit metal1)
+      (guitar flying_v)
+      (venue arena))
 )
 
 (espelhosmagicos
@@ -795,7 +748,7 @@
    (quickplay
       (character_outfit classic)
       (guitar lespaul)
-      (venue arena)
+      (venue small2)
    )
 )
 
@@ -816,10 +769,9 @@
    (anim_tempo kTempoMedium)
    (preview 72860 102860)
    (quickplay
-      (character_outfit classic)
-      (guitar lespaul)
-      (venue arena)
-   )
+      (character_outfit punk1)
+      (guitar sg)
+      (venue small1))
 )
 
 ;Usado para preencher uma lista incompleta.
